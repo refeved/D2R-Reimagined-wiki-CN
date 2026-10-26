@@ -1,0 +1,349 @@
+<!--
+title: 安装指南
+description: 如何把额外内容与 Reimagined 一起安装
+published: true
+date: 2026-10-26T00:00:00.000Z
+tags: d2rmm, 安装, 联机, d2rlan, tcp, tcp/ip, 多人游戏, 安装指南, d2rloader, 启动器, 桌面启动器
+editor: ckeditor
+dateCreated: 2025-03-03T02:26:58.618Z
+-->
+
+<p>如果你还没安装《暗黑破坏神 II 重制版》，请先根据购买渠道阅读<a href="https://wiki.d2r-reimagined.com/InstallingDiablo2Battlenet"><strong>战网版安装指南</strong></a>或<a href="https://wiki.d2r-reimagined.com/InstallingDiablo2Steam"><strong>Steam 版安装指南</strong></a></p>
+<p><a href="https://wiki.d2r-reimagined.com/BattlenetSteam">点这里</a>了解《暗黑破坏神 II 重制版》战网版与 Steam 版的区别。</p>
+<p>&nbsp;</p>
+<h2 id="use-a-launcher-or-manually-install-reimagined">用启动器安装，或手动安装 Reimagined</h2>
+<p>&nbsp;</p>
+<p><strong><u>Reimagined 启动器</u></strong><mark class="pen-green">（非常简单）</mark>可安装在 Windows 上并自动更新，可在 <a href="https://www.nexusmods.com/diablo2resurrected/mods/503?tab=files">Nexus Mods</a> 下载。它可以一键找到线上最新的 Reimagined 版本，还会自动备份你的存档。</p>
+<p>&nbsp;</p>
+<p><strong><u>手动按步骤安装</u></strong><mark class="pen-red">（简单/困难）</mark>：你需要自己找到游戏安装目录，并且要自己负责备份存档——万一读图时崩溃，后果自负。</p>
+<p>&nbsp;</p>
+<h2 id="default-file-locations">默认文件位置 —— 取决于你在战网客户端还是 Steam 购买</h2>
+<blockquote>
+  <p><i><mark class="pen-red"><strong>C: 盘是最常见的安装位置，你的实际路径可能因环境不同而不同。启动器会自动找到它们。</strong></mark></i></p>
+  <p><mark class="pen-green"><strong>战网版 D2R 模组文件：</strong></mark> <code>C:\Program Files (x86)\Diablo II Resurrected\mods\Reimagined</code></p>
+  <p><mark class="pen-green"><strong>Steam 版 D2R 模组文件：</strong></mark> <code>C:\Program Files (x86)\Steam\steamapps\common\Diablo II Resurrected\mods\Reimagined</code></p>
+  <p><i><mark class="pen-green"><strong>存档文件：</strong></mark> </i><code><i>C:\Users\</i>%USERPROFILE%<i>\Saved Games\Diablo II Resurrected\mods\ReimaginedThree</i></code></p>
+</blockquote>
+<p>&nbsp;</p>
+<h2 id="reimagined-launcher">Reimagined 启动器</h2>
+<p><a href="https://www.youtube.com/watch?v=GBQaLthlkAI"><mark class="marker-green"><strong>强烈推荐先看 Ben 的视频</strong></mark></a>。安装过程非常简单。</p>
+<p>&nbsp;</p>
+<ul>
+  <li>从官网<a href="https://www.d2r-reimagined.com/download">这里</a>或 <a href="https://www.nexusmods.com/diablo2resurrected/mods/503?tab=files">Nexus Mods</a> 下载启动器</li>
+  <li>运行下载好的程序（exe）</li>
+  <li>启动器就装好了</li>
+</ul>
+<p>&nbsp;</p>
+<h2 id="reimagined-and-d2rloader">Reimagined 与 D2RLoader</h2>
+<p><strong>视频教程</strong><a href="https://youtu.be/FDJS0Sukpus"><strong>在这里：</strong></a><br><br><strong>D2RLoader</strong> 为 Reimagined 提供<mark class="pen-green"><strong>局域网 TCP/IP 联机支持</strong></mark>，包括<mark class="pen-green"><strong>术士统治（ROTW）</strong></mark>内容，而且去掉了原先的职业与机制限制。<br>D2RLoader 还能实现上百个共享仓库页签等功能，其它设置见<a href="https://d2rloader.net/docs.html#settings">这里。</a></p>
+<blockquote>
+  <p><mark class="pen-red"><strong>注意：</strong>D2RLoader 仍在积极开发中，安装步骤和配置选项可能在未来版本中变化。</mark></p>
+</blockquote>
+<blockquote>
+  <p><mark class="pen-green"><strong>开始之前：</strong></mark>所有加入同一个 TCP/IP 游戏的人，必须使用<strong>相互匹配的 D2R、D2RLoader、D2RLoader 插件/补丁、Reimagined 兼容版本，以及相同的 Reimagined 启动器调节项或对文件的插件/改动。</strong></p>
+</blockquote>
+<h3 id="1-have-the-reimagined-launcher-installed">1. 先装好 Reimagined 启动器</h3>
+<ul>
+  <li>安装 Reimagined 启动器，见本页开头</li>
+</ul>
+<p>安装完成后，你应该能看到类似这样的界面，其中有离线或联机的选项</p>
+<figure class="image image_resized" style="width:60.61%;"><img src="/loader1.png"></figure>
+<p>&nbsp;</p>
+<h3 id="2-click-online">2. 点击 Online，让启动器帮你安装 D2RLoader</h3>
+<ul>
+  <li>直接点 Online 按钮，它会检查 D2RLoader 是否已安装。</li>
+  <li>如果没有安装，启动器会自动下载并安装</li>
+</ul>
+<figure class="image image_resized" style="width:73.73%;"><img src="/loader2.png"></figure>
+<p>&nbsp;</p>
+<ul>
+  <li>D2RLoader 安装完成后会提示已完成</li>
+</ul>
+<figure class="image image_resized" style="width:35.76%;"><img src="/loader3.png"></figure>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h3 id="3-enable-the-multiplayer-widget">3. 启用多人游戏组件</h3>
+<ul>
+  <li>截至本文撰写时，多人游戏按钮组件还不会自动加到模组界面里（未来的启动器版本会处理这一步）</li>
+  <li>所以请点「Start Online」按钮，带上 D2RLoader 启动游戏</li>
+  <li>游戏启动后，点击底部的红色齿轮</li>
+</ul>
+<figure class="image"><img src="/loader4.png"></figure>
+<ul>
+  <li>然后启用多人游戏按钮</li>
+</ul>
+<figure class="image"><img src="/loader5.png"></figure>
+<ul>
+  <li>这时你会看到多人游戏按钮，可以用它建房和浏览房间</li>
+</ul>
+<figure class="image"><img src="/loader6.png"></figure>
+<p>&nbsp;</p>
+<h3 id="4-hosting-and-browsing-games">4. 建房与浏览房间</h3>
+<p>&nbsp;</p>
+<ul>
+  <li>建房很简单：按你想要的设置和规则创建游戏即可</li>
+</ul>
+<figure class="image"><img src="/loader7.png"></figure>
+<p>&nbsp;</p>
+<ul>
+  <li>加入游戏：进入浏览列表加入公开房间，或者用好友的房间 ID 和密码加入</li>
+</ul>
+<figure class="image image_resized" style="width:54.85%;"><img src="/loader8.png"></figure>
+<p>&nbsp;</p>
+<ul>
+  <li>如果开的是不公开的私人房间，房主需要在队伍菜单里把房间 ID 发给对方。</li>
+</ul>
+<figure class="image image_resized" style="width:33.99%;"><img src="/laoder10.png"></figure>
+<p>&nbsp;</p>
+<ul>
+  <li>搞定，现在你就能和朋友一起玩最新版本、带 ROTW 内容的 Reimagined 了</li>
+</ul>
+<figure class="image"><img src="/loader9.png"></figure>
+<p>&nbsp;</p>
+<h3 id="45-adjusting-shared-stash-tab-pages">4.5 调整共享仓库页签数量</h3>
+<ul>
+  <li>你最常想改的应该就是多加几个仓库页签。做法是在主菜单时，点角色选择界面底部的红色齿轮，打开 D2RLoader 设置</li>
+  <li>然后进入 gameplay 页签，调整共享仓库页签数量和材料堆叠上限（ROTW 的符文/宝石/材料页签）</li>
+</ul>
+<figure class="image image_resized" style="width:46.91%;"><img src="/laoder11.png"></figure>
+<p>&nbsp;</p>
+<ul>
+  <li>设置完成后进游戏查看，共享仓库页签上限应该已经提高了</li>
+</ul>
+<figure class="image"><img src="/laoder12.png"></figure>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h3 id="5-optional-legacy-vpn-setup">5.（可选的旧方案）用 Radmin VPN 搭建局域网</h3>
+<p>如果遇到 Windows 防火墙或其它网络问题，可以考虑用 Radmin 建一个 VPN</p>
+<p>下载并安装 <a href="https://www.radmin-vpn.com/"><mark class="pen-green"><strong>Radmin VPN</strong></mark></a>，然后启动它。</p>
+<figure class="image"><img src="https://i.imgur.com/BOILHmA.png" alt="Radmin VPN 启动界面">
+  <figcaption>启动 Radmin VPN。</figcaption>
+</figure>
+<p>打开 <strong>网络（Network）</strong>菜单。为你的小团体创建一个私有网络，或者选择 <strong>加入网络（Join Network）</strong>接入已有网络。</p>
+<figure class="image"><img src="https://i.imgur.com/y8rOE3I.png" alt="Radmin VPN 网络菜单">
+  <figcaption>打开网络菜单，选择创建网络或加入网络。</figcaption>
+</figure>
+<figure class="image"><img src="https://i.imgur.com/kRCg0PY.png" alt="Radmin VPN 加入网络对话框">
+  <figcaption>输入网络名称和密码。</figcaption>
+</figure>
+<p><mark class="pen-green"><strong>示例公开网络</strong></mark></p>
+<pre><code class="language-plaintext">Network name: D2RR TCP/IPPassword:     DeckardLikesWine@69</code></pre>
+<p>填好信息后点 <strong>加入（Join）</strong>。Radmin VPN 应该会显示该共享网络以及已连接的玩家。</p>
+<figure class="image"><img src="https://i.imgur.com/XWZocSN.png" alt="通过 Radmin VPN 连接的玩家">
+  <figcaption>连接到同一虚拟网络的玩家。</figcaption>
+</figure>
+<h3><br><br><br><strong><u>如果 D2RLoader 或其它安装环节出问题，请到 Reimagined 的 Discord，在 d2rr-installation-help 或 d2rr-online 频道发帖。Wiki 评论区的留言会被忽略。</u></strong></h3>
+<p>&nbsp;</p>
+<p><br>&nbsp;</p>
+<h2 id="manual-reimagined-mod-installation">手动安装 Reimagined 模组</h2>
+<p><u>不使用任何启动器或辅助程序，手动安装 Reimagined 模组的步骤。</u></p>
+<p><mark class="pen-green">第 1 步。</mark> 从 <a href="https://www.nexusmods.com/diablo2resurrected/mods/503?tab=files">Nexus Mods</a> 下载最新的 Reimagined 模组版本。</p>
+<figure class="image image_resized" style="width:50.08%;"><img src="/installguides/step_1_manual_mod.png"></figure>
+<p>&nbsp;</p>
+<p><mark class="pen-green">第 2 步。</mark> 进入你的 <a href="https://wiki.d2r-reimagined.com/en/Installs#file-locations">D2R 安装目录</a>，在左上角空白处点一下再右键，让路径被高亮。然后右键点 <code>复制</code>，这段路径在后面的第 4 步会用到。接着<code>打开</code>名为「<i>mods</i>」的文件夹。你游戏的实际安装位置会和图片里不同。&nbsp;</p>
+<figure class="image image_resized" style="width:50.04%;"><img src="/installguides/step_2c_manual_mod.png"></figure>
+<p>&nbsp;</p>
+<p><mark class="pen-green">第 3 步。 </mark>在 mods 文件夹里检查是否已有旧的 Reimagined 文件夹，如果有就<code>删除</code>它，因为你要装一个全新的版本。（<i>右键 → 删除</i>）</p>
+<figure class="image image_resized" style="width:49.98%;"><img src="/installguides/step_3a_manual_mod.png"></figure>
+<p>&nbsp;</p>
+<p><mark class="pen-green">第 4 步。</mark> 进入你刚下载模组的位置，默认通常在「<i>下载</i>」文件夹里。你会看到刚下载的、以「D2R Reimagined」加版本号开头的新 ZIP 文件。下图以 Reimagined 3.0.5 为例。</p>
+<figure class="image image_resized" style="width:50.06%;"><img src="/installguides/step_3_manual_mod.png"></figure>
+<p>&nbsp;</p>
+<p><mark class="pen-green">第 5 步。</mark> 右键点击该 ZIP 文件，选择<code>全部解压缩</code>&nbsp;</p>
+<figure class="image image_resized" style="width:50.03%;"><img src="/installguides/step_5_manual_mod.png"></figure>
+<p>&nbsp;</p>
+<ul>
+  <li><i>Windows 11 用户请点 </i><code><i>显示更多选项</i></code><i> 来完成上面的操作。</i></li>
+</ul>
+<figure class="image"><img src="/installguides/step_3b_w11.png"></figure>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><mark class="pen-green">第 6 步。</mark> 在弹出的窗口里右键点击路径栏，选择<code>粘贴</code>。此时目标位置应该就是你之前复制的那个路径。同样，你的实际位置会和下图不同。然后点<code>解压缩</code>按钮，Reimagined 模组就装好了！</p>
+<figure class="image image_resized" style="width:74.96%;"><img src="/installguides/step_6_manual_mod.png"></figure>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><mark class="pen-green">第 7 步。</mark> 接下来创建一个用来启动模组的快捷方式。回到第 2 步里的游戏安装目录，右键点击 D2R.exe，选择<code>发送到</code>，再选<code>桌面（创建快捷方式）</code></p>
+<figure class="image image_resized" style="width:50.04%;"><img src="/installguides/step_7_manual_mod.png"></figure>
+<ul>
+  <li><i>W11 用户请点 </i><code><i>显示更多选项</i></code><i> 来完成上面的操作。</i></li>
+</ul>
+<figure class="image"><img src="/installguides/step_3b_w11.png"></figure>
+<ul>
+  <li>右键点击桌面上的快捷方式，选择<code>属性</code></li>
+</ul>
+<figure class="image image_resized" style="width:25%;"><img src="/installguides/step_7a_manual_mod.png"></figure>
+<ul>
+  <li>在「目标」一栏的末尾追加以下内容：<ul>
+      <li><code>&nbsp;-mod Reimagined -txt</code></li>
+      <li><code>&nbsp;-mod Reimagined -txt -resetofflinemaps</code> <i>（<u>可选：</u>每次进入角色选择界面都会重置地图）</i></li>
+    </ul>
+  </li>
+</ul>
+<figure class="image image_resized" style="width:25.04%;"><img src="/installguides/step_7b_manual_mod.png"></figure>
+<ul>
+  <li><mark class="pen-red"><strong>确认 D2R.exe" 与 -mod 之间有空格</strong></mark></li>
+  <li>点<code>应用</code>，再点<code>确定</code></li>
+</ul>
+<p>&nbsp;</p>
+<p><mark class="pen-green">第 6 步。</mark> 你可以把快捷方式改成任意名字，然后点击或双击它来玩模组。Reimagined 已经装好，可以开始玩了！</p>
+<p>&nbsp;</p>
+<p><mark class="pen-green"><strong>如果你想手动安装 6 个自定义小补丁中的任意一个（2skill、强制恐惧地带、移除光环音效、HDR 修复、移除黑边、移除溅射护身符特效），这些文件也打包在本页靠上位置的 Beta 启动器 ZIP 里，供手动安装的玩家使用。如果你只想要 2Skill 文件，直接下载下面那个文件即可。</strong></mark></p>
+<p>&nbsp;</p>
+<h2 id="d2rmm">D2RMM</h2>
+<p>用模组管理器可以很方便地同时安装多个模组<i>（前提是它们互不冲突）</i>，完全不需要了解模组制作知识。</p>
+<p>Reimagined 本身已经集成了大量功能和生活质量改动，所以并不总是需要额外装模组。&nbsp;</p>
+<p>先看看下面这份 <a href="https://wiki.d2r-reimagined.com/en/Installs#reimagined-features">Reimagined 功能列表</a>，确认是否还需要第三方模组。</p>
+<p>&nbsp;</p>
+<p>使用 D2RMM 后，生效的模组文件会位于 <code><strong>D2RMM\mods\</strong></code> <strong></strong>文件夹，而不是 <code><strong>Diablo II Resurrected\mods\</strong></code>。</p>
+<p>你对 Reimagined 文件的任何改动都需要在 D2RMM 的 mods 目录下进行。<br>&nbsp;</p>
+<h4 id="file-steps">文件操作步骤</h4>
+<p>1. 从 D2RMM 的 Github 下载 <a href="https://github.com/olegbl/d2rmm/releases/tag/v1.9.2">D2RMM</a>。</p>
+<p>2. 打开 <code>D2RMM</code> 文件夹，进入 <code>mods</code> 目录。</p>
+<ul>
+  <li>你应该会看到一个名为「PUT YOUR MODS HERE」的文本文件——先别关这个窗口，稍后要用。</li>
+</ul>
+<p>3. 再开一个资源管理器窗口，进入 D2R 安装目录下的 <code>Reimagined</code> 模组文件夹。</p>
+<p>4. 复制 <code>Reimagined.mpq</code> 文件夹（里面应该有一个 Data 文件夹和 ModInfo.json）。</p>
+<p>5. 把 <code>Reimagined.mpq</code> 文件夹粘贴到第 2 步打开的 <code>D2RMM/mods</code> 文件夹里。</p>
+<ul>
+  <li>建议把文件夹改名为 <code>Reimagined</code></li>
+</ul>
+<h4 id="d2rmm-steps">D2RMM 操作步骤</h4>
+<p>6. 以管理员身份运行 D2RMM。</p>
+<p>7. 打开后点击右下角的三个点，选择「刷新模组列表（Refresh Mod List）」。</p>
+<p>8. Reimagined 应该会出现在模组列表里——点击左侧的方框启用它。</p>
+<blockquote>
+  <p><mark class="pen-red"><strong>Reimagined 文件夹必须始终排在模组列表的第一位。如果不是，请按住那条线拖到最上面。</strong></mark></p>
+</blockquote>
+<p>9. 进入顶部的 Settings 页签。</p>
+<ul>
+  <li>9a. 点击 General。<ul>
+      <li>把「Output Mod Name」改成「Reimagined」。</li>
+      <li>打开「Automatically install mods before running the game」。</li>
+    </ul>
+  </li>
+  <li>9b. 点击 Game Launcher。<ul>
+      <li>在「Extra Game Args」里粘贴：<code>-mod Reimagined -txt</code></li>
+      <li>可以在后面随意追加其它参数。</li>
+    </ul>
+  </li>
+</ul>
+<p>10. 回到 Mods 页签。</p>
+<p>11. 点击 Install Mods。<br>&nbsp;</p>
+<h4 id="play-time">开始玩！</h4>
+<p>12. 点击「Run D2R」。<br>&nbsp;</p>
+<h3 id="loot-filters">掉落过滤器</h3>
+<blockquote>
+  <p><mark class="pen-red"><strong>本指南假定你已经下载并安装好 D2RMM（见上文）</strong></mark></p>
+</blockquote>
+<ul>
+  <li><strong>由于有术士 DLC，我们建议直接使用游戏内的掉落过滤系统，它兼容我们的财宝文件、字符串和模组新增物品。</strong></li>
+  <li><i>对于没有 DLC 的玩家，下面这个过滤器以及 Nexus 上类似的过滤器都属于自行承担风险的用法，Reimagined 不提供支持。模组改动了这些过滤器涉及的每一个文件，作者需要专门为 Reimagined 出一个版本，才能完全兼容、不出问题。</i><br>&nbsp;</li>
+</ul>
+<h4 id="file-steps_1">文件操作步骤</h4>
+<p>1. 从 Nexus Mods 下载 <a href="https://www.nexusmods.com/diablo2resurrected/mods/467?tab=files">Pseudo Loot Filter</a>。</p>
+<ul>
+  <li>选择「Mod manager download」可自动下载并载入 D2RMM。</li>
+  <li>选择「Manual download」会把模组下到你的 <code>Downloads</code> 文件夹——请手动把模组解压到 <code>D2RMM/mods</code> 文件夹。<br>&nbsp;</li>
+</ul>
+<h4 id="d2rmm-steps_1">D2RMM 操作步骤</h4>
+<p>2. 在 D2RMM 里点击右下角的三个点，选择「刷新模组列表（Refresh Mod List）」。</p>
+<p>3. 这时你应该能在模组列表里看到 Pseudo Loot Filter——点击左侧方框启用它。</p>
+<p>4. 要配置过滤器，点击右侧的「settings」。</p>
+<p>5. 所有物品默认都是启用的（滑块在右侧）——点击滑块会「禁用」该物品（对白色、魔法、稀有、套装、暗金所有品质都生效）。</p>
+<ul>
+  <li>禁用一个物品的意思是：本该掉落这件物品时，游戏改为不掉落任何东西。</li>
+  <li>禁用物品不会影响其它物品的掉率。</li>
+  <li>可能要刷几局才能把这份列表调到你满意的样子。</li>
+</ul>
+<p>6. 把不想要的物品禁用完之后，点空白处退出菜单。</p>
+<p>7. 点击右下角的「Install Mods」。</p>
+<p>8. 点击「Run D2R」。</p>
+<h4 id="d2rmm-faq"><br>D2RMM 常见问题：</h4>
+<p>我的模组没出现在 D2RMM 的模组列表里？</p>
+<ul>
+  <li>可能是你没把模组放进 D2RMM/mods，或者没解压下载的文件，也可能它所在的文件夹层级 D2RMM 识别不了</li>
+  <li>用管理员身份运行 D2RMM</li>
+</ul>
+<p>需要更多指导/帮助请在 Discord 上私信（DM）我们</p>
+<h3 id="reimagined-features">Reimagined 已包含的功能：</h3>
+<p>如果你想知道某个功能是否已被 Reimagined 包含，或者希望加入某个功能，请私信任一开发者，或到我们 Discord 的 suggestions-and-feedback 频道发帖。</p>
+<p>不少模组作者明确授权我们把他们的模组整合进 Reimagined。属于这种情况的，会在 <a href="https://www.nexusmods.com/diablo2resurrected/mods/503?tab=description">Reimagined 的 Nexus Mods 页面</a>署名。</p>
+<p>下面这份（非穷尽）模组清单中的功能，Reimagined 已以某种形式实现：</p>
+<p><mark class="pen-green"><strong>新内容</strong></mark></p>
+<ul>
+  <li>完全重构的地狱难度</li>
+</ul>
+<p><mark class="pen-green"><strong>背包与仓库</strong></mark></p>
+<ul>
+  <li>扩展背包 / 仓库 / 方块</li>
+</ul>
+<p><mark class="pen-green"><strong>物品</strong></mark></p>
+<ul>
+  <li>提高掉率（所有物品、符文、宝石等）</li>
+  <li>破免护身符（由 Boss、固定暗金怪等掉落）<ul>
+      <li>破免护身符会在噩梦和地狱的恐惧地带掉落</li>
+    </ul>
+  </li>
+  <li>近战范围伤害小护身符（Collin 护身符）</li>
+  <li>完美宝石掉落 / 宝石名称简化（Reimagined 里只有一种宝石）</li>
+</ul>
+<p><mark class="pen-green"><strong>系统</strong></mark></p>
+<ul>
+  <li>物品附魔</li>
+  <li>赫拉迪克锻造（多种方块配方支持重铸、制作等）</li>
+  <li>腐化（通过腐化宝珠实现）</li>
+  <li>打孔</li>
+  <li>符文与宝石堆叠（符文以堆叠形式掉落；宝石收进宝石袋）</li>
+  <li>符文便捷升级 / 降级（提示信息印在符文堆上）</li>
+</ul>
+<p><mark class="pen-green"><strong>雇佣兵</strong></mark></p>
+<ul>
+  <li>扩展雇佣兵装备（所有装备栏对雇佣兵开放）</li>
+</ul>
+<p><mark class="pen-green"><strong>生活质量</strong></mark></p>
+<ul>
+  <li>显示物品等级</li>
+  <li>显示物品品质（所有物品带 [N]、[X]、[E] 标签标示品质）</li>
+  <li>符文名称带编号</li>
+  <li>更醒目的符文（符文已命名、编号并上色，便于辨认）</li>
+  <li>光柱（用于多种重要物品）</li>
+  <li>药水名称简化（已重命名为 HP1、MP1 等）</li>
+  <li>城内施法</li>
+  <li>赦免令牌（药水商人出售）</li>
+  <li>卷轴名称简化（重命名为 TP 和 ID）</li>
+  <li>凯恩与传送点位置改动（角色总是出生在城镇中心，凯恩也在那里）</li>
+  <li>攻速档位与配方面板（已以多种形式内置在游戏中）</li>
+  <li>恐惧地带（TZ 已经覆盖整个幕、每小时轮换，不需要再挑选）</li>
+</ul>
+<p><mark class="pen-green"><strong>怪物</strong></mark></p>
+<ul>
+  <li>怪物密度（每个区域的密度都已单独设定）</li>
+  <li>大量新的固定暗金怪</li>
+</ul>
+<p><mark class="pen-green"><strong>环境 / 界面</strong></mark></p>
+<ul>
+  <li>Diablood</li>
+  <li>技能图标（所有技能都已按职业上色和重绘，包括雇佣兵技能）</li>
+</ul>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h2 id="crashing-frequently">频繁崩溃？排查建议</h2>
+<p>以下是我们从 Discord、Nexus 和 Reddit 的 bug 反馈里总结出的一些常见解决办法。</p>
+<p>1. Reimagined 3.0+ 不兼容 Reimagined 1.x.x、Reimagined 2.x.x、原版 D2R 或其它模组的存档（只要存档里带物品）。把这类存档放进存档文件夹并使用，通常会导致游戏崩溃。</p>
+<p>2. 无法创建经典模式角色，它与模组不兼容。</p>
+<p>3. 把画质选项里的「VFX Lighting Quality」从 Ultra 调到 High 或 Medium，它对画面几乎没有影响，却会严重拖性能并导致崩溃。</p>
+<p>4. 把帧率限制在显示器刷新率，并/或开启垂直同步（Vsync）。</p>
+<p>5. 不要 Alt + Tab 切出（<i>窗口模式下点击屏幕外同理</i>），游戏不喜欢失焦。可以通过显卡控制面板限制 D2R.exe 的后台帧率来缓解这个崩溃。<i>（游戏仍然会崩，但限制后台帧率能降低频率。）</i></p>
+<p>6. 不要给雇佣兵装备带「施法时召唤随从」这类 CTC 的物品。<i>（「复活」没问题，问题通常出在 CTC 上。）</i></p>
+<p>7. 把电源模式从「高性能」改为「平衡」<i>（不太直观，但对部分玩家有效。）</i></p>
+<p>8. 如果你还用了其它模组，可以试着禁用它们看看崩溃是否继续；但如果它们改动了 itemstatcost.txt，禁用同样会导致崩溃，所以请注意你在做什么，实验前先备份。</p>
+<p>9. 如果你自己改过模组文件，请撤销改动或重新干净地安装一遍模组。</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>

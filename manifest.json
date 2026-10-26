@@ -1,0 +1,70 @@
+{
+  "base_seed": "e8111f3283cb2b6a7ba6393377cb28722d58f1e3",
+  "head": "e8111f3283cb2b6a7ba6393377cb28722d58f1e3",
+  "pages": {
+    "ClassChanges": {
+      "en_blob": "429303b98042eaf86c14aba53c80f965eee4cf0a",
+      "en_commit": "00b934796a405bd93f97029cb34ad54512cedbec",
+      "en_date": "2026-04-02",
+      "en_path": "ClassChanges.html",
+      "synced_at": "2026-10-26",
+      "zh_blob": "28c8b8c2104ca17c05b377319981476893cc6c36",
+      "zh_path": "ClassChanges.html"
+    },
+    "FAQ": {
+      "en_blob": "9185a45f435de8ed2cea50723017bb1158019bda",
+      "en_commit": "eda0d9e57d890e575b2a52bb8be65e42c64585bc",
+      "en_date": "2026-10-15",
+      "en_path": "FAQ.md",
+      "synced_at": "2026-10-26",
+      "zh_blob": "1520ed7713255b3e3d20f330ffc28ee8af809834",
+      "zh_path": "FAQ.md"
+    },
+    "Hirelings": {
+      "en_blob": "59b7129599332f48399ad63a6dec04091c2ce9f5",
+      "en_commit": "dfcad86573cc462290cdf08c3b7ba5529e33ee74",
+      "en_date": "2026-09-15",
+      "en_path": "Hirelings.html",
+      "synced_at": "2026-10-26",
+      "zh_blob": "5d1a7291811d36632f09cdfcd9de5cd2b36da3ad",
+      "zh_path": "Hirelings.html"
+    },
+    "Installs": {
+      "en_blob": "79b0eec1a842715f8aa48cff431be9946dd1d722",
+      "en_commit": "35ea798d0a020d8810431609413a738deec710eb",
+      "en_date": "2026-09-23",
+      "en_path": "Installs.html",
+      "synced_at": "2026-10-26",
+      "zh_blob": "2162d3f6d4baf7dba761deb6f0cf4465a3445cac",
+      "zh_path": "Installs.html"
+    },
+    "Updating_The_Mod": {
+      "en_blob": "a43c9e6df05bd37c8b23af49f9ec5d088cfce5bc",
+      "en_commit": "8cd4c13c6bf8d9c206bf0926f5dd5611a0108b67",
+      "en_date": "2025-11-10",
+      "en_path": "Updating_The_Mod.html",
+      "synced_at": "2026-10-26",
+      "zh_blob": "6f2d449b681cb4a337933ddab9218c9ad7e80218",
+      "zh_path": "Updating_The_Mod.html"
+    },
+    "home": {
+      "en_blob": "37a6965ec0311b515dbe2e0da76ce4c070fd940a",
+      "en_commit": "59a552216d95740421db3372a071ad7f4d2c9d93",
+      "en_date": "2026-10-21",
+      "en_path": "home.html",
+      "synced_at": "2026-10-26",
+      "zh_blob": "cf47e389cfdbed431d0be1fde4d5d0ce95dcb9ab",
+      "zh_path": "home.html"
+    },
+    "new_player_guide": {
+      "en_blob": "59e7eb386df17d7ab82ba9bfdef55f5f3221c2a5",
+      "en_commit": "5264be9b0c5d2367b0d738efdc111ba272990c25",
+      "en_date": "2026-09-04",
+      "en_path": "new_player_guide.md",
+      "synced_at": "2026-10-26",
+      "zh_blob": "b1dd4b1949350827eff2c25020c22f15efac15d7",
+      "zh_path": "new_player_guide.md"
+    }
+  },
+  "upstream_url": "https://github.com/D2R-Reimagined/wiki-content"
+}
