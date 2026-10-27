@@ -1,0 +1,1853 @@
+<!--
+title: 物品制作
+description: 
+published: true
+date: 2026-04-03T03:38:32.017Z
+tags: sunder, sunder charms, craft, crafting, heaven facet, rainbow facet, crafted charms, fire facet, cold facet, lightning facet, poison facet, cube, cube recipes, facet
+editor: ckeditor
+dateCreated: 2025-02-03T05:00:21.661Z
+-->
+
+<h1>物品制作系统</h1>
+<p>玩家可以制作各种物品来完善自己的构筑，无论升级阶段还是终局进度都适用。</p>
+<p>当产物为魔法品质时，表示它会给你必出的属性，并有机会在魔法物品上附带一条前缀和一条后缀。</p>
+<p>当产物为稀有品质时，表示它给你必出的属性，并有机会随机附带 1-3 条前缀与 1-3 条后缀。</p>
+<p>当产物为手工品质时，除了必出属性外，它还会根据产物等级有机会获得固定数量的额外词缀；除非另有说明，产物等级总与制作它的角色相同。关于手工物品的等级要求与词缀数量，更多信息见 <a href="https://maxroll.gg/d2/items/crafted-items">此处</a>.</p>
+<h2>项链</h2>
+<figure class="table">
+  <table>
+    <thead>
+      <tr>
+        <th style="text-align:center;"><mark class="pen-green"><strong>材料</strong></mark></th>
+        <th style="text-align:center;"><mark class="pen-green"><strong>材料</strong></mark></th>
+        <th style="text-align:center;"><mark class="pen-green"><strong>材料</strong></mark></th>
+        <th style="text-align:center;"><mark class="pen-green"><strong>材料</strong></mark></th>
+        <th style="text-align:center;"><mark class="pen-green"><strong>材料</strong></mark></th>
+        <th></th>
+        <th style="text-align:center;"><mark class="pen-green"><strong>必出属性</strong></mark></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="text-align:center;">魔法 项链</td>
+        <td style="text-align:center;">ITH 符文</td>
+        <td style="text-align:center;">EL 符文</td>
+        <td rowspan="1"></td>
+        <td rowspan="2"></td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p>100% CTC 战斗号令 升级时</p>
+          <p>魔法 项链</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">魔法 项链</td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">RAL 符文</td>
+        <td style="text-align:center;">宝石 （任意）</td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p>+1 全部 （随机职业） 技能</p>
+          <p>稀有 项链</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">稀有 项链</td>
+        <td style="text-align:center;">稀有宝石</td>
+        <td style="text-align:center;">PUL 符文</td>
+        <td style="text-align:center;">EL 符文</td>
+        <td style="text-align:center;">红宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p>+1 所有技能</p>
+          <p>+10-12% 攻击速度提升</p>
+          <p>稀有 项链</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">稀有 项链</td>
+        <td style="text-align:center;">稀有宝石</td>
+        <td style="text-align:center;">PUL 符文</td>
+        <td style="text-align:center;">EL 符文</td>
+        <td style="text-align:center;">蓝宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p>+1 所有技能</p>
+          <p>+10-12% 施法速度提升</p>
+          <p>稀有 项链</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">稀有 项链</td>
+        <td style="text-align:center;">暗金宝石</td>
+        <td style="text-align:center;">VEX 符文</td>
+        <td style="text-align:center;">LO 符文</td>
+        <td style="text-align:center;">头骨宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p>+2 所有技能</p>
+          <p>+25-35 武器伤害</p>
+          <p>手工 项链</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">稀有 项链</td>
+        <td style="text-align:center;">暗金宝石</td>
+        <td style="text-align:center;">VEX 符文</td>
+        <td style="text-align:center;">LO 符文</td>
+        <td style="text-align:center;">蓝宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p>+2 所有技能</p>
+          <p>+10% 全部元素伤害</p>
+          <p>手工 项链</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<h2>戒指</h2>
+<figure class="table">
+  <table>
+    <thead>
+      <tr>
+        <th style="text-align:center;"><mark class="pen-green"><strong>材料</strong></mark></th>
+        <th style="text-align:center;"><mark class="pen-green"><strong>材料</strong></mark></th>
+        <th style="text-align:center;"><mark class="pen-green"><strong>材料</strong></mark></th>
+        <th style="text-align:center;"><mark class="pen-green"><strong>材料</strong></mark></th>
+        <th style="text-align:center;"><mark class="pen-green"><strong>材料</strong></mark></th>
+        <th></th>
+        <th style="text-align:center;"><mark class="pen-green"><strong>必出属性</strong></mark></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="text-align:center;">魔法 戒指</td>
+        <td style="text-align:center;">ITH 符文</td>
+        <td style="text-align:center;">EL 符文</td>
+        <td rowspan="1"></td>
+        <td></td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p>100% CTC 等级 1 缓慢 升级时</p>
+          <p>魔法 戒指</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">魔法 戒指</td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">AMN 符文</td>
+        <td style="text-align:center;">宝石 （任意）</td>
+        <td></td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p>+20% 物品判为魔法或更好品质的几率</p>
+          <p>稀有 戒指</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">魔法 戒指</td>
+        <td style="text-align:center;">稀有宝石</td>
+        <td style="text-align:center;">TAL 符文</td>
+        <td style="text-align:center;">RAL 符文</td>
+        <td>或T 符文</td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p>巴里扎尔的迷惑之环 暗金戒指 需求等级 25</p>
+          <p>+1 扭曲 oskill</p>
+          <p>+5 全部抗性</p>
+          <p>+5 全部属性</p>
+          <p>暗金 戒指</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">稀有 戒指</td>
+        <td style="text-align:center;">稀有宝石</td>
+        <td style="text-align:center;">UM 符文</td>
+        <td style="text-align:center;">HEL 符文</td>
+        <td style="text-align:center;">宝石 （任意）</td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p>+8-10 全部属性</p>
+          <p>+8-10 全部抗性</p>
+          <p>稀有 戒指</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">稀有 戒指</td>
+        <td style="text-align:center;">暗金宝石</td>
+        <td style="text-align:center;">JAH 符文</td>
+        <td style="text-align:center;">SUR 符文</td>
+        <td style="text-align:center;">宝石 （任意）</td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p>+5-8% 最大生命提升</p>
+          <p>+5-8% 最大法力提升</p>
+          <p>手工 戒指</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">稀有 戒指</td>
+        <td style="text-align:center;">暗金宝石</td>
+        <td style="text-align:center;">ZOD 符文</td>
+        <td style="text-align:center;">GUL 符文</td>
+        <td style="text-align:center;">宝石 （任意）</td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p>+1 所有技能</p>
+          <p>+10% 攻击速度提升</p>
+          <p>+10% 施法速度提升</p>
+          <p>手工 戒指</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">稀有 戒指</td>
+        <td style="text-align:center;">暗金宝石</td>
+        <td style="text-align:center;">ZOD 符文</td>
+        <td style="text-align:center;">VEX 符文</td>
+        <td style="text-align:center;">红宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p>+1 所有技能</p>
+          <p>+15-25 武器伤害</p>
+          <p>手工 戒指</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">稀有 戒指</td>
+        <td style="text-align:center;">暗金宝石</td>
+        <td style="text-align:center;">ZOD 符文</td>
+        <td style="text-align:center;">VEX 符文</td>
+        <td style="text-align:center;">蓝宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p>+1 所有技能</p>
+          <p>+5% 全部元素伤害</p>
+          <p>手工 戒指</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<h2>腰带</h2>
+<figure class="table">
+  <table>
+    <thead>
+      <tr>
+        <th style="text-align:center;"><mark class="pen-green"><strong>材料</strong></mark></th>
+        <th style="text-align:center;"><mark class="pen-green"><strong>材料</strong></mark></th>
+        <th style="text-align:center;"><mark class="pen-green"><strong>材料</strong></mark></th>
+        <th style="text-align:center;"><mark class="pen-green"><strong>材料</strong></mark></th>
+        <th style="text-align:center;"><mark class="pen-green"><strong>材料</strong></mark></th>
+        <th></th>
+        <th style="text-align:center;"><mark class="pen-green"><strong>必出属性</strong></mark></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="text-align:center;">魔法 腰带</td>
+        <td style="text-align:center;">ITH 符文</td>
+        <td style="text-align:center;">EL 符文</td>
+        <td rowspan="2"></td>
+        <td rowspan="2"></td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p>100% CTC 等级 1 冰封甲 升级时</p>
+          <p>魔法 腰带</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">魔法 腰带</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td style="text-align:center;">RAL 符文</td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p>+1 全部 （随机职业） 技能</p>
+          <p>魔法 腰带</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">稀有 腰带</td>
+        <td style="text-align:center;">稀有宝石</td>
+        <td style="text-align:center;">UM 符文</td>
+        <td style="text-align:center;">IST 符文</td>
+        <td style="text-align:center;">宝石 （任意）</td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p>+20-25% 全部抗性</p>
+          <p>+30-40% 物品判为魔法或更好品质的几率</p>
+          <p>稀有 腰带</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">稀有 腰带</td>
+        <td style="text-align:center;">稀有宝石</td>
+        <td style="text-align:center;">LEM 符文</td>
+        <td style="text-align:center;">MAL 符文</td>
+        <td style="text-align:center;">宝石 （任意）</td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p>+10-15% 穿透攻击</p>
+          <p>+10-15% 开放性伤口几率</p>
+          <p>稀有 腰带</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">稀有 腰带</td>
+        <td style="text-align:center;">暗金宝石</td>
+        <td style="text-align:center;">CHAM 符文</td>
+        <td style="text-align:center;">JAH 符文</td>
+        <td style="text-align:center;">宝石 （任意）</td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p>无法被冻结</p>
+          <p>+10-15% 最大生命提升</p>
+          <p>手工 腰带</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">稀有 腰带</td>
+        <td style="text-align:center;">暗金宝石</td>
+        <td style="text-align:center;">ZOD 符文</td>
+        <td style="text-align:center;">VEX 符文</td>
+        <td style="text-align:center;">红宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p>+1 所有技能</p>
+          <p>+20-30 武器伤害</p>
+          <p>手工 腰带</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">稀有 腰带</td>
+        <td style="text-align:center;">暗金宝石</td>
+        <td style="text-align:center;">ZOD 符文</td>
+        <td style="text-align:center;">VEX 符文</td>
+        <td style="text-align:center;">蓝宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p>+1 所有技能</p>
+          <p>+5-10% 全部元素伤害</p>
+          <p>手工 腰带</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<h2>靴子</h2>
+<figure class="table">
+  <table>
+    <thead>
+      <tr>
+        <th style="text-align:center;"><mark class="pen-green"><strong>材料</strong></mark></th>
+        <th style="text-align:center;"><mark class="pen-green"><strong>材料</strong></mark></th>
+        <th style="text-align:center;"><mark class="pen-green"><strong>材料</strong></mark></th>
+        <th style="text-align:center;"><mark class="pen-green"><strong>材料</strong></mark></th>
+        <th style="text-align:center;"><mark class="pen-green"><strong>材料</strong></mark></th>
+        <th></th>
+        <th style="text-align:center;"><mark class="pen-green"><strong>必出属性</strong></mark></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="text-align:center;">魔法 靴子</td>
+        <td style="text-align:center;">ITH 符文</td>
+        <td style="text-align:center;">EL 符文</td>
+        <td></td>
+        <td rowspan="2"></td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p>100% CTC 等级 1 疾奔 升级时</p>
+          <p>魔法 靴子</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">魔法 靴子</td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">HEL 符文</td>
+        <td style="text-align:center;">宝石 （任意）</td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p>+15% 跑动速度提升</p>
+          <p>+10 全部属性</p>
+          <p>稀有 靴子</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">稀有 靴子</td>
+        <td style="text-align:center;">稀有宝石</td>
+        <td style="text-align:center;">UM 符文</td>
+        <td style="text-align:center;">IST 符文</td>
+        <td style="text-align:center;">宝石 （任意）</td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p>+20-25% 全部抗性</p>
+          <p>+30-40% 物品判为魔法或更好品质的几率</p>
+          <p>稀有 靴子</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">稀有 靴子</td>
+        <td style="text-align:center;">暗金宝石</td>
+        <td style="text-align:center;">ZOD 符文</td>
+        <td style="text-align:center;">OHM 符文</td>
+        <td style="text-align:center;">宝石 （任意）</td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p>+1 所有技能</p>
+          <p>+20-30% 跑动速度提升</p>
+          <p>+20-30 武器伤害</p>
+          <p>手工 靴子</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">稀有 靴子</td>
+        <td style="text-align:center;">暗金宝石</td>
+        <td style="text-align:center;">ZOD 符文</td>
+        <td style="text-align:center;">VEX 符文</td>
+        <td style="text-align:center;">宝石 （任意）</td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p>+1 所有技能</p>
+          <p>+20-30% 跑动速度提升</p>
+          <p>+5-10% 全部元素伤害</p>
+          <p>手工 靴子</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<h2>手套</h2>
+<figure class="table">
+  <table>
+    <thead>
+      <tr>
+        <th style="text-align:center;"><mark class="pen-green"><strong>材料</strong></mark></th>
+        <th style="text-align:center;"><mark class="pen-green"><strong>材料</strong></mark></th>
+        <th style="text-align:center;"><mark class="pen-green"><strong>材料</strong></mark></th>
+        <th style="text-align:center;"><mark class="pen-green"><strong>材料</strong></mark></th>
+        <th style="text-align:center;"><mark class="pen-green"><strong>材料</strong></mark></th>
+        <th style="text-align:center;"></th>
+        <th style="text-align:center;"><mark class="pen-green"><strong>必出属性</strong></mark></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="text-align:center;">魔法 手套</td>
+        <td style="text-align:center;">ITH 符文</td>
+        <td style="text-align:center;">EL 符文</td>
+        <td rowspan="2"></td>
+        <td rowspan="2"></td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p>100% CTC 等级 4 战斗指挥 升级时</p>
+          <p>魔法 手套</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">魔法 手套</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td style="text-align:center;">RAL 符文</td>
+        <td style="text-align:center;">=</td>
+        <td style="text-align:center;">
+          <p>+8% 攻击速度提升</p>
+          <p>+8% 施法速度提升</p>
+          <p>魔法 手套</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">稀有 手套</td>
+        <td style="text-align:center;">稀有宝石</td>
+        <td style="text-align:center;">MAL 符文</td>
+        <td style="text-align:center;">SHAEL 符文</td>
+        <td style="text-align:center;">宝石 （任意）</td>
+        <td style="text-align:center;">=</td>
+        <td style="text-align:center;">
+          <p>+1 随机 技能页 （当前职业）</p>
+          <p>+10-15% 攻击速度提升</p>
+          <p>稀有 手套</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">稀有 手套</td>
+        <td style="text-align:center;">稀有宝石</td>
+        <td style="text-align:center;">MAL 符文</td>
+        <td style="text-align:center;">DOL 符文</td>
+        <td style="text-align:center;">宝石 （任意）</td>
+        <td style="text-align:center;">=</td>
+        <td style="text-align:center;">
+          <p>+1 随机 技能页 （当前职业）</p>
+          <p>+10-15% 施法速度提升</p>
+          <p>稀有 手套</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">稀有 手套</td>
+        <td style="text-align:center;">稀有宝石</td>
+        <td style="text-align:center;">UM 符文</td>
+        <td style="text-align:center;">IST 符文</td>
+        <td style="text-align:center;">宝石 （任意）</td>
+        <td style="text-align:center;">=</td>
+        <td style="text-align:center;">
+          <p>+30% 物品判为魔法或更好品质的几率</p>
+          <p>+20-25% 全部抗性</p>
+          <p>稀有 手套</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">稀有 手套</td>
+        <td style="text-align:center;">暗金宝石</td>
+        <td style="text-align:center;">ZOD 符文</td>
+        <td style="text-align:center;">VEX 符文</td>
+        <td style="text-align:center;">红宝石</td>
+        <td style="text-align:center;">=</td>
+        <td style="text-align:center;">
+          <p>+1 所有技能</p>
+          <p>+20-40 武器伤害</p>
+          <p>+0.125% 压碎性打击几率 (每角色等级)</p>
+          <p>手工 手套</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">稀有 手套</td>
+        <td style="text-align:center;">暗金宝石</td>
+        <td style="text-align:center;">ZOD 符文</td>
+        <td style="text-align:center;">VEX 符文</td>
+        <td style="text-align:center;">蓝宝石</td>
+        <td style="text-align:center;">=</td>
+        <td style="text-align:center;">
+          <p>+1 所有技能</p>
+          <p>+5-10% 全部元素伤害</p>
+          <p>+10-20% 施法速度提升</p>
+          <p>手工 手套</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<h2>头盔</h2>
+<figure class="table">
+  <table>
+    <thead>
+      <tr>
+        <th style="text-align:center;"><mark class="pen-green"><strong>材料</strong></mark></th>
+        <th style="text-align:center;"><mark class="pen-green"><strong>材料</strong></mark></th>
+        <th style="text-align:center;"><mark class="pen-green"><strong>材料</strong></mark></th>
+        <th style="text-align:center;"><mark class="pen-green"><strong>材料</strong></mark></th>
+        <th style="text-align:center;"><mark class="pen-green"><strong>材料</strong></mark></th>
+        <th></th>
+        <th style="text-align:center;"><mark class="pen-green"><strong>必出属性</strong></mark></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="text-align:center;">魔法 头盔</td>
+        <td style="text-align:center;">ITH 符文</td>
+        <td style="text-align:center;">EL 符文</td>
+        <td rowspan="1"></td>
+        <td rowspan="2"></td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p>100% CTC 等级 1 咆哮 升级时</p>
+          <p>魔法 头盔</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">魔法 头盔</td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">RAL 符文</td>
+        <td style="text-align:center;">宝石 （任意）</td>
+        <td style="text-align:center;">=</td>
+        <td style="text-align:center;">
+          <p>+15% 打击恢复提升</p>
+          <p>稀有 头盔</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">稀有 头盔</td>
+        <td style="text-align:center;">稀有宝石</td>
+        <td style="text-align:center;">UM 符文</td>
+        <td style="text-align:center;">EL 符文</td>
+        <td style="text-align:center;">宝石 （任意）</td>
+        <td style="text-align:center;">=</td>
+        <td style="text-align:center;">
+          <p>+20-30% 打击恢复提升</p>
+          <p>+20-25% 全部抗性</p>
+          <p>稀有 头盔</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">稀有 头盔</td>
+        <td style="text-align:center;">稀有宝石</td>
+        <td style="text-align:center;">Pul 符文</td>
+        <td style="text-align:center;">EL 符文</td>
+        <td style="text-align:center;">红宝石</td>
+        <td style="text-align:center;">=</td>
+        <td style="text-align:center;">
+          <p>+1 全部 (当前 职业技能</p>
+          <p>+10-15% 攻击速度提升</p>
+          <p>稀有 头盔</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">稀有 头盔</td>
+        <td style="text-align:center;">稀有宝石</td>
+        <td style="text-align:center;">PUL 符文</td>
+        <td style="text-align:center;">EL 符文</td>
+        <td style="text-align:center;">蓝宝石</td>
+        <td style="text-align:center;">=</td>
+        <td style="text-align:center;">
+          <p>+1 全部 （当前职业） 技能</p>
+          <p>+10-15% 施法速度提升</p>
+          <p>稀有 头盔</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">稀有 头盔</td>
+        <td style="text-align:center;">暗金宝石</td>
+        <td style="text-align:center;">ZOD 符文</td>
+        <td style="text-align:center;">VEX 符文</td>
+        <td style="text-align:center;">红宝石</td>
+        <td style="text-align:center;">=</td>
+        <td style="text-align:center;">
+          <p>+1-2 所有技能</p>
+          <p>+20-30% 强化武器伤害</p>
+          <p>手工 头盔</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">稀有 头盔</td>
+        <td style="text-align:center;">暗金宝石</td>
+        <td style="text-align:center;">ZOD 符文</td>
+        <td style="text-align:center;">VEX 符文</td>
+        <td style="text-align:center;">蓝宝石</td>
+        <td style="text-align:center;">=</td>
+        <td style="text-align:center;">
+          <p>+1-2 所有技能</p>
+          <p>+5-10% 全部元素伤害</p>
+          <p>手工 头盔</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">稀有 头盔</td>
+        <td style="text-align:center;">暗金宝石</td>
+        <td style="text-align:center;">JAH 符文</td>
+        <td style="text-align:center;">BER 符文</td>
+        <td style="text-align:center;">宝石 （任意）</td>
+        <td style="text-align:center;">=</td>
+        <td style="text-align:center;">
+          <p>+2 所有技能</p>
+          <p>+5-10% 物理伤害减免</p>
+          <p>+5-10% 最大生命提升</p>
+          <p>手工 头盔</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<h2>盾牌</h2>
+<figure class="table">
+  <table>
+    <thead>
+      <tr>
+        <th style="text-align:center;"><mark class="pen-green"><strong>材料</strong></mark></th>
+        <th style="text-align:center;"><mark class="pen-green"><strong>材料</strong></mark></th>
+        <th style="text-align:center;"><mark class="pen-green"><strong>材料</strong></mark></th>
+        <th style="text-align:center;"><mark class="pen-green"><strong>材料</strong></mark></th>
+        <th style="text-align:center;"><mark class="pen-green"><strong>材料</strong></mark></th>
+        <th></th>
+        <th style="text-align:center;"><mark class="pen-green"><strong>必出属性</strong></mark></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="text-align:center;">魔法 盾牌</td>
+        <td style="text-align:center;">ITH 符文</td>
+        <td style="text-align:center;">EL 符文</td>
+        <td rowspan="1"></td>
+        <td rowspan="2"></td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p>100% CTC 等级 4 神圣之盾 升级时</p>
+          <p>+5 全部属性</p>
+          <p>魔法 盾牌</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">魔法 盾牌</td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">AMN 符文</td>
+        <td style="text-align:center;">宝石 （任意）</td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p>+1 全部 （当前职业） 技能</p>
+          <p>稀有 盾牌</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">稀有 盾牌</td>
+        <td style="text-align:center;">稀有宝石</td>
+        <td style="text-align:center;">UM 符文</td>
+        <td style="text-align:center;">IST 符文</td>
+        <td style="text-align:center;">宝石 （任意）</td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p>+30-40% 物品判为魔法或更好品质的几率</p>
+          <p>+25% 全部抗性</p>
+          <p>稀有 盾牌</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">稀有 盾牌</td>
+        <td style="text-align:center;">稀有宝石</td>
+        <td style="text-align:center;">UM 符文</td>
+        <td style="text-align:center;">SHAEL 符文</td>
+        <td style="text-align:center;">宝石 （任意）</td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p>+30% 打击恢复提升</p>
+          <p>+20-30% 格挡几率提升</p>
+          <p>+20-25% 全部抗性</p>
+          <p>稀有 盾牌</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">稀有 盾牌</td>
+        <td style="text-align:center;">稀有宝石</td>
+        <td style="text-align:center;">MAL 符文</td>
+        <td style="text-align:center;">SHAEL 符文</td>
+        <td style="text-align:center;">宝石 （任意）</td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p>+1-2 全部 （当前职业） 技能</p>
+          <p>+20-30% 强化武器伤害</p>
+          <p>稀有 盾牌</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">稀有 盾牌</td>
+        <td style="text-align:center;">稀有宝石</td>
+        <td style="text-align:center;">MAL 符文</td>
+        <td style="text-align:center;">DOL 符文</td>
+        <td style="text-align:center;">宝石 （任意）</td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p>+1-2 全部 （当前职业） 技能</p>
+          <p>+5-8% 全部元素伤害</p>
+          <p>-5-8% 敌人元素抗性</p>
+          <p>稀有 盾牌</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">稀有 盾牌</td>
+        <td style="text-align:center;">暗金宝石</td>
+        <td style="text-align:center;">BER 符文</td>
+        <td style="text-align:center;">UM 符文</td>
+        <td style="text-align:center;">宝石 （任意）</td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p>+2 所有技能</p>
+          <p>+5-10% 物理伤害减免</p>
+          <p>+30-40% 全部抗性</p>
+          <p>手工 盾牌</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">稀有 盾牌</td>
+        <td style="text-align:center;">暗金宝石</td>
+        <td style="text-align:center;">CHAM 符文</td>
+        <td style="text-align:center;">OHM 符文</td>
+        <td style="text-align:center;">宝石 （任意）</td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p>+2 所有技能</p>
+          <p>+50-80% 强化武器伤害</p>
+          <p>手工 盾牌</p>
+        </td>
+      </tr>
+      <tr>
+        <td>稀有 盾牌</td>
+        <td>暗金宝石</td>
+        <td>ZOD 符文</td>
+        <td>MAL 符文</td>
+        <td>GEM （任意）</td>
+        <td>=</td>
+        <td>
+          <p style="text-align:center;">+2 所有技能</p>
+          <p style="text-align:center;">+10-15% 全部元素伤害</p>
+          <p style="text-align:center;">-10-15% 敌人元素抗性</p>
+          <p style="text-align:center;">手工 盾牌</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<h2>身体 护甲</h2>
+<figure class="table">
+  <table>
+    <thead>
+      <tr>
+        <th style="text-align:center;"><mark class="pen-green"><strong>材料</strong></mark></th>
+        <th style="text-align:center;"><mark class="pen-green"><strong>材料</strong></mark></th>
+        <th style="text-align:center;"><mark class="pen-green"><strong>材料</strong></mark></th>
+        <th style="text-align:center;"><mark class="pen-green"><strong>材料</strong></mark></th>
+        <th style="text-align:center;"><mark class="pen-green"><strong>材料</strong></mark></th>
+        <th></th>
+        <th style="text-align:center;"><mark class="pen-green"><strong>必出属性</strong></mark></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="text-align:center;">魔法 胸甲</td>
+        <td style="text-align:center;">ITH 符文</td>
+        <td style="text-align:center;">EL 符文</td>
+        <td rowspan="1"></td>
+        <td rowspan="2"></td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p>100% CTC 等级 5 橡木智者 升级时</p>
+          <p>魔法 胸甲</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">魔法 胸甲</td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">Ral 符文</td>
+        <td style="text-align:center;">宝石 （任意）</td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p>+20% 跑动速度提升</p>
+          <p>+100 防御</p>
+          <p>魔法 胸甲</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">稀有 胸甲</td>
+        <td style="text-align:center;">稀有宝石</td>
+        <td style="text-align:center;">UM 符文</td>
+        <td style="text-align:center;">IST 符文</td>
+        <td style="text-align:center;">宝石 （任意）</td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p>+20-40% 物品判为魔法或更好品质的几率</p>
+          <p>+20-25% 全部抗性</p>
+          <p>稀有 胸甲</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">稀有 胸甲</td>
+        <td style="text-align:center;">稀有宝石</td>
+        <td style="text-align:center;">PUL 符文</td>
+        <td style="text-align:center;">SHAEL 符文</td>
+        <td style="text-align:center;">宝石 （任意）</td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p>+1 全部 （当前职业） 技能</p>
+          <p>+30-50 生命</p>
+          <p>+10-15% 攻击速度提升</p>
+          <p>稀有 胸甲</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">稀有 胸甲</td>
+        <td style="text-align:center;">稀有宝石</td>
+        <td style="text-align:center;">PUL 符文</td>
+        <td style="text-align:center;">DOL 符文</td>
+        <td style="text-align:center;">宝石 （任意）</td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p>+1 全部 （当前职业） 技能</p>
+          <p>+30-50 法力</p>
+          <p>+10-15% 施法速度提升</p>
+          <p>稀有 胸甲</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">稀有 胸甲</td>
+        <td style="text-align:center;">暗金宝石</td>
+        <td style="text-align:center;">ZOD 符文</td>
+        <td style="text-align:center;">BER 符文</td>
+        <td style="text-align:center;">UM 符文</td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p>+2 所有技能</p>
+          <p>+150-175% 强化防御</p>
+          <p>+7-10% 物理伤害减免</p>
+          <p>+20-30% 全部抗性</p>
+          <p>手工 胸甲</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<h2>武器</h2>
+<figure class="table">
+  <table>
+    <thead>
+      <tr>
+        <th style="text-align:center;"><mark class="pen-green"><strong>材料</strong></mark></th>
+        <th style="text-align:center;"><mark class="pen-green"><strong>材料</strong></mark></th>
+        <th style="text-align:center;"><mark class="pen-green"><strong>材料</strong></mark></th>
+        <th style="text-align:center;"><mark class="pen-green"><strong>材料</strong></mark></th>
+        <th style="text-align:center;"><mark class="pen-green"><strong>材料</strong></mark></th>
+        <th></th>
+        <th style="text-align:center;"><mark class="pen-green"><strong>必出属性</strong></mark></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="text-align:center;">任意 魔法 武器</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td style="text-align:center;">RAL 符文</td>
+        <td style="text-align:center;">红宝石</td>
+        <td colspan="1" rowspan="2"></td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p>+85% 强化武器伤害</p>
+          <p>+20% 攻击速度提升</p>
+          <p>魔法 武器</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">任意 魔法 武器</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td style="text-align:center;">RAL 符文</td>
+        <td style="text-align:center;">蓝宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p>+5% 全部元素伤害</p>
+          <p>+15% 施法速度提升</p>
+          <p>魔法 武器</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">任意 魔法 武器</td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">SOL 符文</td>
+        <td style="text-align:center;">SHAEL 符文</td>
+        <td style="text-align:center;">宝石 （任意）</td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p>+1 最低/最高武器伤害 (每角色等级)</p>
+          <p>+20% 攻击速度提升</p>
+          <p>稀有 武器</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">任意 稀有 武器</td>
+        <td style="text-align:center;">稀有宝石</td>
+        <td style="text-align:center;">LEM 符文</td>
+        <td style="text-align:center;">EL 符文</td>
+        <td style="text-align:center;">宝石 （任意）</td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p>+150% 强化武器伤害</p>
+          <p>+30% 攻击速度提升</p>
+          <p>稀有 武器</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">任意 稀有 武器</td>
+        <td style="text-align:center;">稀有宝石</td>
+        <td style="text-align:center;">PUL 符文</td>
+        <td style="text-align:center;">EL 符文</td>
+        <td style="text-align:center;">宝石 （任意）</td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p>+1所有技能</p>
+          <p>-10% 敌人元素抗性</p>
+          <p>+20% 施法速度提升</p>
+          <p>稀有 武器</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">1H 稀有 武器</td>
+        <td style="text-align:center;">暗金宝石</td>
+        <td style="text-align:center;">BER 符文</td>
+        <td style="text-align:center;">OHM 符文</td>
+        <td style="text-align:center;">宝石 （任意）</td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p>+2 所有技能</p>
+          <p>+150-200% 强化武器伤害</p>
+          <p>+30-60 武器伤害</p>
+          <p>1H 手工 武器</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">2H 稀有 武器</td>
+        <td style="text-align:center;">暗金宝石</td>
+        <td style="text-align:center;">BER 符文</td>
+        <td style="text-align:center;">OHM 符文</td>
+        <td style="text-align:center;">宝石 （任意）</td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p>+2 所有技能</p>
+          <p>+220-250% 强化武器伤害</p>
+          <p>+60-100 武器伤害</p>
+          <p>2H 手工 武器</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">1H 稀有 武器</td>
+        <td style="text-align:center;">暗金宝石</td>
+        <td style="text-align:center;">CHAM 符文</td>
+        <td style="text-align:center;">BER 符文</td>
+        <td style="text-align:center;">宝石 （任意）</td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p>+2 所有技能</p>
+          <p>+10-15% 全部元素伤害</p>
+          <p>-8-12% 敌人元素抗性</p>
+          <p>1H 手工 武器</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">2H 稀有 武器</td>
+        <td style="text-align:center;">暗金宝石</td>
+        <td style="text-align:center;">CHAM 符文</td>
+        <td style="text-align:center;">BER 符文</td>
+        <td style="text-align:center;">宝石 （任意）</td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p>+2 所有技能</p>
+          <p>+15-20% 全部元素伤害</p>
+          <p>-12-16% 敌人元素抗性</p>
+          <p>2H 手工 武器</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<h2>箭矢与弩矢</h2>
+<figure class="table">
+  <table>
+    <thead>
+      <tr>
+        <th style="text-align:center;"><mark class="pen-green"><strong>材料</strong></mark></th>
+        <th style="text-align:center;"><mark class="pen-green"><strong>材料</strong></mark></th>
+        <th style="text-align:center;"><mark class="pen-green"><strong>材料</strong></mark></th>
+        <th></th>
+        <th style="text-align:center;"><mark class="pen-green"><strong>产物</strong></mark></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="text-align:center;">箭矢<br>或<br>弩矢</td>
+        <td style="text-align:center;">TIR 符文</td>
+        <td style="text-align:center;">宝石 （任意）</td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p><mark class="pen-green">补满箭袋</mark><br>或<br><mark class="pen-green">补满弩矢袋</mark></p>
+          <p>需求等级: 6<br>附加 2-8 伤害<br>+10% 攻击速度提升<br>补满数量</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">箭矢<br>或<br>弩矢</td>
+        <td style="text-align:center;">THUL 符文</td>
+        <td style="text-align:center;">宝石 （任意）</td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p><mark class="pen-green">穿透箭袋</mark><br>或<br><mark class="pen-green">穿透弩矢袋</mark></p>
+          <p>需求等级: 35<br>附加 4-12 伤害<br>+15% 攻击速度提升<br>+15% 穿透<br>补满数量</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">箭矢<br>或<br>弩矢</td>
+        <td style="text-align:center;">FAL 符文</td>
+        <td style="text-align:center;">宝石 （任意）</td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p><mark class="pen-green">杀戮箭袋</mark><br>或<br><mark class="pen-green">杀戮弩矢袋</mark></p>
+          <p>需求等级: 65<br>附加 5-20 伤害<br>+20% 攻击速度提升<br>+15% 穿透（弩矢）或 +25% 穿透（箭袋）<br>+1 弓与十字弓技能<br>补满数量</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">杀戮箭袋<br>或<br>杀戮弩矢袋</td>
+        <td style="text-align:center;">稀有宝石</td>
+        <td style="text-align:center;">VEX 符文</td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p><mark class="pen-green">强化杀戮箭袋</mark><br>或<br><mark class="pen-green">强化杀戮弩矢袋</mark></p>
+          <p>需求等级: 85<br>附加 10-25 伤害<br>+20% 攻击速度提升<br>25% 穿透<br>+2 弓与十字弓技能<br>20% 几率施放 10 伤害放大 击中时</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">杀戮箭袋<br>或<br>杀戮弩矢袋</td>
+        <td style="text-align:center;">稀有宝石</td>
+        <td style="text-align:center;">OHM 符文</td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p><mark class="pen-green">破抗杀戮箭袋</mark><br>或<br><mark class="pen-green">破抗杀戮弩矢袋</mark></p>
+          <p>需求等级: 85<br>附加 10-25 伤害<br>+20% 攻击速度提升<br>+25% 穿透<br>+2 弓与十字弓技能<br>20% 几率施放 5 降低抗性 击中时</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">杀戮箭袋<br>或<br>杀戮弩矢袋</td>
+        <td style="text-align:center;">稀有宝石</td>
+        <td style="text-align:center;">GUL 符文</td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p><mark class="pen-green">瘟疫箭袋</mark><br>或<br><mark class="pen-green">瘟疫弩矢袋</mark></p>
+          <p>需求等级: 85<br>-10% 敌人毒素抗性<br>+10% 毒素伤害<br>+20% 攻击速度提升<br>+25% 穿透攻击<br>5% CTC 等级 10 尸爆 击中时</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<h2>宝石</h2>
+<blockquote>
+  <p><mark class="pen-red">这些制作会根据作为材料使用的破免护身符，产出不同的暗金宝石。</mark></p>
+</blockquote>
+<figure class="table">
+  <table>
+    <thead>
+      <tr>
+        <th style="text-align:center;">
+          <p style="text-align:center;"><mark class="pen-green"><strong>材料</strong></mark></p>
+        </th>
+        <th style="text-align:center;">
+          <p style="text-align:center;"><mark class="pen-green"><strong>材料</strong></mark></p>
+        </th>
+        <th style="text-align:center;">
+          <p style="text-align:center;"><mark class="pen-green"><strong>材料</strong></mark></p>
+        </th>
+        <th></th>
+        <th style="text-align:center;" colspan="2">
+          <p style="text-align:center;"><mark class="pen-green"><strong>必出属性</strong></mark></p>
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <p style="text-align:center;">冰冷裂隙<br>（破免：冰冷）</p>
+        </td>
+        <td>
+          <p style="text-align:center;">暗金宝石</p>
+        </td>
+        <td>
+          <p style="text-align:center;">宝石袋 (100 宝石)</p>
+        </td>
+        <td>=</td>
+        <td colspan="2">
+          <p style="text-align:center;">冬之切面</p>
+          <p style="text-align:center;">暗金宝石</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p style="text-align:center;">火焰之隙<br>（破免：火焰）</p>
+        </td>
+        <td>
+          <p style="text-align:center;">暗金宝石</p>
+        </td>
+        <td>
+          <p style="text-align:center;">宝石袋 (100 宝石)</p>
+        </td>
+        <td>=</td>
+        <td colspan="2">
+          <p style="text-align:center;">夏之切面</p>
+          <p style="text-align:center;">暗金宝石</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p style="text-align:center;">苍穹之裂<br>（破免：闪电）</p>
+        </td>
+        <td>
+          <p style="text-align:center;">暗金宝石</p>
+        </td>
+        <td>
+          <p style="text-align:center;">宝石袋 (100 宝石)</p>
+        </td>
+        <td>=</td>
+        <td colspan="2">
+          <p style="text-align:center;">春之切面</p>
+          <p style="text-align:center;">暗金宝石</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p style="text-align:center;">腐朽之缝<br>（破免：毒素）</p>
+        </td>
+        <td>
+          <p style="text-align:center;">暗金宝石</p>
+        </td>
+        <td>
+          <p style="text-align:center;">宝石袋 (100 宝石)</p>
+        </td>
+        <td>=</td>
+        <td colspan="2">
+          <p style="text-align:center;">秋之切面</p>
+          <p style="text-align:center;">暗金宝石</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p style="text-align:center;">碎骨之击<br>（破免：物理）</p>
+        </td>
+        <td>
+          <p style="text-align:center;">暗金宝石</p>
+        </td>
+        <td>
+          <p style="text-align:center;">宝石袋 (100 宝石)</p>
+        </td>
+        <td>=</td>
+        <td colspan="2">
+          <p style="text-align:center;">星之切面</p>
+          <p style="text-align:center;">暗金宝石</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p style="text-align:center;">黑石之隙<br>（破免：魔法）</p>
+        </td>
+        <td>
+          <p style="text-align:center;">暗金宝石（2 颗）</p>
+        </td>
+        <td>
+          <p style="text-align:center;">宝石袋 (100 宝石)</p>
+        </td>
+        <td>=</td>
+        <td colspan="2">
+          <p style="text-align:center;">天堂之切面</p>
+          <p style="text-align:center;">暗金宝石</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<h2>护身符</h2>
+<blockquote>
+  <p><mark class="pen-red">所有制作都产出必出属性，并额外从巨型护身符前缀/后缀表中随机获得 3-4 条属性</mark></p>
+</blockquote>
+<figure class="table">
+  <table>
+    <thead>
+      <tr>
+        <th style="text-align:center;">
+          <p style="text-align:center;"><mark class="pen-green"><strong>材料</strong></mark></p>
+        </th>
+        <th style="text-align:center;">
+          <p style="text-align:center;"><mark class="pen-green"><strong>材料</strong></mark></p>
+        </th>
+        <th style="text-align:center;">
+          <p style="text-align:center;"><mark class="pen-green"><strong>材料</strong></mark></p>
+        </th>
+        <th style="text-align:center;">
+          <p style="text-align:center;"><mark class="pen-green"><strong>材料</strong></mark></p>
+        </th>
+        <th>
+          <p style="text-align:center;"><mark class="pen-green"><strong>材料</strong></mark></p>
+        </th>
+        <th></th>
+        <th></th>
+        <th style="text-align:center;" colspan="2">
+          <p style="text-align:center;"><mark class="pen-green"><strong>必出属性</strong></mark></p>
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <p style="text-align:center;">魔法 护身符<br>（巨型）</p>
+        </td>
+        <td>
+          <p style="text-align:center;">魔法宝石</p>
+        </td>
+        <td>
+          <p style="text-align:center;">SHAEL 符文</p>
+        </td>
+        <td>
+          <p style="text-align:center;">EL 符文</p>
+        </td>
+        <td></td>
+        <td></td>
+        <td>=</td>
+        <td colspan="2">
+          <p style="text-align:center;">+5-10% 攻击速度提升<br>魔法 护身符</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p style="text-align:center;">魔法 护身符<br>（巨型）</p>
+        </td>
+        <td>
+          <p style="text-align:center;">魔法宝石</p>
+        </td>
+        <td>
+          <p style="text-align:center;">DOL 符文</p>
+        </td>
+        <td>
+          <p style="text-align:center;">EL 符文</p>
+        </td>
+        <td></td>
+        <td></td>
+        <td>=</td>
+        <td colspan="2">
+          <p style="text-align:center;">+5-10% 施法速度提升<br>魔法 护身符</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">
+          <p style="text-align:center;">魔法 护身符<br>（巨型）</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">魔法宝石</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">HEL 符文</p>
+        </td>
+        <td>
+          <p style="text-align:center;">EL 符文</p>
+        </td>
+        <td>
+          <p style="text-align:center;"></p>
+        </td>
+        <td></td>
+        <td>
+          <p style="text-align:center;">=</p>
+        </td>
+        <td colspan="2">
+          <p style="text-align:center;">+5-10% 获得经验<br>魔法 护身符</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">魔法 护身符<br>（巨型）</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">魔法宝石</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">KO 符文</p>
+        </td>
+        <td>
+          <p style="text-align:center;">FAL 符文</p>
+        </td>
+        <td></td>
+        <td></td>
+        <td>=</td>
+        <td style="text-align:center;" colspan="2">
+          <p style="text-align:center;">+5-8 敏捷</p>
+          <p style="text-align:center;">+5-8 力量</p>
+          <p style="text-align:center;">+5-8% 强化武器伤害<br>魔法 护身符</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">魔法 护身符<br>（巨型）</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">魔法宝石</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">PUL 符文</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">EL 符文</p>
+        </td>
+        <td></td>
+        <td></td>
+        <td>=</td>
+        <td colspan="2">
+          <p style="text-align:center;">+50-70 防御</p>
+          <p style="text-align:center;">+10-15 武器伤害</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">魔法 护身符<br>（巨型）</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">魔法宝石</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">UM 符文</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">EL 符文</p>
+        </td>
+        <td></td>
+        <td></td>
+        <td>=</td>
+        <td colspan="2">
+          <p style="text-align:center;">+8-10 全部抗性</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">魔法 护身符<br>（巨型）</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">魔法宝石</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">IST 符文</p>
+        </td>
+        <td>
+          <p style="text-align:center;">EL 符文</p>
+        </td>
+        <td></td>
+        <td></td>
+        <td>=</td>
+        <td style="text-align:center;" colspan="2">
+          <p style="text-align:center;">+25-40% 魔法获取</p>
+          <p style="text-align:center;">+50-80% 金币获取</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">
+          <p style="text-align:center;">魔法 护身符<br>（巨型）</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">稀有宝石</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">Vex 符文</p>
+        </td>
+        <td>
+          <p style="text-align:center;">THUL 符文</p>
+        </td>
+        <td>
+          <p style="text-align:center;">黄玉</p>
+        </td>
+        <td></td>
+        <td>
+          <p style="text-align:center;">=</p>
+        </td>
+        <td style="text-align:center;" colspan="2">
+          <p style="text-align:center;">+1 随机 刺客 技能页</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">
+          <p style="text-align:center;">魔法 护身符<br>（巨型）</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">稀有宝石</p>
+        </td>
+        <td style="text-align:center;">VEX 符文</td>
+        <td style="text-align:center;">THUL 符文</td>
+        <td>
+          <p style="text-align:center;">红宝石</p>
+        </td>
+        <td></td>
+        <td>
+          <p style="text-align:center;">=</p>
+        </td>
+        <td colspan="2">
+          <p style="text-align:center;">+1 随机 野蛮人 技能页</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">
+          <p style="text-align:center;">魔法 护身符<br>（巨型）</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">稀有宝石</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">Vex 符文</p>
+        </td>
+        <td style="text-align:center;">THUL 符文</td>
+        <td>
+          <p style="text-align:center;">蓝宝石</p>
+        </td>
+        <td></td>
+        <td>
+          <p style="text-align:center;">=</p>
+        </td>
+        <td colspan="2">
+          <p style="text-align:center;">+1 随机 法师 技能页</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">
+          <p style="text-align:center;">魔法 护身符<br>（巨型）</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">稀有宝石</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">Vex 符文</p>
+        </td>
+        <td style="text-align:center;">THUL 符文</td>
+        <td>
+          <p style="text-align:center;">绿宝石</p>
+        </td>
+        <td></td>
+        <td>
+          <p style="text-align:center;">=</p>
+        </td>
+        <td colspan="2">
+          <p style="text-align:center;">+1 随机 德鲁伊 技能页</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">
+          <p style="text-align:center;">魔法 护身符<br>（巨型）</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">稀有宝石</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">Vex 符文</p>
+        </td>
+        <td style="text-align:center;">THUL 符文</td>
+        <td>
+          <p style="text-align:center;">头骨宝石</p>
+        </td>
+        <td></td>
+        <td>
+          <p style="text-align:center;">=</p>
+        </td>
+        <td colspan="2">
+          <p style="text-align:center;">+1 随机 死灵法师 技能页</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">
+          <p style="text-align:center;">魔法 护身符<br>（巨型）</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">稀有宝石</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">Vex 符文</p>
+        </td>
+        <td style="text-align:center;">THUL 符文</td>
+        <td>
+          <p style="text-align:center;">紫水晶</p>
+        </td>
+        <td></td>
+        <td>
+          <p style="text-align:center;">=</p>
+        </td>
+        <td colspan="2">
+          <p style="text-align:center;">+1 随机 亚马逊 技能页</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">
+          <p style="text-align:center;">魔法 护身符<br>（巨型）</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">稀有宝石</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">Vex 符文</p>
+        </td>
+        <td style="text-align:center;">THUL 符文</td>
+        <td>
+          <p style="text-align:center;">钻石</p>
+        </td>
+        <td></td>
+        <td>
+          <p style="text-align:center;">=</p>
+        </td>
+        <td colspan="2">
+          <p style="text-align:center;">+1 随机 圣骑士 技能页</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">
+          <p style="text-align:center;">魔法 护身符<br>（巨型）</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">稀有宝石</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">Vex 符文</p>
+        </td>
+        <td style="text-align:center;">THUL 符文</td>
+        <td>
+          <p style="text-align:center;">混沌缟玛瑙</p>
+        </td>
+        <td></td>
+        <td>
+          <p style="text-align:center;">=</p>
+        </td>
+        <td>
+          <p style="text-align:center;">+1 随机 术士 技能页</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p style="text-align:center;">暗金护身符<br>（破免：火焰）</p>
+        </td>
+        <td>
+          <p style="text-align:center;">暗金宝石</p>
+        </td>
+        <td>
+          <p style="text-align:center;">SUR 符文</p>
+        </td>
+        <td>
+          <p style="text-align:center;">宝石袋 (50 宝石)</p>
+        </td>
+        <td>
+          <p style="text-align:center;"></p>
+        </td>
+        <td></td>
+        <td>
+          <p style="text-align:center;">=</p>
+        </td>
+        <td colspan="2">
+          <p style="text-align:center;">破除敌人火焰免疫</p>
+          <p style="text-align:center;">无抗性惩罚</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">暗金护身符<br>（破免：冰冷）</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">暗金宝石</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">SUR 符文</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">宝石袋 (50 宝石)</p>
+        </td>
+        <td></td>
+        <td></td>
+        <td>=</td>
+        <td style="text-align:center;" colspan="2">
+          <p style="text-align:center;">破除敌人冰冷免疫</p>
+          <p style="text-align:center;">无抗性惩罚</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">暗金护身符<br>（破免：闪电）</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">暗金宝石</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">SUR 符文</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">宝石袋 (50 宝石)</p>
+        </td>
+        <td></td>
+        <td></td>
+        <td>=</td>
+        <td style="text-align:center;" colspan="2">
+          <p style="text-align:center;">破除敌人闪电免疫</p>
+          <p style="text-align:center;">无抗性惩罚</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">暗金护身符<br>（破免：毒素）</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">暗金宝石</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">SUR 符文</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">宝石袋 (50 宝石)</p>
+        </td>
+        <td></td>
+        <td></td>
+        <td>=</td>
+        <td style="text-align:center;" colspan="2">
+          <p style="text-align:center;">破除敌人毒素免疫</p>
+          <p style="text-align:center;">无抗性惩罚</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">暗金护身符<br>（破免：物理）</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">暗金宝石</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">SUR 符文</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">宝石袋 (50 宝石)</p>
+        </td>
+        <td></td>
+        <td></td>
+        <td>=</td>
+        <td style="text-align:center;" colspan="2">
+          <p style="text-align:center;">破除敌人物理免疫</p>
+          <p style="text-align:center;">无抗性惩罚</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">暗金护身符<br>（破免：魔法）</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">暗金宝石</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">SUR 符文</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">宝石袋 (50 宝石)</p>
+        </td>
+        <td></td>
+        <td></td>
+        <td>=</td>
+        <td style="text-align:center;" colspan="2">
+          <p style="text-align:center;">破除敌人魔法免疫</p>
+          <p style="text-align:center;">无抗性惩罚</p>
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td colspan="2">
+          <p style="text-align:center;"><mark class="pen-red"><strong><u>以下为原版破免护身符</u></strong></mark></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p style="text-align:center;">暗金护身符<br>（破免：火焰）</p>
+        </td>
+        <td>
+          <p style="text-align:center;">深层世界石碎片</p>
+        </td>
+        <td>
+          <p style="text-align:center;">IO 符文</p>
+        </td>
+        <td>
+          <p style="text-align:center;">红宝石</p>
+        </td>
+        <td></td>
+        <td></td>
+        <td>=</td>
+        <td colspan="2">
+          <p style="text-align:center;">焕新火焰之隙</p>
+          <p style="text-align:center;">-70% 火焰抗性惩罚</p>
+          <p style="text-align:center;">任选其一：+5-15% 火焰技能伤害</p>
+          <p style="text-align:center;">或</p>
+          <p style="text-align:center;">-5-10% 敌人火焰抗性</p>
+          <p style="text-align:center;">暗金护身符</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p style="text-align:center;">暗金护身符<br>（破免：冰冷）</p>
+        </td>
+        <td>
+          <p style="text-align:center;">东部世界石碎片</p>
+        </td>
+        <td>
+          <p style="text-align:center;">LUM 符文</p>
+        </td>
+        <td>
+          <p style="text-align:center;">蓝宝石</p>
+        </td>
+        <td></td>
+        <td></td>
+        <td>=</td>
+        <td colspan="2">
+          <p style="text-align:center;">焕新冰冷裂隙</p>
+          <p style="text-align:center;">-70% 冰冷抗性惩罚</p>
+          <p style="text-align:center;">任选其一：+5-15% 冰冷技能伤害</p>
+          <p style="text-align:center;">或</p>
+          <p style="text-align:center;">-5-10% 敌人冰冷抗性</p>
+          <p style="text-align:center;">暗金护身符</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p style="text-align:center;">暗金护身符<br>（破免：闪电）</p>
+        </td>
+        <td>
+          <p style="text-align:center;">南部世界石碎片</p>
+        </td>
+        <td>
+          <p style="text-align:center;">FAL 符文</p>
+        </td>
+        <td>
+          <p style="text-align:center;">黄玉</p>
+        </td>
+        <td></td>
+        <td></td>
+        <td>=</td>
+        <td colspan="2">
+          <p style="text-align:center;">焕新苍穹之裂</p>
+          <p style="text-align:center;">-70% 闪电抗性惩罚</p>
+          <p style="text-align:center;">任选其一：+5-15% 闪电技能伤害</p>
+          <p style="text-align:center;">或</p>
+          <p style="text-align:center;">-5-10% 敌人闪电抗性</p>
+          <p style="text-align:center;">暗金护身符</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p style="text-align:center;">暗金护身符<br>（破免：毒素）</p>
+        </td>
+        <td>
+          <p style="text-align:center;">西部世界石碎片</p>
+        </td>
+        <td>
+          <p style="text-align:center;">KO 符文</p>
+        </td>
+        <td>
+          <p style="text-align:center;">绿宝石</p>
+        </td>
+        <td></td>
+        <td></td>
+        <td>=</td>
+        <td colspan="2">
+          <p style="text-align:center;">焕新腐朽之缝</p>
+          <p style="text-align:center;">-70% 毒素抗性惩罚</p>
+          <p style="text-align:center;">任选其一：+5-15% 毒素技能伤害</p>
+          <p style="text-align:center;">或</p>
+          <p style="text-align:center;">-5-10% 敌人毒素抗性</p>
+          <p style="text-align:center;">暗金护身符</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p style="text-align:center;">暗金护身符<br>（破免：物理）</p>
+        </td>
+        <td>
+          <p style="text-align:center;">北部世界石碎片</p>
+        </td>
+        <td>
+          <p style="text-align:center;">PUL 符文</p>
+        </td>
+        <td>
+          <p style="text-align:center;">紫水晶</p>
+        </td>
+        <td></td>
+        <td></td>
+        <td>=</td>
+        <td colspan="2">
+          <p style="text-align:center;">焕新碎骨之击</p>
+          <p style="text-align:center;">-10% 物理抗性惩罚</p>
+          <p style="text-align:center;">任选其一：+75-100% 强化武器伤害</p>
+          <p style="text-align:center;">或</p>
+          <p style="text-align:center;">-5-10% 敌人物理伤害抗性</p>
+          <p style="text-align:center;">暗金护身符</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p style="text-align:center;">暗金护身符<br>（破免：魔法）</p>
+        </td>
+        <td>
+          <p style="text-align:center;">南部世界石碎片</p>
+        </td>
+        <td>
+          <p style="text-align:center;">深层世界石碎片</p>
+        </td>
+        <td>
+          <p style="text-align:center;">北部世界石碎片</p>
+        </td>
+        <td>MAL 符文</td>
+        <td>钻石</td>
+        <td>=</td>
+        <td colspan="2">
+          <p style="text-align:center;">焕新黑石之隙</p>
+          <p style="text-align:center;">-45% 魔法抗性惩罚</p>
+          <p style="text-align:center;">任选其一：+10-15% 魔法技能伤害</p>
+          <p style="text-align:center;">或</p>
+          <p style="text-align:center;">-5-10% 敌人魔法抗性</p>
+          <p style="text-align:center;">暗金护身符</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</figure>

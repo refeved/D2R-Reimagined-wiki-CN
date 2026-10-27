@@ -1,0 +1,3267 @@
+<!--
+title: 物品附魔
+description: 如何升级物品以添加额外属性
+published: true
+date: 2026-03-03T15:08:54.490Z
+tags: enchant, crafting, cube, cube recipes, upgrades, item upgrades, enchanting, stat increase
+editor: ckeditor
+dateCreated: 2025-02-07T13:46:35.085Z
+-->
+
+<h2>物品附魔系统</h2>
+<p>所有武器、护甲与首饰都可被附魔，附加各种额外属性，并有各自的附魔次数上限。<br>双手武器可附魔 10 次。<br>单手武器、盾牌与胸甲可附魔 5 次。<br>头盔、手套、腰带与靴子可附魔 3 次。<br>首饰可附魔 2 次。</p>
+<h4>重要提示：</h4>
+<p>物品仍受其数值上限约束（例如 +所有技能 不能超过 7）。</p>
+<ul>
+  <li><a href="https://wiki.d2r-reimagined.com/en/recipes/ISCStatLimits">D2RR 属性上限（施工中）</a></li>
+</ul>
+<h4>套装物品 Bug：</h4>
+<p>附魔套装物品前，必须先从角色身上脱下该套装的其他所有部件。</p>
+<ol>
+  <li>把相关的套装部件放入共享仓库，保存并退出游戏，再加入一个新游戏，然后附魔你要处理的那件套装物品。</li>
+  <li>对其余套装部件重复同样的操作。</li>
+  <li>若不这样做，附魔会被计入套装加成，只有当套装加成生效时才起作用。</li>
+</ol>
+<h2>项链</h2>
+<blockquote>
+  <p><mark class="pen-red"><strong>最大附魔次数：2</strong></mark></p>
+</blockquote>
+<figure class="table">
+  <table>
+    <thead>
+      <tr>
+        <th style="text-align:center;"><mark class="pen-green">材料</mark></th>
+        <th style="text-align:center;"><mark class="pen-green">材料</mark></th>
+        <th style="text-align:center;"><mark class="pen-green">材料</mark></th>
+        <th><mark class="pen-green">材料</mark></th>
+        <th></th>
+        <th style="text-align:center;"><mark class="pen-green">新增属性</mark></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="text-align:center;"><strong>项链</strong></td>
+        <td style="text-align:center;">黄玉</td>
+        <td style="text-align:center;" rowspan="6"></td>
+        <td rowspan="10"></td>
+        <td>=</td>
+        <td style="text-align:center;">+12% 魔法获取<br>+25% 金币获取</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>项链</strong></td>
+        <td style="text-align:center;">红宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+25 生命<br>+4 生命/击杀</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>项链</strong></td>
+        <td style="text-align:center;">蓝宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+25 法力<br>+4 法力/击杀</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>项链</strong></td>
+        <td style="text-align:center;">绿宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+5 敏捷<br>+5 活力</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>项链</strong></td>
+        <td style="text-align:center;">头骨宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+5 能量<br>+5 活力</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>项链</strong></td>
+        <td style="text-align:center;">紫水晶</td>
+        <td>=</td>
+        <td style="text-align:center;">+5 力量<br>+5 活力</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>项链</strong></td>
+        <td style="text-align:center;">红宝石</td>
+        <td style="text-align:center;">TIR 符文</td>
+        <td>=</td>
+        <td style="text-align:center;">+10 火焰抗性</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>项链</strong></td>
+        <td style="text-align:center;">蓝宝石</td>
+        <td style="text-align:center;">TIR 符文</td>
+        <td>=</td>
+        <td style="text-align:center;">+10 冰冷抗性</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>项链</strong></td>
+        <td style="text-align:center;">黄玉</td>
+        <td style="text-align:center;">TIR 符文</td>
+        <td>=</td>
+        <td style="text-align:center;">+10 闪电抗性</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>项链</strong></td>
+        <td style="text-align:center;">绿宝石</td>
+        <td style="text-align:center;">TIR 符文</td>
+        <td>=</td>
+        <td style="text-align:center;">+10 毒素抗性</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>项链</strong></td>
+        <td style="text-align:center;">钻石</td>
+        <td>TIR 符文</td>
+        <td>魔法宝石</td>
+        <td>=</td>
+        <td>+5% 全部抗性</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>项链</strong></td>
+        <td style="text-align:center;">黄玉</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td rowspan="8"></td>
+        <td>=</td>
+        <td style="text-align:center;">+2 随机 刺客 技能</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>项链</strong></td>
+        <td style="text-align:center;">红宝石</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+2 随机 野蛮人 技能</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>项链</strong></td>
+        <td style="text-align:center;">蓝宝石</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+2 随机 法师 技能</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>项链</strong></td>
+        <td style="text-align:center;">绿宝石</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+2 随机 德鲁伊 技能</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>项链</strong></td>
+        <td style="text-align:center;">头骨宝石</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+2 随机 死灵法师 技能</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>项链</strong></td>
+        <td style="text-align:center;">紫水晶</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+2 随机 亚马逊 技能</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>项链</strong></td>
+        <td style="text-align:center;">钻石</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+2 随机 圣骑士 技能</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>项链</strong></td>
+        <td style="text-align:center;">混沌缟玛瑙</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+2 随机 术士 技能</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>项链</strong></td>
+        <td style="text-align:center;">黄玉</td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">稀有宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+25% 魔法获取<br>+50% 金币获取</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>项链</strong></td>
+        <td style="text-align:center;">红宝石</td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">稀有宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+50 生命<br>+6 生命/击杀</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>项链</strong></td>
+        <td style="text-align:center;">蓝宝石</td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">稀有宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+50 法力<br>+6 法力/击杀</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>项链</strong></td>
+        <td style="text-align:center;">绿宝石</td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">稀有宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+12 敏捷<br>+12 活力</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>项链</strong></td>
+        <td style="text-align:center;">头骨宝石</td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">稀有宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+12 能量<br>+12 活力</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>项链</strong></td>
+        <td style="text-align:center;">紫水晶</td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">稀有宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+12 力量<br>+12 活力</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>项链</strong></td>
+        <td style="text-align:center;">钻石</td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">稀有宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+12 全部抗性</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>项链</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">暗金宝石</td>
+        <td></td>
+        <td>=</td>
+        <td style="text-align:center;">+1 职业技能 （当前职业）</td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<p></p>
+<h2>戒指</h2>
+<blockquote>
+  <p><mark class="pen-red"><strong>最大附魔次数：2</strong></mark></p>
+</blockquote>
+<figure class="table">
+  <table>
+    <thead>
+      <tr>
+        <th style="text-align:center;"><mark class="pen-green">材料</mark></th>
+        <th style="text-align:center;"><mark class="pen-green">材料</mark></th>
+        <th style="text-align:center;"><mark class="pen-green">材料</mark></th>
+        <th style="text-align:center;"><mark class="pen-green">材料</mark></th>
+        <th style="text-align:center;"><mark class="pen-green">材料</mark></th>
+        <th></th>
+        <th style="text-align:center;"><mark class="pen-green">新增属性</mark></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="text-align:center;"><strong>戒指</strong></td>
+        <td style="text-align:center;">黄玉</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td style="text-align:center;" rowspan="7"></td>
+        <td style="text-align:center;" rowspan="7"></td>
+        <td>=</td>
+        <td style="text-align:center;">+10% 魔法获取<br>+20% 金币获取</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>戒指</strong></td>
+        <td style="text-align:center;">红宝石</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+20 生命<br>+2 生命/击杀</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>戒指</strong></td>
+        <td style="text-align:center;">蓝宝石</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+20 法力<br>+2 法力/击杀</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>戒指</strong></td>
+        <td style="text-align:center;">红宝石</td>
+        <td style="text-align:center;">TIR 符文</td>
+        <td>=</td>
+        <td style="text-align:center;">+10 火焰抗性</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>戒指</strong></td>
+        <td style="text-align:center;">蓝宝石</td>
+        <td style="text-align:center;">TIR 符文</td>
+        <td>=</td>
+        <td style="text-align:center;">+10 冰冷抗性</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>戒指</strong></td>
+        <td style="text-align:center;">黄玉</td>
+        <td style="text-align:center;">TIR 符文</td>
+        <td>=</td>
+        <td style="text-align:center;">+10 闪电抗性</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>戒指</strong></td>
+        <td style="text-align:center;">绿宝石</td>
+        <td style="text-align:center;">TIR 符文</td>
+        <td>=</td>
+        <td style="text-align:center;">+10 毒素抗性</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>戒指</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">蓝宝石</td>
+        <td style="text-align:center;">ITH 符文</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+30 法力<br>+3 法力/击杀</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>戒指</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">红宝石</td>
+        <td style="text-align:center;">DOL 符文</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+30 生命<br>+3 生命/击杀</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>戒指</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">头骨宝石</td>
+        <td style="text-align:center;">IO 符文</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+5% 偷取生命</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>戒指</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">头骨宝石</td>
+        <td style="text-align:center;">LUM 符文</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+5% 偷取法力</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>戒指</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">钻石</td>
+        <td style="text-align:center;">UM 符文</td>
+        <td style="text-align:center;">稀有宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+5 全部抗性</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>戒指</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">黄玉</td>
+        <td style="text-align:center;">IST 符文</td>
+        <td style="text-align:center;">稀有宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+20% 魔法获取<br>+30% 金币获取</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>戒指</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">绿宝石</td>
+        <td style="text-align:center;">VEX 符文</td>
+        <td style="text-align:center;">稀有宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+6 全部属性</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>戒指</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">黄玉</td>
+        <td style="text-align:center;">OHM 符文</td>
+        <td style="text-align:center;">稀有宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+4% 获得经验</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>戒指</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">绿宝石</td>
+        <td style="text-align:center;">GUL 符文</td>
+        <td style="text-align:center;">稀有宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+8% 攻击速度提升</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>戒指</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">绿宝石</td>
+        <td style="text-align:center;">LO 符文</td>
+        <td style="text-align:center;">稀有宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+8% 施法速度提升</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>戒指</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">蓝宝石</td>
+        <td style="text-align:center;">SUR 符文</td>
+        <td style="text-align:center;">稀有宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+6% 最大法力</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>戒指</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">紫水晶</td>
+        <td style="text-align:center;">BER 符文</td>
+        <td style="text-align:center;">稀有宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+4% 伤害减免</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>戒指</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">红宝石</td>
+        <td style="text-align:center;">JAH 符文</td>
+        <td style="text-align:center;">稀有宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+6% 最大生命</td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<p></p>
+<h2>腰带</h2>
+<blockquote>
+  <p><mark class="pen-red"><strong>最大附魔次数：3</strong></mark></p>
+</blockquote>
+<figure class="table">
+  <table>
+    <thead>
+      <tr>
+        <th style="text-align:center;">
+          <p style="text-align:center;"><mark class="pen-green">材料</mark></p>
+        </th>
+        <th style="text-align:center;">
+          <p style="text-align:center;"><mark class="pen-green">材料</mark></p>
+        </th>
+        <th style="text-align:center;">
+          <p style="text-align:center;"><mark class="pen-green">材料</mark></p>
+        </th>
+        <th style="text-align:center;">
+          <p style="text-align:center;"><mark class="pen-green">材料</mark></p>
+        </th>
+        <th style="text-align:center;">
+          <p style="text-align:center;"><mark class="pen-green">材料</mark></p>
+        </th>
+        <th></th>
+        <th style="text-align:center;">
+          <p style="text-align:center;"><mark class="pen-green">新增属性</mark></p>
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="text-align:center;">
+          <p style="text-align:center;"><strong>腰带</strong></p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">黄玉</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">魔法宝石</p>
+        </td>
+        <td style="text-align:center;" rowspan="10">
+          <p style="text-align:center;"></p>
+        </td>
+        <td style="text-align:center;" rowspan="10">
+          <p style="text-align:center;"></p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">+7% 魔法获取<br>+10% 金币获取</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">
+          <p style="text-align:center;"><strong>腰带</strong></p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">红宝石</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">魔法宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">+15 生命<br>+2 生命/击杀</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">
+          <p style="text-align:center;"><strong>腰带</strong></p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">蓝宝石</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">魔法宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">+15 法力<br>+2 法力/击杀</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">
+          <p style="text-align:center;"><strong>腰带</strong></p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">绿宝石</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">魔法宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">+5 敏捷<br>+5 活力</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">
+          <p style="text-align:center;"><strong>腰带</strong></p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">紫水晶</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">魔法宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">+5 力量<br>+5 活力</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">
+          <p style="text-align:center;"><strong>腰带</strong></p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">头骨宝石</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">魔法宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">+5 能量<br>+5 活力</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">
+          <p style="text-align:center;"><strong>腰带</strong></p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">钻石</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">魔法宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">+2 全部抗性</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">
+          <p style="text-align:center;"><strong>腰带</strong></p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">ETH 符文</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">魔法宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">+4% 法力恢复</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">
+          <p style="text-align:center;"><strong>腰带</strong></p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">ITH 符文</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">魔法宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">+6% 伤害转法力</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">
+          <p style="text-align:center;"><strong>腰带</strong></p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">SOL 符文</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">魔法宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">物理伤害降低 3</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">
+          <p style="text-align:center;"><strong>腰带</strong></p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">注魔魔球</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">蓝宝石</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">ITH 符文</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">魔法宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">+30 法力<br>+3 法力/击杀</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">
+          <p style="text-align:center;"><strong>腰带</strong></p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">注魔魔球</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">绿宝石</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">SHAEL 符文</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">魔法宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">+7% 打击恢复提升</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">
+          <p style="text-align:center;"><strong>腰带</strong></p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">注魔魔球</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">红宝石</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">DOL 符文</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">魔法宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">+30 生命<br>+3 生命/击杀</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">
+          <p style="text-align:center;"><strong>腰带</strong></p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">注魔魔球</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">头骨宝石</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">LUM 符文</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">魔法宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">+8% 法力恢复</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">
+          <p style="text-align:center;"><strong>腰带</strong></p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">注魔魔球</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">绿宝石</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">FAL 符文</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">魔法宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">+10 敏捷<br>+10 活力</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">
+          <p style="text-align:center;"><strong>腰带</strong></p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">注魔魔球</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">紫水晶</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">FAL 符文</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">魔法宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">+10 力量<br>+10 活力</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">
+          <p style="text-align:center;"><strong>腰带</strong></p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">注魔魔球</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">蓝宝石</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">FAL 符文</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">魔法宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">+10 能量<br>+10 活力</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">
+          <p style="text-align:center;"><strong>腰带</strong></p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">注魔魔球</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">头骨宝石</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">LEM 符文</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">魔法宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">+50% 强化防御</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">
+          <p style="text-align:center;"><strong>腰带</strong></p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">注魔魔球</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">钻石</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">PUL 符文</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">稀有宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">+4 全部属性</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">
+          <p style="text-align:center;"><strong>腰带</strong></p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">注魔魔球</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">钻石</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">UM 符文</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">稀有宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">+4 全部抗性</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">
+          <p style="text-align:center;"><strong>腰带</strong></p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">注魔魔球</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">蓝宝石</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">MAL 符文</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">稀有宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">魔法伤害降低 3</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">
+          <p style="text-align:center;"><strong>腰带</strong></p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">注魔魔球</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">黄玉</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">IST 符文</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">稀有宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">+20% 魔法获取<br>+30% 金币获取</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">
+          <p style="text-align:center;"><strong>腰带</strong></p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">注魔魔球</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">蓝宝石</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">SUR 符文</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">稀有宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">+5% 最大法力</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">
+          <p style="text-align:center;"><strong>腰带</strong></p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">注魔魔球</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">紫水晶</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">BER 符文</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">稀有宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">+4% 伤害减免</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">
+          <p style="text-align:center;"><strong>腰带</strong></p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">注魔魔球</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">红宝石</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">JAH 符文</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">稀有宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">+5% 最大生命</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">
+          <p style="text-align:center;"><strong>腰带</strong></p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">注魔魔球</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">蓝宝石</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">CHAM 符文</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">暗金宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">+6 全部属性<br>+6 全部抗性</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">
+          <p style="text-align:center;"><strong>腰带</strong></p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">注魔魔球</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">黄玉</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">CHAM 符文</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">暗金宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">+20% 魔法获取<br>+40% 金币获取</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">
+          <p style="text-align:center;"><strong>腰带</strong></p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">注魔魔球</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">紫水晶</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">CHAM 符文</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">暗金宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">+50 生命<br>+50 法力<br>+50% 强化防御</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<p></p>
+<h2>靴子</h2>
+<blockquote>
+  <p><mark class="pen-red"><strong>最大附魔次数：3</strong></mark></p>
+</blockquote>
+<figure class="table">
+  <table>
+    <thead>
+      <tr>
+        <th style="text-align:center;"><mark class="pen-green">材料</mark></th>
+        <th style="text-align:center;"><mark class="pen-green">材料</mark></th>
+        <th style="text-align:center;"><mark class="pen-green">材料</mark></th>
+        <th style="text-align:center;"><mark class="pen-green">材料</mark></th>
+        <th style="text-align:center;"><mark class="pen-green">材料</mark></th>
+        <th></th>
+        <th style="text-align:center;"><mark class="pen-green">新增属性</mark></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="text-align:center;"><strong>靴子</strong></td>
+        <td style="text-align:center;">黄玉</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td style="text-align:center;" rowspan="11"></td>
+        <td style="text-align:center;" rowspan="11"></td>
+        <td>=</td>
+        <td style="text-align:center;">+7% 魔法获取<br>+10% 金币获取</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>靴子</strong></td>
+        <td style="text-align:center;">红宝石</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+15 生命<br>+2 生命/击杀</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>靴子</strong></td>
+        <td style="text-align:center;">蓝宝石</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+15 法力<br>+2 法力/击杀</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>靴子</strong></td>
+        <td style="text-align:center;">绿宝石</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+5 敏捷<br>+5 活力</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>靴子</strong></td>
+        <td style="text-align:center;">紫水晶</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+5 力量<br>+5 活力</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>靴子</strong></td>
+        <td style="text-align:center;">头骨宝石</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+5 能量<br>+5 活力</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>靴子</strong></td>
+        <td style="text-align:center;">钻石</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+2 全部抗性</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>靴子</strong></td>
+        <td style="text-align:center;">NEF 符文</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+5% 跑动速度提升</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>靴子</strong></td>
+        <td style="text-align:center;">ETH 符文</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+4% 法力恢复</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>靴子</strong></td>
+        <td style="text-align:center;">ITH 符文</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+6% 伤害转法力</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>靴子</strong></td>
+        <td style="text-align:center;">SOL 符文</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">物理伤害降低 3</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>靴子</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">蓝宝石</td>
+        <td style="text-align:center;">ITH 符文</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+30 法力<br>+3 法力/击杀</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>靴子</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">绿宝石</td>
+        <td style="text-align:center;">SOL 符文</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+10% 跑动速度提升</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>靴子</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">紫水晶</td>
+        <td style="text-align:center;">SHAEL 符文</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+7% 打击恢复提升</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>靴子</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">红宝石</td>
+        <td style="text-align:center;">DOL 符文</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+30 生命<br>+3 生命/击杀</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>靴子</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">头骨宝石</td>
+        <td style="text-align:center;">LUM 符文</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+8% 法力恢复</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>靴子</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">绿宝石</td>
+        <td style="text-align:center;">FAL 符文</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+10 敏捷<br>+10 活力</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>靴子</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">紫水晶</td>
+        <td style="text-align:center;">FAL 符文</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+10 力量<br>+10 活力</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>靴子</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">蓝宝石</td>
+        <td style="text-align:center;">FAL 符文</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+10 能量<br>+10 活力</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>靴子</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">头骨宝石</td>
+        <td style="text-align:center;">LEM 符文</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+50% 强化防御</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>靴子</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">钻石</td>
+        <td style="text-align:center;">PUL 符文</td>
+        <td style="text-align:center;">稀有宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+4 全部属性</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>靴子</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">钻石</td>
+        <td style="text-align:center;">UM 符文</td>
+        <td style="text-align:center;">稀有宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+4 全部抗性</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>靴子</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">蓝宝石</td>
+        <td style="text-align:center;">MAL 符文</td>
+        <td style="text-align:center;">稀有宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">魔法伤害降低 3</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>靴子</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">黄玉</td>
+        <td style="text-align:center;">IST 符文</td>
+        <td style="text-align:center;">稀有宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+20% 魔法获取<br>+30% 金币获取</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>靴子</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">蓝宝石</td>
+        <td style="text-align:center;">SUR 符文</td>
+        <td style="text-align:center;">稀有宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+6% 最大法力</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>靴子</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">红宝石</td>
+        <td style="text-align:center;">BER 符文</td>
+        <td style="text-align:center;">稀有宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+4% 获得经验</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>靴子</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">红宝石</td>
+        <td style="text-align:center;">JAH 符文</td>
+        <td style="text-align:center;">稀有宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+6% 最大生命</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>靴子</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">黄玉</td>
+        <td style="text-align:center;">CHAM 符文</td>
+        <td style="text-align:center;">暗金宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+15% 跑动速度提升<br>+12% 魔法获取<br>+30% 金币获取</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>靴子</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">钻石</td>
+        <td style="text-align:center;">CHAM 符文</td>
+        <td style="text-align:center;">暗金宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+100% 强化防御<br>+100 反伤</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>靴子</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">紫水晶</td>
+        <td style="text-align:center;">ZOD 符文</td>
+        <td style="text-align:center;">暗金宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+8% 最大法力<br>+8% 最大生命</td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<p></p>
+<h2>手套</h2>
+<blockquote>
+  <p><mark class="pen-red"><strong>最大附魔次数：3</strong></mark></p>
+</blockquote>
+<figure class="table" style="text-align:center;">
+  <table>
+    <thead>
+      <tr>
+        <th style="text-align:center;">
+          <p style="text-align:center;"><mark class="pen-green">材料</mark></p>
+        </th>
+        <th style="text-align:center;">
+          <p style="text-align:center;"><mark class="pen-green">材料</mark></p>
+        </th>
+        <th style="text-align:center;">
+          <p style="text-align:center;"><mark class="pen-green">材料</mark></p>
+        </th>
+        <th style="text-align:center;">
+          <p style="text-align:center;"><mark class="pen-green">材料</mark></p>
+        </th>
+        <th style="text-align:center;">
+          <p style="text-align:center;"><mark class="pen-green">材料</mark></p>
+        </th>
+        <th></th>
+        <th style="text-align:center;">
+          <p style="text-align:center;"><mark class="pen-green">新增属性</mark></p>
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="text-align:center;">
+          <p style="text-align:center;"><strong>手套</strong></p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">黄玉</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">魔法宝石</p>
+        </td>
+        <td style="text-align:center;" rowspan="10">
+          <p style="text-align:center;"></p>
+        </td>
+        <td style="text-align:center;" rowspan="10">
+          <p style="text-align:center;"></p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">+7% 魔法获取<br>+10% 金币获取</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>手套</strong></td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">红宝石</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">魔法宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">+15 生命<br>+2 生命/击杀</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>手套</strong></td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">蓝宝石</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">魔法宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">+15 法力<br>+2 法力/击杀</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>手套</strong></td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">绿宝石</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">魔法宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">+5 敏捷<br>+5 活力</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>手套</strong></td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">紫水晶</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">魔法宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">+5 力量<br>+5 活力</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>手套</strong></td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">头骨宝石</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">魔法宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">+5 能量<br>+5 活力</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>手套</strong></td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">钻石</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">魔法宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">+2 全部抗性</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>手套</strong></td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">ETH 符文</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">魔法宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">+4% 法力恢复</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>手套</strong></td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">ITH 符文</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">魔法宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">+6% 伤害转法力</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>手套</strong></td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">SOL 符文</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">魔法宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">物理伤害降低 3</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>手套</strong></td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">注魔魔球</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">蓝宝石</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">ITH 符文</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">魔法宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">+30 法力<br>+3 法力/击杀</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>手套</strong></td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">注魔魔球</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">头骨宝石</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">AMN 符文</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">魔法宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">+75 反伤</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>手套</strong></td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">注魔魔球</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">紫水晶</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">SOL 符文</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">魔法宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">+7% 攻击速度提升</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>手套</strong></td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">注魔魔球</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">蓝宝石</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">SHAEL 符文</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">魔法宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">+7% 施法速度提升</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>手套</strong></td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">注魔魔球</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">红宝石</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">DOL 符文</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">魔法宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">+30 生命<br>+3 生命/击杀</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>手套</strong></td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">注魔魔球</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">头骨宝石</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">LUM 符文</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">魔法宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">+8% 法力恢复</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>手套</strong></td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">注魔魔球</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">绿宝石</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">FAL 符文</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">魔法宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">+10 敏捷<br>+10 活力</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>手套</strong></td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">注魔魔球</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">紫水晶</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">FAL 符文</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">魔法宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">+10 力量<br>+10 活力</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>手套</strong></td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">注魔魔球</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">蓝宝石</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">FAL 符文</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">魔法宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">+10 能量<br>+10 活力</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>手套</strong></td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">注魔魔球</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">黄玉</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">PUL 符文</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">稀有宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">+4 全部属性</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>手套</strong></td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">注魔魔球</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">钻石</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">UM 符文</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">稀有宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">+4 全部抗性</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>手套</strong></td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">注魔魔球</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">头骨宝石</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">MAL 符文</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">稀有宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">魔法伤害降低 3</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>手套</strong></td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">注魔魔球</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">黄玉</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">IST 符文</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">稀有宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">+20% 魔法获取<br>+30% 金币获取</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>手套</strong></td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">注魔魔球</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">蓝宝石</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">SUR 符文</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">稀有宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">+6% 最大法力</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>手套</strong></td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">注魔魔球</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">红宝石</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">JAH 符文</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">稀有宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">+6% 最大生命</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>手套</strong></td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">注魔魔球</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">红宝石</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">CHAM 符文</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">暗金宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">+3% 压碎性打击</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>手套</strong></td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">注魔魔球</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">蓝宝石</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">CHAM 符文</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">暗金宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">+3% 致命打击</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>手套</strong></td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">注魔魔球</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">绿宝石</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">CHAM 符文</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">暗金宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">+3% 开放性伤口</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>手套</strong></td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">注魔魔球</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">钻石</p>
+        </td>
+        <td style="text-align:center;">CHAM 符文</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">暗金宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">+6% 穿透</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>手套</strong></td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">注魔魔球</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">黄玉</p>
+        </td>
+        <td style="text-align:center;">CHAM 符文</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">暗金宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">+10% 减速目标</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>手套</strong></td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">注魔魔球</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">头骨宝石</p>
+        </td>
+        <td style="text-align:center;">CHAM 符文</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">暗金宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">+10% 击中使目标致盲</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<p></p>
+<h2>头盔</h2>
+<blockquote>
+  <p><mark class="pen-red"><strong>最大附魔次数：3</strong></mark></p>
+</blockquote>
+<figure class="table">
+  <table>
+    <thead>
+      <tr>
+        <th style="text-align:center;"><mark class="pen-green">材料</mark></th>
+        <th style="text-align:center;"><mark class="pen-green">材料</mark></th>
+        <th style="text-align:center;"><mark class="pen-green">材料</mark></th>
+        <th style="text-align:center;"><mark class="pen-green">材料</mark></th>
+        <th style="text-align:center;"><mark class="pen-green">材料</mark></th>
+        <th></th>
+        <th style="text-align:center;"><mark class="pen-green">新增属性</mark></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="text-align:center;"><strong>头盔</strong></td>
+        <td style="text-align:center;">黄玉</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td style="text-align:center;" rowspan="10"></td>
+        <td style="text-align:center;" rowspan="10"></td>
+        <td>=</td>
+        <td style="text-align:center;">+7% 魔法获取<br>+10% 金币获取</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>头盔</strong></td>
+        <td style="text-align:center;">红宝石</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+15 生命<br>+2 生命/击杀</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>头盔</strong></td>
+        <td style="text-align:center;">蓝宝石</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+15 法力<br>+2 法力/击杀</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>头盔</strong></td>
+        <td style="text-align:center;">绿宝石</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+5 敏捷<br>+5 活力</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>头盔</strong></td>
+        <td style="text-align:center;">紫水晶</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+5 力量<br>+5 活力</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>头盔</strong></td>
+        <td style="text-align:center;">头骨宝石</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+5 能量<br>+5 活力</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>头盔</strong></td>
+        <td style="text-align:center;">钻石</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+2 全部抗性</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>头盔</strong></td>
+        <td style="text-align:center;">ETH 符文</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+4% 法力恢复</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>头盔</strong></td>
+        <td style="text-align:center;">ITH 符文</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+6% 伤害转法力</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>头盔</strong></td>
+        <td style="text-align:center;">SOL 符文</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">物理伤害降低 3</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>头盔</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">蓝宝石</td>
+        <td style="text-align:center;">ITH 符文</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+30 法力<br>+3 法力/击杀</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>头盔</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">绿宝石</td>
+        <td style="text-align:center;">THUL 符文</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">无视目标防御</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>头盔</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">头骨宝石</td>
+        <td style="text-align:center;">AMN 符文</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+75 反伤</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>头盔</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">红宝石</td>
+        <td style="text-align:center;">DOL 符文</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+30 生命<br>+3 生命/击杀</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>头盔</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">头骨宝石</td>
+        <td style="text-align:center;">LUM 符文</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+8% 法力恢复</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>头盔</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">绿宝石</td>
+        <td style="text-align:center;">FAL 符文</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+10 敏捷<br>+10 活力</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>头盔</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">紫水晶</td>
+        <td style="text-align:center;">FAL 符文</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+10 力量<br>+10 活力</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>头盔</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">蓝宝石</td>
+        <td style="text-align:center;">FAL 符文</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+10 能量<br>+10 活力</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>头盔</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">钻石</td>
+        <td style="text-align:center;">PUL 符文</td>
+        <td style="text-align:center;">稀有宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+4 全部属性</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>头盔</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">钻石</td>
+        <td style="text-align:center;">UM 符文</td>
+        <td style="text-align:center;">稀有宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+4 全部抗性</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>头盔</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">蓝宝石</td>
+        <td style="text-align:center;">MAL 符文</td>
+        <td style="text-align:center;">稀有宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">魔法伤害降低 3</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>头盔</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">黄玉</td>
+        <td style="text-align:center;">IST 符文</td>
+        <td style="text-align:center;">稀有宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+20% 魔法获取<br>+30% 金币获取</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>头盔</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">蓝宝石</td>
+        <td style="text-align:center;">SUR 符文</td>
+        <td style="text-align:center;">稀有宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+6% 最大法力</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>头盔</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">紫水晶</td>
+        <td style="text-align:center;">BER 符文</td>
+        <td style="text-align:center;">稀有宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+4% 伤害减免</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>头盔</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">红宝石</td>
+        <td style="text-align:center;">JAH 符文</td>
+        <td style="text-align:center;">稀有宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+6% 最大生命</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>头盔</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">红宝石</td>
+        <td style="text-align:center;">CHAM 符文</td>
+        <td style="text-align:center;">暗金宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+2 火焰技能</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>头盔</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">蓝宝石</td>
+        <td style="text-align:center;">CHAM 符文</td>
+        <td style="text-align:center;">暗金宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+2 冰冷技能</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>头盔</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">黄玉</td>
+        <td style="text-align:center;">CHAM 符文</td>
+        <td style="text-align:center;">暗金宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+2 闪电技能</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>头盔</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">绿宝石</td>
+        <td style="text-align:center;">CHAM 符文</td>
+        <td style="text-align:center;">暗金宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+2 毒素技能</td>
+      </tr>
+      <tr>
+        <td>头盔</td>
+        <td>注魔魔球</td>
+        <td>钻石</td>
+        <td>CHAM 符文</td>
+        <td>暗金宝石</td>
+        <td>=</td>
+        <td>+2 魔法技能</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>头盔</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">头骨宝石</td>
+        <td style="text-align:center;">ZOD 符文</td>
+        <td style="text-align:center;">暗金宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+1 所有技能</td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<p></p>
+<h2>盾牌</h2>
+<blockquote>
+  <p><mark class="pen-red"><strong>最大附魔次数：5</strong></mark></p>
+</blockquote>
+<figure class="table">
+  <table>
+    <thead>
+      <tr>
+        <th style="text-align:center;"><mark class="pen-green">材料</mark></th>
+        <th style="text-align:center;"><mark class="pen-green">材料</mark></th>
+        <th style="text-align:center;"><mark class="pen-green">材料</mark></th>
+        <th style="text-align:center;"><mark class="pen-green">材料</mark></th>
+        <th style="text-align:center;"><mark class="pen-green">材料</mark></th>
+        <th></th>
+        <th style="text-align:center;"><mark class="pen-green">新增属性</mark></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="text-align:center;"><strong>盾牌</strong></td>
+        <td style="text-align:center;">黄玉</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td style="text-align:center;" rowspan="10">
+          <p></p>
+          <p></p>
+        </td>
+        <td style="text-align:center;" rowspan="10">
+          <p></p>
+          <p></p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">+7% 魔法获取<br>+10% 金币获取</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>盾牌</strong></td>
+        <td style="text-align:center;">红宝石</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+15 生命<br>+4 生命/击杀</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>盾牌</strong></td>
+        <td style="text-align:center;">蓝宝石</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+15 法力<br>+2 法力/击杀</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>盾牌</strong></td>
+        <td style="text-align:center;">绿宝石</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+7 敏捷<br>+7 活力</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>盾牌</strong></td>
+        <td style="text-align:center;">紫水晶</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+7 力量<br>+7 活力</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>盾牌</strong></td>
+        <td style="text-align:center;">头骨宝石</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+7 能量<br>+7 活力</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>盾牌</strong></td>
+        <td style="text-align:center;">钻石</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+2 全部抗性</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>盾牌</strong></td>
+        <td style="text-align:center;">ETH 符文</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+4% 法力恢复</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>盾牌</strong></td>
+        <td style="text-align:center;">ITH 符文</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+6% 伤害转法力</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>盾牌</strong></td>
+        <td style="text-align:center;">SOL 符文</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">物理伤害降低 3</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>盾牌</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">蓝宝石</td>
+        <td style="text-align:center;">ITH 符文</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+30 法力<br>+3 法力/击杀</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>盾牌</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">头骨宝石</td>
+        <td style="text-align:center;">AMN 符文</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+100 反伤</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>盾牌</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">钻石</td>
+        <td style="text-align:center;">SOL 符文</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+50% 强化防御</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>盾牌</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">红宝石</td>
+        <td style="text-align:center;">SHAEL 符文</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+5% 格挡速度提升</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>盾牌</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">蓝宝石</td>
+        <td style="text-align:center;">SHAEL 符文</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+5% 格挡几率提升</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>盾牌</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">绿宝石</td>
+        <td style="text-align:center;">SHAEL 符文</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+7% 打击恢复提升</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>盾牌</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">红宝石</td>
+        <td style="text-align:center;">DOL 符文</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+30 生命<br>+3 生命/击杀</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>盾牌</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">头骨宝石</td>
+        <td style="text-align:center;">LUM 符文</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+10% 法力恢复</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>盾牌</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">绿宝石</td>
+        <td style="text-align:center;">FAL 符文</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+12 敏捷<br>+10 活力</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>盾牌</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">紫水晶</td>
+        <td style="text-align:center;">FAL 符文</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+12 力量<br>+10 活力</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>盾牌</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">蓝宝石</td>
+        <td style="text-align:center;">FAL 符文</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+12 能量<br>+10 活力</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>盾牌</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">钻石</td>
+        <td style="text-align:center;">PUL 符文</td>
+        <td style="text-align:center;">稀有宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+6 全部属性</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>盾牌</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">钻石</td>
+        <td style="text-align:center;">UM 符文</td>
+        <td style="text-align:center;">稀有宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+6 全部抗性</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>盾牌</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">蓝宝石</td>
+        <td style="text-align:center;">MAL 符文</td>
+        <td style="text-align:center;">稀有宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">魔法伤害降低 4</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>盾牌</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">黄玉</td>
+        <td style="text-align:center;">IST 符文</td>
+        <td style="text-align:center;">稀有宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+30% 魔法获取<br>+50% 金币获取</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>盾牌</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">蓝宝石</td>
+        <td style="text-align:center;">SUR 符文</td>
+        <td style="text-align:center;">稀有宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+6% 最大法力</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>盾牌</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">红宝石</td>
+        <td style="text-align:center;">BER 符文</td>
+        <td style="text-align:center;">稀有宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+6% 伤害减免</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>盾牌</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">红宝石</td>
+        <td style="text-align:center;">JAH 符文</td>
+        <td style="text-align:center;">稀有宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+6% 最大生命</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>盾牌</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">钻石</td>
+        <td style="text-align:center;">ZOD 符文</td>
+        <td style="text-align:center;">暗金宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+1 全部抗性上限<br>+3 全部抗性</td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<p></p>
+<h2>身体 护甲</h2>
+<blockquote>
+  <p><mark class="pen-red"><strong>最大附魔次数：5</strong></mark></p>
+</blockquote>
+<figure class="table">
+  <table>
+    <thead>
+      <tr>
+        <th style="text-align:center;">
+          <p style="text-align:center;"><mark class="pen-green">材料</mark></p>
+        </th>
+        <th style="text-align:center;">
+          <p style="text-align:center;"><mark class="pen-green">材料</mark></p>
+        </th>
+        <th style="text-align:center;">
+          <p style="text-align:center;"><mark class="pen-green">材料</mark></p>
+        </th>
+        <th style="text-align:center;">
+          <p style="text-align:center;"><mark class="pen-green">材料</mark></p>
+        </th>
+        <th style="text-align:center;">
+          <p style="text-align:center;"><mark class="pen-green">材料</mark></p>
+        </th>
+        <th></th>
+        <th style="text-align:center;">
+          <p style="text-align:center;"><mark class="pen-green">新增属性</mark></p>
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="text-align:center;">
+          <p style="text-align:center;"><strong>身体 护甲</strong></p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">黄玉</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">魔法宝石</p>
+        </td>
+        <td style="text-align:center;" rowspan="10">
+          <p style="text-align:center;"></p>
+          <p style="text-align:center;"></p>
+        </td>
+        <td style="text-align:center;" rowspan="10">
+          <p style="text-align:center;"></p>
+          <p style="text-align:center;"></p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">+15% 魔法获取<br>+30% 金币获取</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">
+          <p style="text-align:center;"><strong>身体 护甲</strong></p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">红宝石</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">魔法宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">+15 生命<br>+2 生命/击杀</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">
+          <p style="text-align:center;"><strong>身体 护甲</strong></p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">蓝宝石</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">魔法宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">+15 法力<br>+2 法力/击杀</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">
+          <p style="text-align:center;"><strong>身体 护甲</strong></p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">绿宝石</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">魔法宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">+7 敏捷<br>+7 活力</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">
+          <p style="text-align:center;"><strong>身体 护甲</strong></p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">紫水晶</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">魔法宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">+7 力量<br>+7 活力</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">
+          <p style="text-align:center;"><strong>身体 护甲</strong></p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">头骨宝石</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">魔法宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">+7 能量<br>+7 活力</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">
+          <p style="text-align:center;"><strong>身体 护甲</strong></p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">钻石</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">魔法宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">+3 全部抗性</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">
+          <p style="text-align:center;"><strong>身体 护甲</strong></p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">ETH 符文</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">魔法宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">+5% 法力恢复</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">
+          <p style="text-align:center;"><strong>身体 护甲</strong></p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">ITH 符文</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">魔法宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">+10% 伤害转法力</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">
+          <p style="text-align:center;"><strong>身体 护甲</strong></p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">SOL 符文</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">魔法宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">物理伤害降低 5</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">
+          <p style="text-align:center;"><strong>身体 护甲</strong></p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">注魔魔球</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">蓝宝石</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">ITH 符文</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">魔法宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">+30 法力<br>+3 法力/击杀</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">
+          <p style="text-align:center;"><strong>身体 护甲</strong></p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">注魔魔球</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">头骨宝石</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">AMN 符文</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">魔法宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">+150 反伤</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">
+          <p style="text-align:center;"><strong>身体 护甲</strong></p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">注魔魔球</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">绿宝石</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">SHAEL 符文</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">魔法宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">+10% 跑动速度提升</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">
+          <p style="text-align:center;"><strong>身体 护甲</strong></p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">注魔魔球</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">红宝石</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">DOL 符文</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">魔法宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">+30 生命<br>+3 生命/击杀</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">
+          <p style="text-align:center;"><strong>身体 护甲</strong></p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">注魔魔球</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">头骨宝石</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">LUM 符文</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">魔法宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">+10% 法力恢复</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">
+          <p style="text-align:center;"><strong>身体 护甲</strong></p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">注魔魔球</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">绿宝石</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">FAL 符文</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">魔法宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">+15 敏捷<br>+10 活力</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">
+          <p style="text-align:center;"><strong>身体 护甲</strong></p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">注魔魔球</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">紫水晶</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">FAL 符文</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">魔法宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">+15 力量<br>+10 活力</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">
+          <p style="text-align:center;"><strong>身体 护甲</strong></p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">注魔魔球</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">蓝宝石</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">FAL 符文</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">魔法宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">+15 能量<br>+10 活力</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">
+          <p style="text-align:center;"><strong>身体 护甲</strong></p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">注魔魔球</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">钻石</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">PUL 符文</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">稀有宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">+6 全部属性</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">
+          <p style="text-align:center;"><strong>身体 护甲</strong></p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">注魔魔球</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">钻石</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">UM 符文</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">稀有宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">+6 全部抗性</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">
+          <p style="text-align:center;"><strong>身体 护甲</strong></p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">注魔魔球</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">蓝宝石</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">MAL 符文</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">稀有宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">魔法伤害降低 5</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">
+          <p style="text-align:center;"><strong>身体 护甲</strong></p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">注魔魔球</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">黄玉</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">IST 符文</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">稀有宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">+30% 魔法获取<br>+50% 金币获取</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">
+          <p style="text-align:center;"><strong>身体 护甲</strong></p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">注魔魔球</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">蓝宝石</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">SUR 符文</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">稀有宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">+8% 最大法力</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">
+          <p style="text-align:center;"><strong>身体 护甲</strong></p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">注魔魔球</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">钻石</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">BER 符文</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">稀有宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">+8% 伤害减免</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">
+          <p style="text-align:center;"><strong>身体 护甲</strong></p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">注魔魔球</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">红宝石</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">JAH 符文</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">稀有宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">+8% 最大生命</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">
+          <p style="text-align:center;"><strong>身体 护甲</strong></p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">注魔魔球</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">紫水晶</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">CHAM 符文</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">暗金宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">吸收 2% 火焰伤害</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">
+          <p style="text-align:center;"><strong>身体 护甲</strong></p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">注魔魔球</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">蓝宝石</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">CHAM 符文</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">暗金宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">吸收 2% 冰冷伤害</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">
+          <p style="text-align:center;"><strong>身体 护甲</strong></p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">注魔魔球</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">黄玉</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">CHAM 符文</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">暗金宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">吸收 2% 闪电伤害</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">
+          <p style="text-align:center;"><strong>身体 护甲</strong></p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">注魔魔球</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">头骨宝石</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">CHAM 符文</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">暗金宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">吸收 2% 魔法伤害</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;">
+          <p style="text-align:center;"><strong>身体 护甲</strong></p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">注魔魔球</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">紫水晶</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">ZOD 符文</p>
+        </td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">暗金宝石</p>
+        </td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p style="text-align:center;">+5 全部抗性<br>+1 全部抗性上限</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<h2>武器</h2>
+<blockquote>
+  <p><mark class="pen-red"><strong>最大附魔次数：</strong></mark></p>
+  <p><mark class="pen-red"><strong>单手武器：5</strong></mark></p>
+  <p><mark class="pen-red"><strong>双手武器：10</strong></mark></p>
+</blockquote>
+<figure class="table">
+  <table>
+    <thead>
+      <tr>
+        <th style="text-align:center;"><mark class="pen-green"><strong>材料</strong></mark></th>
+        <th style="text-align:center;"><mark class="pen-green">材料</mark></th>
+        <th style="text-align:center;"><mark class="pen-green">材料</mark></th>
+        <th style="text-align:center;"><mark class="pen-green">材料</mark></th>
+        <th style="text-align:center;"><mark class="pen-green">材料</mark></th>
+        <th style="text-align:center;"><mark class="pen-green">材料</mark></th>
+        <th></th>
+        <th style="text-align:center;"><mark class="pen-green">新增属性</mark></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="text-align:center;"><strong>武器</strong></td>
+        <td style="text-align:center;">黄玉</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td style="text-align:center;" rowspan="9"></td>
+        <td style="text-align:center;" rowspan="9"></td>
+        <td style="text-align:center;" rowspan="21"></td>
+        <td>=</td>
+        <td style="text-align:center;">+15% 魔法获取<br>+30% 金币获取</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>武器</strong></td>
+        <td style="text-align:center;">红宝石</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+75 攻击等级</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>武器</strong></td>
+        <td style="text-align:center;">蓝宝石</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+7% 施法速度提升</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>武器</strong></td>
+        <td style="text-align:center;">绿宝石</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+7% 攻击速度提升</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>武器</strong></td>
+        <td style="text-align:center;">头骨宝石</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+2% 偷取法力<br>+2% 偷取生命</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>武器</strong></td>
+        <td style="text-align:center;">紫水晶</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+3 生命/击杀</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>武器</strong></td>
+        <td style="text-align:center;">钻石</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+2 法力/击杀</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>武器</strong></td>
+        <td style="text-align:center;">ETH 符文</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+6% 法力恢复</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>武器</strong></td>
+        <td style="text-align:center;">SOL 符文</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+6 最低伤害<br>+10 最高伤害</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>武器</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">黄玉</td>
+        <td style="text-align:center;">IO 符文</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+100 反伤</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>武器</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">红宝石</td>
+        <td style="text-align:center;">LUM 符文</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+50% 对恶魔伤害</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>武器</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">头骨宝石</td>
+        <td style="text-align:center;">LUM 符文</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+50% 对亡灵伤害</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>武器</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">紫水晶</td>
+        <td style="text-align:center;">FAL 符文</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+15% 强化武器伤害<br>+15 攻击等级</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>武器</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">绿宝石</td>
+        <td style="text-align:center;">LEM 符文</td>
+        <td style="text-align:center;">魔法宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+150 攻击等级</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>武器</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">蓝宝石</td>
+        <td style="text-align:center;">MAL 符文</td>
+        <td style="text-align:center;">稀有宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+15% 施法速度提升</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>武器</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">紫水晶</td>
+        <td style="text-align:center;">MAL 符文</td>
+        <td style="text-align:center;">稀有宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+15% 攻击速度提升</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>武器</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">黄玉</td>
+        <td style="text-align:center;">IST 符文</td>
+        <td style="text-align:center;">稀有宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+30% 魔法获取<br>+50% 金币获取</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>武器</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">头骨宝石</td>
+        <td style="text-align:center;">VEX 符文</td>
+        <td style="text-align:center;">稀有宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+5% 偷取法力<br>+5% 偷取生命</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>武器</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">绿宝石</td>
+        <td style="text-align:center;">OHM 符文</td>
+        <td style="text-align:center;">稀有宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+15 最低伤害<br>+30 最高伤害</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>武器</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">钻石</td>
+        <td style="text-align:center;">LO 符文</td>
+        <td style="text-align:center;">稀有宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p>+63-511 元素伤害</p>
+          <p><mark class="pen-red">多次使用不叠加</mark></p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>武器</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">紫水晶</td>
+        <td style="text-align:center;">CHAM 符文</td>
+        <td style="text-align:center;">稀有宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p>+30% 强化伤害<br>+30 攻击等级</p>
+          <p><mark class="pen-red">%ED 上限 511%</mark></p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>武器</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">紫水晶</td>
+        <td style="text-align:center;">CHAM 符文</td>
+        <td style="text-align:center;">稀有宝石</td>
+        <td>NEF 符文</td>
+        <td>=</td>
+        <td style="text-align:center;">
+          <p>+30% 强化伤害<br>+30 攻击等级<br>击退</p>
+          <p><mark class="pen-red">%ED 上限 511%</mark></p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>武器</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">转化魔球</td>
+        <td style="text-align:center;">ZOD 符文</td>
+        <td style="text-align:center;">暗金宝石</td>
+        <td style="text-align:center;">红宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+2% 火焰技能伤害<br>-2% 敌人火焰抗性</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>武器</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">转化魔球</td>
+        <td style="text-align:center;">ZOD 符文</td>
+        <td style="text-align:center;">暗金宝石</td>
+        <td style="text-align:center;">蓝宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+2% 冰冷技能伤害<br>-2% 敌人冰冷抗性</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>武器</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">转化魔球</td>
+        <td style="text-align:center;">ZOD 符文</td>
+        <td style="text-align:center;">暗金宝石</td>
+        <td style="text-align:center;">黄玉</td>
+        <td>=</td>
+        <td style="text-align:center;">+2% 闪电技能伤害<br>-2% 敌人闪电抗性</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>武器</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">转化魔球</td>
+        <td style="text-align:center;">ZOD 符文</td>
+        <td style="text-align:center;">暗金宝石</td>
+        <td style="text-align:center;">绿宝石</td>
+        <td>=</td>
+        <td style="text-align:center;">+2% 毒素技能伤害<br>-2% 敌人毒素抗性</td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><strong>武器</strong></td>
+        <td style="text-align:center;">注魔魔球</td>
+        <td style="text-align:center;">转化魔球</td>
+        <td style="text-align:center;">ZOD 符文</td>
+        <td style="text-align:center;">暗金宝石</td>
+        <td style="text-align:center;">混沌缟玛瑙</td>
+        <td>=</td>
+        <td style="text-align:center;">+2% 魔法技能伤害<br>-2% 敌人魔法抗性</td>
+      </tr>
+    </tbody>
+  </table>
+</figure>

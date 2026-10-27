@@ -1,0 +1,691 @@
+<!--
+title: 符文
+description: 
+published: true
+date: 2026-10-26T00:00:00.000Z
+tags: stack, rune, unstack, runeword, rune word
+editor: ckeditor
+dateCreated: 2025-02-03T00:14:38.100Z
+-->
+
+<h1>符文</h1>
+<p>符文和宝石、珠宝一样，可以镶嵌进武器和防具的凹槽以提供增益（即“打孔镶嵌”）。同一枚符文镶在护甲、盾牌或武器上，效果各不相同。游戏共有 33 枚符文——完整列表见本页底部。把符文按特定顺序镶入底材，就会构成“符文之语”，这一点后文会详细说明。</p>
+<figure class="image"><img src="/210imageassets/zodsingle210.png"></figure>
+<p>作为 Reimagined 的便利性改进，符文现在以“堆叠”形式掉落，大量存放容易得多。</p>
+<p>堆叠的识别方法是图标左上角的绿色小<strong>+</strong>号，右上角的数字表示符文数量。&nbsp;<br><br>符文堆叠的悬浮说明会告诉你堆叠能做什么（合并、拆分、升档、降档）。想使用符文，必须先把堆叠放进赫拉迪克方块转化来“拆分”。</p>
+<figure class="image"><img src="/210imageassets/zodstack210.png"></figure>
+<h1>如何合并符文堆叠？</h1>
+<p>既然掉落即为堆叠，它们会自动在背包里叠加。你也可以在背包或个人仓库中把一个堆叠拖到另一个上合并。共享仓库被硬编码为禁止合并物品，要合并必须先取出。</p>
+<p>如果手上有散装的符文，把它和同类型符文堆叠一起放进赫拉迪克方块转化即可并入。</p>
+<h1>如何拆分符文堆叠？</h1>
+<p>把堆叠放进赫拉迪克方块，按下转化即可拆分。</p>
+<p>- Transmuting a stack with a quantity of 1 will convert it to a single, useable rune.</p>
+<p>- Transmuting a stack with a quantity greater than 1 will create a single, useable rune and reduce quantity of the stack by 1.</p>
+<h1>如何升级符文？</h1>
+<p>升级符文需要同级的 2 枚符文，合成 1 枚高一档的符文。</p>
+<p>升级有两种方式：</p>
+<p>1) 在方块中把两枚散装符文和一本回城卷轴书一起转化。</p>
+<p>2) 在方块中把一个堆叠（数量须 ≥2）和一本回城卷轴书一起转化。这会产出一枚高一档的散装符文，堆叠数量减 2。</p>
+<h1>如何降档符文？</h1>
+<p>降档只会产出一枚低一档的符文。</p>
+<p>降档有两种方式：</p>
+<p>1) 在方块中把一枚散装符文和一本鉴定卷轴书一起转化。</p>
+<p>2) 在方块中把一个堆叠（数量须 ≥1）和一本鉴定卷轴书一起转化。这会产出一枚低一档的散装符文，堆叠数量减 1。</p>
+<h1>符文在哪里掉落？</h1>
+<p>符文可以从游戏中任意怪物掉落，只是某些怪的概率更高。</p>
+<ul>
+  <li><strong>普通 </strong>难度怪物最高可掉落 <strong>DOL 符文</strong>。</li>
+  <li><strong>噩梦 </strong>难度怪物最高可掉落 <strong>CHAM 符文</strong>。</li>
+  <li><strong>地狱 </strong>难度怪物最高可掉落 <strong>ZOD 符文</strong>。</li>
+</ul>
+<p>每幕都有一只超级暗金怪获得了类似伯爵夫人的符文掉落表，玩家常称它们为“符文头目”。关于这些特殊符文掉落表以及玩家人数如何影响掉率，参见 <a href="https://maxroll.gg/d2/resources/player-settings">MaxRoll</a>。</p>
+<p>这些头目在普通/噩梦/地狱难度和普通恐惧地带掉 2 枚符文，在噩梦和地狱恐惧地带可掉 3 枚。</p>
+<p>下面是各超级暗金符文头目最高可掉落的符文汇总：</p>
+<ul>
+  <li>第一幕 - 遗忘之塔：<strong>伯爵夫人</strong>
+    <ul>
+      <li>普通：THUL 符文</li>
+      <li>噩梦：KO 符文</li>
+      <li>地狱：VEX 符文</li>
+    </ul>
+  </li>
+  <li>第二幕 - 死者之廊：<strong>血腥女巫怀尔德</strong>
+    <ul>
+      <li>Normal: THUL Rune</li>
+      <li>Nightmare: KO Rune</li>
+      <li>Hell: VEX Rune</li>
+    </ul>
+  </li>
+  <li>第三幕 - 荒废神殿：<strong>战斗少女萨莉娜</strong>
+    <ul>
+      <li>Normal: THUL Rune</li>
+      <li>Nightmare: KO Rune</li>
+      <li>Hell: VEX Rune</li>
+    </ul>
+  </li>
+  <li>第四幕 - 火焰之河：<strong>海法斯特</strong>
+    <ul>
+      <li>普通：DOL 符文</li>
+      <li>噩梦：UM 符文</li>
+      <li>地狱：LO 符文</li>
+    </ul>
+  </li>
+  <li>第五幕 - 冰冻之河：<strong>冰冻斯坦</strong>
+    <ul>
+      <li>Normal: DOL Rune</li>
+      <li>Nightmare: UM Rune</li>
+      <li>Hell: LO Rune</li>
+    </ul>
+  </li>
+</ul>
+<p>更多信息见<a href="https://wiki.d2r-reimagined.com/en/Items/LootTable">该页面</a>。</p>
+<h1>什么是符文之语？</h1>
+<p>把符文按特定顺序镶入非魔法物品（即白色“底材”），就会制成强大的符文之语。除了符文本身的增益，还会获得额外属性与修正，要么强化你现有的法术与能力，要么赋予全新的能力。</p>
+<p>合成符文之语要求底材类型正确、孔数恰好，并按规定顺序镶嵌符文。</p>
+<p>D2R Reimagined 全部符文之语的列表，请访问模组网站的 <a href="https://www.d2r-reimagined.com/runewords">Runewords（符文之语）</a>标签页。</p>
+<h1>符文列表</h1>
+<figure class="table" style="height:1200px;width:1500px;">
+  <table>
+    <thead>
+      <tr>
+        <th style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;text-align:center;">
+          <p style="text-align:center;"><mark class="pen-green"><strong>名称</strong></mark></p>
+        </th>
+        <th style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;text-align:center;">
+          <p style="text-align:center;"><mark class="pen-green"><strong>#</strong></mark></p>
+        </th>
+        <th style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;text-align:center;">
+          <p style="text-align:center;"><mark class="pen-green"><strong>需求等级</strong></mark></p>
+        </th>
+        <th style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;text-align:center;">
+          <p style="text-align:center;"><mark class="pen-green"><strong>武器效果</strong></mark></p>
+        </th>
+        <th style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;text-align:center;">
+          <p style="text-align:center;"><mark class="pen-green"><strong>护甲 / 头盔 / 盾牌效果</strong></mark></p>
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="background-color:hsl(0, 0%, 30%);border-bottom:1px double;border-left:1px double;border-right:1px double;border-top:1px double;padding:0.2em 0.4em;">
+          <p style="text-align:center;">EL</p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;"><strong>#1</strong></p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;"><strong>11</strong></p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;">+50 攻击评级<br>+1 光照范围</p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;">+15 防御<br>+1 光照范围</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="background-color:hsl(0, 0%, 30%);border-bottom:1px double;border-left:1px double;border-right:1px double;border-top:1px double;padding:0.2em 0.4em;">
+          <p style="text-align:center;">ELD</p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;"><strong>#2</strong></p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;"><strong>11</strong></p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;">+75% 对不死生物伤害<br>+50 攻击评级（对不死生物）</p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;">每击杀一只怪 +5 生命<br>格挡几率提高 7%（盾牌）</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="background-color:hsl(0, 0%, 30%);border-bottom:1px double;border-left:1px double;border-right:1px double;border-top:1px double;padding:0.2em 0.4em;">
+          <p style="text-align:center;">TIR</p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;"><strong>#3</strong></p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;"><strong>13</strong></p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;">每击杀一只怪 +2 法力</p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;">每击杀一只怪 +2 法力</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="background-color:hsl(0, 0%, 30%);border-bottom:1px double;border-left:1px double;border-right:1px double;border-top:1px double;padding:0.2em 0.4em;">
+          <p style="text-align:center;">NEF</p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;"><strong>#4</strong></p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;"><strong>13</strong></p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;">击退</p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;">+30 防御（对远程攻击）</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="background-color:hsl(0, 0%, 30%);border-bottom:1px double;border-left:1px double;border-right:1px double;border-top:1px double;padding:0.2em 0.4em;">
+          <p style="text-align:center;">ETH</p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;"><strong>#5</strong></p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;"><strong>15</strong></p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;">-25% 目标防御</p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;">法力恢复加快 15%</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="background-color:hsl(0, 0%, 30%);border-bottom:1px double;border-left:1px double;border-right:1px double;border-top:1px double;padding:0.2em 0.4em;">
+          <p style="text-align:center;">ITH</p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;"><strong>#6</strong></p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;"><strong>15</strong></p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;">+9 最高伤害</p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;">所受伤害的 15% 转为法力</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="background-color:hsl(0, 0%, 30%);border-bottom:1px double;border-left:1px double;border-right:1px double;border-top:1px double;padding:0.2em 0.4em;">
+          <p style="text-align:center;">TAL</p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;"><strong>#7</strong></p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;"><strong>17</strong></p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;">5 秒内 +75 毒素伤害</p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;">毒素抗性 30%<br>毒素抗性 35%（盾牌）</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="background-color:hsl(0, 0%, 30%);border-bottom:1px double;border-left:1px double;border-right:1px double;border-top:1px double;padding:0.2em 0.4em;">
+          <p style="text-align:center;">RAL</p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;"><strong>#8</strong></p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;"><strong>19</strong></p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;">附加 5-30 点火焰伤害</p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;">火焰抗性 30%<br>火焰抗性 35%（盾牌）</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="background-color:hsl(240, 75%, 60%);border-bottom:1px double;border-left:1px double;border-right:1px double;border-top:1px double;padding:0.2em 0.4em;">
+          <p style="text-align:center;">ORT</p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;"><strong>#9</strong></p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;"><strong>21</strong></p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;">附加 1-50 点闪电伤害</p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;">闪电抗性 30%<br>闪电抗性 35%（盾牌）</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="background-color:hsl(240, 75%, 60%);border-bottom:1px double;border-left:1px double;border-right:1px double;border-top:1px double;padding:0.2em 0.4em;">
+          <p style="text-align:center;">THUL</p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;"><strong>#10</strong></p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;"><strong>23</strong></p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;">附加 3-14 点冷伤害 - 持续 3 秒</p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;">冰冷抗性 30%<br>冰冷抗性 35%（盾牌）</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="background-color:hsl(240, 75%, 60%);border-bottom:1px double;border-left:1px double;border-right:1px double;border-top:1px double;padding:0.2em 0.4em;">
+          <p style="text-align:center;">AMN</p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;"><strong>#11</strong></p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;"><strong>25</strong></p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;">每次命中偷取 7% 生命</p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;">攻击者受到 14 点伤害</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="background-color:hsl(240, 75%, 60%);border-bottom:1px double;border-left:1px double;border-right:1px double;border-top:1px double;padding:0.2em 0.4em;">
+          <p style="text-align:center;">SOL</p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;"><strong>#12</strong></p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;"><strong>27</strong></p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;">+9 最低伤害</p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;">伤害降低 7</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="background-color:hsl(240, 75%, 60%);border-bottom:1px double;border-left:1px double;border-right:1px double;border-top:1px double;padding:0.2em 0.4em;">
+          <p style="text-align:center;">SHAEL</p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;"><strong>#13</strong></p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;"><strong>29</strong></p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;">攻击速度加快 20%</p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;">打击恢复加快 20%<br>格挡速度加快 20%（盾牌）</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="background-color:hsl(240, 75%, 60%);border-bottom:1px double;border-left:1px double;border-right:1px double;border-top:1px double;padding:0.2em 0.4em;">
+          <p style="text-align:center;">DOL</p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;"><strong>#14</strong></p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;"><strong>31</strong></p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;">25% 几率击中使怪物逃跑</p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;">生命补给 +7</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="background-color:hsl(180, 75%, 60%);border-bottom:1px double hsl(180, 75%, 60%);border-left:1px double hsl(180, 75%, 60%);border-right:1px double hsl(180, 75%, 60%);border-top:1px double hsl(180, 75%, 60%);padding:0.2em 0.4em;">
+          <p style="text-align:center;">HEL</p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;"><strong>#15</strong></p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;"><strong>-</strong></p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;">需求 -20%</p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;">需求 -15%</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="background-color:hsl(240, 75%, 60%);border-bottom:1px double hsl(240, 75%, 60%);border-left:1px double hsl(240, 75%, 60%);border-right:1px double hsl(240, 75%, 60%);border-top:1px double hsl(240, 75%, 60%);padding:0.2em 0.4em;">
+          <p style="text-align:center;">IO</p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;"><strong>#16</strong></p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;"><strong>35</strong></p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;">+10 体力</p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;">+10 体力</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="background-color:hsl(30, 75%, 60%);border-bottom:1px double hsl(30, 75%, 60%);border-left:1px double hsl(30, 75%, 60%);border-right:1px double hsl(30, 75%, 60%);border-top:1px double hsl(30, 75%, 60%);padding:0.2em 0.4em;">
+          <p style="text-align:center;">LUM</p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;"><strong>#17</strong></p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;"><strong>37</strong></p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;">+10 能量</p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;">+10 能量</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="background-color:hsl(30, 75%, 60%);border-bottom:1px double hsl(30, 75%, 60%);border-left:1px double hsl(30, 75%, 60%);border-right:1px double hsl(30, 75%, 60%);border-top:1px double hsl(30, 75%, 60%);padding:0.2em 0.4em;">
+          <p style="text-align:center;">KO</p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;"><strong>#18</strong></p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;"><strong>39</strong></p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;">+10 敏捷</p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;">+10 敏捷</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="background-color:hsl(30, 75%, 60%);border-bottom:1px double hsl(30, 75%, 60%);border-left:1px double hsl(30, 75%, 60%);border-right:1px double hsl(30, 75%, 60%);border-top:1px double hsl(30, 75%, 60%);padding:0.2em 0.4em;">
+          <p style="text-align:center;">FAL</p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;"><strong>#19</strong></p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;"><strong>41</strong></p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;">+10 力量</p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;">+10 力量</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="background-color:hsl(30, 75%, 60%);border-bottom:1px double hsl(30, 75%, 60%);border-left:1px double hsl(30, 75%, 60%);border-right:1px double hsl(30, 75%, 60%);border-top:1px double hsl(30, 75%, 60%);padding:0.2em 0.4em;">
+          <p style="text-align:center;">LEM</p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;"><strong>#20</strong></p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;"><strong>43</strong></p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;">怪物金币获取 +75%</p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;">怪物金币获取 +50%</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="background-color:hsl(30, 75%, 60%);border-bottom:1px double hsl(30, 75%, 60%);border-left:1px double hsl(30, 75%, 60%);border-right:1px double hsl(30, 75%, 60%);border-top:1px double hsl(30, 75%, 60%);padding:0.2em 0.4em;">
+          <p style="text-align:center;">PUL</p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;"><strong>#21</strong></p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;"><strong>45</strong></p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;">+75% 对恶魔伤害<br>+100 攻击评级（对恶魔）</p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;">+30% 增强防御</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="background-color:hsl(30, 75%, 60%);border-bottom:1px double hsl(30, 75%, 60%);border-left:1px double hsl(30, 75%, 60%);border-right:1px double hsl(30, 75%, 60%);border-top:1px double hsl(30, 75%, 60%);padding:0.2em 0.4em;">
+          <p style="text-align:center;">UM</p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;"><strong>#22</strong></p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;"><strong>47</strong></p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;">25% 几率造成开放性伤口</p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;">+15 全部抗性（护甲/头盔）&nbsp;<br>+22 全部抗性（盾牌）</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="background-color:hsl(30, 75%, 60%);border-bottom:1px double hsl(30, 75%, 60%);border-left:1px double hsl(30, 75%, 60%);border-right:1px double hsl(30, 75%, 60%);border-top:1px double hsl(30, 75%, 60%);padding:0.2em 0.4em;">
+          <p style="text-align:center;">MAL</p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;"><strong>#23</strong></p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;"><strong>49</strong></p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;">阻止怪物恢复生命</p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;">魔法伤害降低 7</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="background-color:hsl(30, 75%, 60%);border-bottom:1px double hsl(30, 75%, 60%);border-left:1px double hsl(30, 75%, 60%);border-right:1px double hsl(30, 75%, 60%);border-top:1px double hsl(30, 75%, 60%);padding:0.2em 0.4em;">
+          <p style="text-align:center;">IST</p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;"><strong>#24</strong></p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;"><strong>51</strong></p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;">魔法物品掉落几率提高 30%</p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;">魔法物品掉落几率提高 25%</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="background-color:hsl(30, 75%, 60%);border-bottom:1px double hsl(30, 75%, 60%);border-left:1px double hsl(30, 75%, 60%);border-right:1px double hsl(30, 75%, 60%);border-top:1px double hsl(30, 75%, 60%);padding:0.2em 0.4em;">
+          <p style="text-align:center;">GUL</p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;"><strong>#25</strong></p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;"><strong>53</strong></p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;">攻击评级提高 20%</p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;">毒素抗性上限 +5%</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="background-color:hsl(0, 75%, 60%);border-bottom:1px double hsl(0, 75%, 60%);border-left:1px double hsl(0, 75%, 60%);border-right:1px double hsl(0, 75%, 60%);border-top:1px double hsl(0, 75%, 60%);padding:0.2em 0.4em;">
+          <p style="text-align:center;">VEX</p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;"><strong>#26</strong></p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;"><strong>55</strong></p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;">每次命中偷取 7% 法力</p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;">火焰抗性上限 +5%</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="background-color:hsl(0, 75%, 60%);border-bottom:1px double hsl(0, 75%, 60%);border-left:1px double hsl(0, 75%, 60%);border-right:1px double hsl(0, 75%, 60%);border-top:1px double hsl(0, 75%, 60%);padding:0.2em 0.4em;">
+          <p style="text-align:center;">OHM</p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;"><strong>#27</strong></p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;"><strong>57</strong></p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;">+50% 增强伤害</p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;">冰冷抗性上限 +5%</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="background-color:hsl(0, 75%, 60%);border-bottom:1px double hsl(0, 75%, 60%);border-left:1px double hsl(0, 75%, 60%);border-right:1px double hsl(0, 75%, 60%);border-top:1px double hsl(0, 75%, 60%);padding:0.2em 0.4em;">
+          <p style="text-align:center;">LO</p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;"><strong>#28</strong></p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;"><strong>59</strong></p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;">20% 致命一击</p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;">闪电抗性上限 +5%</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="background-color:hsl(0, 75%, 60%);border-bottom:1px double hsl(0, 75%, 60%);border-left:1px double hsl(0, 75%, 60%);border-right:1px double hsl(0, 75%, 60%);border-top:1px double hsl(0, 75%, 60%);padding:0.2em 0.4em;">
+          <p style="text-align:center;">SUR</p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;"><strong>#29</strong></p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;"><strong>61</strong></p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;">击中使目标失明</p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;">法力上限 +5%&nbsp;<br>+50 法力（盾牌）</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="background-color:hsl(0, 75%, 60%);border-bottom:1px double hsl(0, 75%, 60%);border-left:1px double hsl(0, 75%, 60%);border-right:1px double hsl(0, 75%, 60%);border-top:1px double hsl(0, 75%, 60%);padding:0.2em 0.4em;">
+          <p style="text-align:center;">BER</p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;"><strong>#30</strong></p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;"><strong>63</strong></p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;">10% 几率压碎性打击</p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;">伤害降低 8%</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="background-color:hsl(0, 75%, 60%);border-bottom:1px double hsl(0, 75%, 60%);border-left:1px double hsl(0, 75%, 60%);border-right:1px double hsl(0, 75%, 60%);border-top:1px double hsl(0, 75%, 60%);padding:0.2em 0.4em;">
+          <p style="text-align:center;">JAH</p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;"><strong>#31</strong></p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;"><strong>65</strong></p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;">无视目标防御</p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;">生命上限提高 5%<br>+50 生命（盾牌）</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="background-color:hsl(0, 75%, 60%);border-bottom:1px double hsl(0, 75%, 60%);border-left:1px double hsl(0, 75%, 60%);border-right:1px double hsl(0, 75%, 60%);border-top:1px double hsl(0, 75%, 60%);padding:0.2em 0.4em;">
+          <p style="text-align:center;">CHAM</p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;"><strong>#32</strong></p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;"><strong>67</strong></p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;">冻结目标 +3</p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;">无法冰冻</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="background-color:hsl(270, 75%, 60%);border-bottom:1px double hsl(270, 75%, 60%);border-left:1px double hsl(270, 75%, 60%);border-right:1px double hsl(270, 75%, 60%);border-top:1px double hsl(270, 75%, 60%);padding:0.2em 0.4em;">
+          <p style="text-align:center;">ZOD</p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;"><strong>#33</strong></p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;"><strong>69</strong></p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;">不可破坏</p>
+        </td>
+        <td style="border-bottom:1px solid var(--wiki-content-border-color);border-left:1px solid var(--wiki-content-border-color);border-right:1px solid var(--wiki-content-border-color);border-top:1px solid var(--wiki-content-border-color);padding:0.2em 0.4em;">
+          <p style="text-align:center;">不可破坏</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>

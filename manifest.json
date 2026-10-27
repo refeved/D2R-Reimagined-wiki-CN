@@ -2,21 +2,516 @@
   "base_seed": "e8111f3283cb2b6a7ba6393377cb28722d58f1e3",
   "head": "e8111f3283cb2b6a7ba6393377cb28722d58f1e3",
   "pages": {
+    "Amazon": {
+      "en_blob": "e9d77b7db622afe1b973e08033925a143a1ad268",
+      "en_commit": "d532ed9fea2b6b4c2b2c9dc566a10226342df48e",
+      "en_date": "2026-06-28",
+      "en_path": "Amazon.html",
+      "synced_at": "2026-10-27",
+      "zh_blob": "19cbdfb66679068e00ab5d48b5646bffdfd41462",
+      "zh_path": "Amazon.html"
+    },
+    "AreaLevels": {
+      "en_blob": "e9a576a787b92c131d336a10476bcd6a250915f6",
+      "en_commit": "6162bcf302daf20142dd45d491462deba6d005c2",
+      "en_date": "2025-10-18",
+      "en_path": "AreaLevels.html",
+      "synced_at": "2026-10-27",
+      "zh_blob": "40620c2b72595af497949bd25633f82b24bf9153",
+      "zh_path": "AreaLevels.html"
+    },
+    "Assassin": {
+      "en_blob": "0417a436bb9de896473a7493b8f8d209bd458cb2",
+      "en_commit": "00b934796a405bd93f97029cb34ad54512cedbec",
+      "en_date": "2026-04-02",
+      "en_path": "Assassin.html",
+      "synced_at": "2026-10-27",
+      "zh_blob": "6618751f45999cdae53afb41beb6ec790ec5afb3",
+      "zh_path": "Assassin.html"
+    },
+    "Barbarian": {
+      "en_blob": "ab46c989d6ccb24fb8e653d6cf27bb2aa8f475c2",
+      "en_commit": "00b934796a405bd93f97029cb34ad54512cedbec",
+      "en_date": "2026-04-02",
+      "en_path": "Barbarian.html",
+      "synced_at": "2026-10-27",
+      "zh_blob": "9f541efcf0011542b14e83854a24c4124c297786",
+      "zh_path": "Barbarian.html"
+    },
+    "BattlenetSteam": {
+      "en_blob": "987d88d9584bb97077c7696f565a069fff5ab21e",
+      "en_commit": "8a61bdb8ce74d1f26da276aea85b845b978e6d89",
+      "en_date": "2026-04-05",
+      "en_path": "BattlenetSteam.html",
+      "synced_at": "2026-10-27",
+      "zh_blob": "cba7ac8f14502bbd82526f5817e06b3979fd3dc2",
+      "zh_path": "BattlenetSteam.html"
+    },
+    "Builds/Amazon": {
+      "en_blob": "4f32b90a12baac887d41856f3bedba4239c602cf",
+      "en_commit": "450e5c5708db747a48c1c72f543c69052b812173",
+      "en_date": "2026-07-07",
+      "en_path": "Builds/Amazon.html",
+      "synced_at": "2026-10-27",
+      "zh_blob": "fe16d5c5c7a2140c4565bc05002fbd8d113d4b68",
+      "zh_path": "Builds/Amazon.html"
+    },
+    "Builds/Amazon/GlacialArrowBowazonProdigy": {
+      "en_blob": "017b5cc3f6039504b33d2f2e8c4592586e57f615",
+      "en_commit": "1e72dc3ed222be2567d26735cfa2f778be721dd5",
+      "en_date": "2026-04-05",
+      "en_path": "Builds/Amazon/GlacialArrowBowazonProdigy.html",
+      "synced_at": "2026-10-27",
+      "zh_blob": "ccd25073015f225d4938589ccb46c476d9cfc6c9",
+      "zh_path": "Builds/Amazon/GlacialArrowBowazonProdigy.html"
+    },
+    "Builds/Amazon/Jerrdan_Bow": {
+      "en_blob": "d64f4da41af6ba1a3d679acde8376acc1846acb1",
+      "en_commit": "11975e4406a5ff483efeea0abecc2eb8373f5e81",
+      "en_date": "2026-10-03",
+      "en_path": "Builds/Amazon/Jerrdan_Bow.html",
+      "synced_at": "2026-10-27",
+      "zh_blob": "4b77f28f30903d7b0f8bb3f4589506627e488f03",
+      "zh_path": "Builds/Amazon/Jerrdan_Bow.html"
+    },
+    "Builds/Amazon/LastFables": {
+      "en_blob": "8d7a2c18eff04599562e496552350636df888b3a",
+      "en_commit": "73164a5d0eb79c0c7def427509b3ae6f96815e67",
+      "en_date": "2025-06-24",
+      "en_path": "Builds/Amazon/LastFables.html",
+      "synced_at": "2026-10-27",
+      "zh_blob": "bffedd9a72b0e742281d42411cb759ca847834b9",
+      "zh_path": "Builds/Amazon/LastFables.html"
+    },
+    "Builds/Amazon/Prodigy_CS_Spearzon": {
+      "en_blob": "a06373b029666107c8f41c4dbdd7612788e5799d",
+      "en_commit": "73164a5d0eb79c0c7def427509b3ae6f96815e67",
+      "en_date": "2025-06-24",
+      "en_path": "Builds/Amazon/Prodigy_CS_Spearzon.html",
+      "synced_at": "2026-10-27",
+      "zh_blob": "d6fec23d27e034c7d7971e52b7760d83ed304b07",
+      "zh_path": "Builds/Amazon/Prodigy_CS_Spearzon.html"
+    },
+    "Builds/Amazon/Prodigy_PhysBowazon": {
+      "en_blob": "e35441a48d0d81f8b8079b110d53f35cbc3ac8f4",
+      "en_commit": "73164a5d0eb79c0c7def427509b3ae6f96815e67",
+      "en_date": "2025-06-24",
+      "en_path": "Builds/Amazon/Prodigy_PhysBowazon.html",
+      "synced_at": "2026-10-27",
+      "zh_blob": "45ff1bd8a61dc28ca7fc1d8814124a44ae313555",
+      "zh_path": "Builds/Amazon/Prodigy_PhysBowazon.html"
+    },
+    "Builds/Amazon/ShoobyLightJava": {
+      "en_blob": "37e41931b7322b5a5dc7058bc9a38f59ce9d295f",
+      "en_commit": "73abce5331f21b8a000cd30fcaa9c0c405932ef4",
+      "en_date": "2026-10-05",
+      "en_path": "Builds/Amazon/ShoobyLightJava.html",
+      "synced_at": "2026-10-27",
+      "zh_blob": "23a2941f19b8c1ca1f556cd7d88faaef4f04b266",
+      "zh_path": "Builds/Amazon/ShoobyLightJava.html"
+    },
+    "Builds/Amazon/ShoobyShotgunAmazon": {
+      "en_blob": "c9846c289401e8b49375b4ffdc9111234a9f24cd",
+      "en_commit": "d0dd06577599491737a81e26c757d1daaaa1de77",
+      "en_date": "2026-10-06",
+      "en_path": "Builds/Amazon/ShoobyShotgunAmazon.html",
+      "synced_at": "2026-10-27",
+      "zh_blob": "34eda971f0724f5e6c7dd7afeb4b25347f2d8286",
+      "zh_path": "Builds/Amazon/ShoobyShotgunAmazon.html"
+    },
+    "Builds/Amazon/myama": {
+      "en_blob": "fe3f1843dbaeb12ed6855b10f20fa0bc994ea02e",
+      "en_commit": "cb70dbd622d81b4bc541ef75c42a27bb91fb6611",
+      "en_date": "2026-01-16",
+      "en_path": "Builds/Amazon/myama.html",
+      "synced_at": "2026-10-27",
+      "zh_blob": "1f036454834b30d947b32a06e367b93c99afd91b",
+      "zh_path": "Builds/Amazon/myama.html"
+    },
+    "Builds/Assassin": {
+      "en_blob": "d5e1c1206cf8f7bdf5266e1bfbd189fe5b176e13",
+      "en_commit": "7ba1a6fd318133a317183e17ec0ecaebd64a6a8e",
+      "en_date": "2026-09-11",
+      "en_path": "Builds/Assassin.html",
+      "synced_at": "2026-10-27",
+      "zh_blob": "d7f219f4f7818463ebd69acf3354e979d3ea50ad",
+      "zh_path": "Builds/Assassin.html"
+    },
+    "Builds/Assassin/BaftShadowTrapSin": {
+      "en_blob": "84d8740fb5c4d10b07ab516f92bfe24ff86cc7e1",
+      "en_commit": "f2f57c930ce02e7839ebfc527968c65ecd4e2bdf",
+      "en_date": "2026-09-11",
+      "en_path": "Builds/Assassin/BaftShadowTrapSin.html",
+      "synced_at": "2026-10-27",
+      "zh_blob": "6668b3c32a2df3fdf84f8088c8ec54aa439962f6",
+      "zh_path": "Builds/Assassin/BaftShadowTrapSin.html"
+    },
+    "Builds/Assassin/IceKicksin": {
+      "en_blob": "fea70165b7111a44df749372dc3ebb905b35a4e8",
+      "en_commit": "73164a5d0eb79c0c7def427509b3ae6f96815e67",
+      "en_date": "2025-06-24",
+      "en_path": "Builds/Assassin/IceKicksin.html",
+      "synced_at": "2026-10-27",
+      "zh_blob": "ed019b43382cacacf28da01a46a3654a15dbf9e4",
+      "zh_path": "Builds/Assassin/IceKicksin.html"
+    },
+    "Builds/Assassin/ProdigyBladeFurySin": {
+      "en_blob": "23bc599e553591057454a474451ed6f12480df08",
+      "en_commit": "73164a5d0eb79c0c7def427509b3ae6f96815e67",
+      "en_date": "2025-06-24",
+      "en_path": "Builds/Assassin/ProdigyBladeFurySin.html",
+      "synced_at": "2026-10-27",
+      "zh_blob": "a2611826f6fda294fa22c1d28497cc5ac2024a5c",
+      "zh_path": "Builds/Assassin/ProdigyBladeFurySin.html"
+    },
+    "Builds/Assassin/SinNSpin": {
+      "en_blob": "c0826fbd87b7f60e745c30bf2e1c03fb9500eb5d",
+      "en_commit": "fc501108147d29ab24a4574190a7318c9ec5c75e",
+      "en_date": "2026-03-08",
+      "en_path": "Builds/Assassin/SinNSpin.html",
+      "synced_at": "2026-10-27",
+      "zh_blob": "b5ecedb667b07425179f17caf859f46849dcee6c",
+      "zh_path": "Builds/Assassin/SinNSpin.html"
+    },
+    "Builds/Barbarian": {
+      "en_blob": "ff2c4a42e12ec46d923bfb146660ff75944b6eb6",
+      "en_commit": "c75ab90da9b48f6da29f115c86ee8b17633928c9",
+      "en_date": "2026-08-05",
+      "en_path": "Builds/Barbarian.html",
+      "synced_at": "2026-10-27",
+      "zh_blob": "a8b730360e4229e8726d31277c1b559f32f2d0f4",
+      "zh_path": "Builds/Barbarian.html"
+    },
+    "Builds/Barbarian/MuschoGuide": {
+      "en_blob": "4a68c9ba7ad1a889d88054048af7048e26b384a1",
+      "en_commit": "53b9ada89c8a05806059e4538d128e333c4cd684",
+      "en_date": "2025-11-10",
+      "en_path": "Builds/Barbarian/MuschoGuide.html",
+      "synced_at": "2026-10-27",
+      "zh_blob": "6afa57ccaece6d6550b6dfc09c3209153ac5e7a0",
+      "zh_path": "Builds/Barbarian/MuschoGuide.html"
+    },
+    "Builds/Barbarian/ProdigyEndgameColdBarbazon": {
+      "en_blob": "368ffd2e6211f973bf78d8a01cd162d54a0ee196",
+      "en_commit": "73164a5d0eb79c0c7def427509b3ae6f96815e67",
+      "en_date": "2025-06-24",
+      "en_path": "Builds/Barbarian/ProdigyEndgameColdBarbazon.html",
+      "synced_at": "2026-10-27",
+      "zh_blob": "59e3d017fc0cdcf12cdab6af41f5c1b78d2fb1b0",
+      "zh_path": "Builds/Barbarian/ProdigyEndgameColdBarbazon.html"
+    },
+    "Builds/Barbarian/ShoobyGambitBarb": {
+      "en_blob": "0df76e646829210e48b6a4f0147464ec762413a9",
+      "en_commit": "01858a5546d022ff379e193a53946f3fae26212a",
+      "en_date": "2026-08-31",
+      "en_path": "Builds/Barbarian/ShoobyGambitBarb.html",
+      "synced_at": "2026-10-27",
+      "zh_blob": "728b9606b89e0cbeae7071c313556ef4d457eee4",
+      "zh_path": "Builds/Barbarian/ShoobyGambitBarb.html"
+    },
+    "Builds/Barbarian/TTCN": {
+      "en_blob": "f7430907c3bd24259d392a4b777b903862d24464",
+      "en_commit": "37c18e95ab98bad2c95e5603f0ba3a846b080a71",
+      "en_date": "2025-07-30",
+      "en_path": "Builds/Barbarian/TTCN.html",
+      "synced_at": "2026-10-27",
+      "zh_blob": "3ff91bbbf2a9e15badc6b0805976a1b3ee7446f3",
+      "zh_path": "Builds/Barbarian/TTCN.html"
+    },
+    "Builds/Barbarian/slamacekCarnage": {
+      "en_blob": "d09d185e1b0c0f764d166d20d6a04d801fbcdcef",
+      "en_commit": "3d8a803fb85c5c955091aefcb8b2deb71d4dd112",
+      "en_date": "2025-08-17",
+      "en_path": "Builds/Barbarian/slamacekCarnage.md",
+      "synced_at": "2026-10-27",
+      "zh_blob": "f95af04417e69125220840cf4837889b087585f0",
+      "zh_path": "Builds/Barbarian/slamacekCarnage.md"
+    },
+    "Builds/Druid": {
+      "en_blob": "9408d0a8c912a18293f8fdc150ea79a834759868",
+      "en_commit": "33e1ca6c68f4304ea4f514c82fd4b728089c7bda",
+      "en_date": "2026-06-20",
+      "en_path": "Builds/Druid.html",
+      "synced_at": "2026-10-27",
+      "zh_blob": "9f36e1d04e6aae09f143f515d44dc02d13040c7b",
+      "zh_path": "Builds/Druid.html"
+    },
+    "Builds/Druid/HCFireClawsDruid": {
+      "en_blob": "d3bf00e54c20e1765ded2d47a32cf2e786307af3",
+      "en_commit": "5264be9b0c5d2367b0d738efdc111ba272990c25",
+      "en_date": "2026-09-04",
+      "en_path": "Builds/Druid/HCFireClawsDruid.html",
+      "synced_at": "2026-10-27",
+      "zh_blob": "7e99218d3177985faa405d9f849d861fd9d7fd21",
+      "zh_path": "Builds/Druid/HCFireClawsDruid.html"
+    },
+    "Builds/Druid/PolarBearShockwaveDruid": {
+      "en_blob": "2585808864c733a4f8774dc1c7f589338635635f",
+      "en_commit": "5acd8f476816088634589325140263f37ae13de2",
+      "en_date": "2026-04-28",
+      "en_path": "Builds/Druid/PolarBearShockwaveDruid.html",
+      "synced_at": "2026-10-27",
+      "zh_blob": "e5cc326b4a4c1261439ea274055406cb06aea9df",
+      "zh_path": "Builds/Druid/PolarBearShockwaveDruid.html"
+    },
+    "Builds/Druid/ScruphSummonDruid": {
+      "en_blob": "c53ca222ce1e0fc4bcdf5f2f453e91890cedeee2",
+      "en_commit": "73164a5d0eb79c0c7def427509b3ae6f96815e67",
+      "en_date": "2025-06-24",
+      "en_path": "Builds/Druid/ScruphSummonDruid.html",
+      "synced_at": "2026-10-27",
+      "zh_blob": "d0fc6389789c714a89bdbbf86bad3c29cdbd5bc4",
+      "zh_path": "Builds/Druid/ScruphSummonDruid.html"
+    },
+    "Builds/Druid/ShoobyArmageddonBear": {
+      "en_blob": "2af3536e1945e37edd834f3c6593270b7e0f29b3",
+      "en_commit": "6dee3d61ef9c7cb6b89cdd59ba162de39303f69a",
+      "en_date": "2026-10-06",
+      "en_path": "Builds/Druid/ShoobyArmageddonBear.html",
+      "synced_at": "2026-10-27",
+      "zh_blob": "10d72bff34aba37a693e6b79b714c997e40280c2",
+      "zh_path": "Builds/Druid/ShoobyArmageddonBear.html"
+    },
+    "Builds/Druid/ShoobyBirdDruid": {
+      "en_blob": "be9d478e4cebef445884f90336e02243532c7f28",
+      "en_commit": "e8aa2874826271490bd92b185ba58ac1e8cac9e6",
+      "en_date": "2026-10-09",
+      "en_path": "Builds/Druid/ShoobyBirdDruid.html",
+      "synced_at": "2026-10-27",
+      "zh_blob": "fc89bfa6f19a43866138b285decd48ed647c2bae",
+      "zh_path": "Builds/Druid/ShoobyBirdDruid.html"
+    },
+    "Builds/Druid/ShoobyTecSlamDruid": {
+      "en_blob": "5b1040f5c0c8138cf70d7562a896b9752198b50a",
+      "en_commit": "db3b923e0ed41d8d156203b46259bc798c2051ef",
+      "en_date": "2026-04-08",
+      "en_path": "Builds/Druid/ShoobyTecSlamDruid.html",
+      "synced_at": "2026-10-27",
+      "zh_blob": "76604d2ecd8b11fe76a065a7b8674355ca3446c9",
+      "zh_path": "Builds/Druid/ShoobyTecSlamDruid.html"
+    },
+    "Builds/FoHPaladin3x": {
+      "en_blob": "e6e680a4e9afe66f85d0b975423d9524ff395d04",
+      "en_commit": "c8267ea07783dd3259d37b5f3d7196058b4e6761",
+      "en_date": "2026-06-23",
+      "en_path": "Builds/FoHPaladin3x.html",
+      "synced_at": "2026-10-27",
+      "zh_blob": "622f4d9989a4876149933af385c9a412914d613f",
+      "zh_path": "Builds/FoHPaladin3x.html"
+    },
+    "Builds/Necromancer": {
+      "en_blob": "469044dad5d60c549b26e1b1fb17c1dfa08f910c",
+      "en_commit": "92a0765ea537d8a153da64a63d75163f58cbb69d",
+      "en_date": "2026-06-29",
+      "en_path": "Builds/Necromancer.html",
+      "synced_at": "2026-10-27",
+      "zh_blob": "2deb64160490c07a1d7cf6f2d467d2871bd68980",
+      "zh_path": "Builds/Necromancer.html"
+    },
+    "Builds/Necromancer/ShoobyMaadiBonemancer": {
+      "en_blob": "5681f9dd30ac5ed40d366a7f713d74dba8164596",
+      "en_commit": "0031884623222d40ac25de68859f85cc2bffe3d0",
+      "en_date": "2026-10-06",
+      "en_path": "Builds/Necromancer/ShoobyMaadiBonemancer.html",
+      "synced_at": "2026-10-27",
+      "zh_blob": "2fe05ed294873a96116e5fb7e3984bc4ea47a24e",
+      "zh_path": "Builds/Necromancer/ShoobyMaadiBonemancer.html"
+    },
+    "Builds/Necromancer/summonnecro": {
+      "en_blob": "fbb9f3b6e0d6f889335262a3d5b2839fca5a32ac",
+      "en_commit": "37c18e95ab98bad2c95e5603f0ba3a846b080a71",
+      "en_date": "2025-07-30",
+      "en_path": "Builds/Necromancer/summonnecro.html",
+      "synced_at": "2026-10-27",
+      "zh_blob": "23fed3f8006ef5087d7efb6b916f104825d1a6fe",
+      "zh_path": "Builds/Necromancer/summonnecro.html"
+    },
+    "Builds/Paladin": {
+      "en_blob": "d36d64c305f1ca3d159934557d77e6ab6fcfec3f",
+      "en_commit": "3cebfcc03899e365aed10283c2651e5962fd5320",
+      "en_date": "2026-08-04",
+      "en_path": "Builds/Paladin.html",
+      "synced_at": "2026-10-27",
+      "zh_blob": "8678656c3613b9b3424b2cdd6f1cca29659e5a53",
+      "zh_path": "Builds/Paladin.html"
+    },
+    "Builds/Paladin/ElePhysHybridPally": {
+      "en_blob": "2d03c7c1428a6674d1398a0b92573bf4674acca2",
+      "en_commit": "8635f9c122b6f778680835a2ca665261bebe3345",
+      "en_date": "2025-10-29",
+      "en_path": "Builds/Paladin/ElePhysHybridPally.html",
+      "synced_at": "2026-10-27",
+      "zh_blob": "674ea8fef398b5d9b9e19dd676926a70fbb1e83a",
+      "zh_path": "Builds/Paladin/ElePhysHybridPally.html"
+    },
+    "Builds/Paladin/FoH_Hammerdin_Merc_Equip": {
+      "en_blob": "86ff9f932d86dc12c106a4cceccc9e800eef0144",
+      "en_commit": "73164a5d0eb79c0c7def427509b3ae6f96815e67",
+      "en_date": "2025-06-24",
+      "en_path": "Builds/Paladin/FoH_Hammerdin_Merc_Equip.html",
+      "synced_at": "2026-10-27",
+      "zh_blob": "a190b79ef36ebcbf2fe4956f571e83611bc23ef3",
+      "zh_path": "Builds/Paladin/FoH_Hammerdin_Merc_Equip.html"
+    },
+    "Builds/Paladin/FohPaladinByJasper89c": {
+      "en_blob": "c623841632ee91a784f0a38d4248341c10716cbe",
+      "en_commit": "73164a5d0eb79c0c7def427509b3ae6f96815e67",
+      "en_date": "2025-06-24",
+      "en_path": "Builds/Paladin/FohPaladinByJasper89c.md",
+      "synced_at": "2026-10-27",
+      "zh_blob": "ff5fc2121b768cc8b1737d11e8d13ec81874d120",
+      "zh_path": "Builds/Paladin/FohPaladinByJasper89c.md"
+    },
+    "Builds/Paladin/HolyFireProdigy3x": {
+      "en_blob": "0668b428f4c03ddbc00c3b50eefb3b6fda1ec94c",
+      "en_commit": "afdcaedca720389d38d1beee51904f1d03ec9513",
+      "en_date": "2026-04-06",
+      "en_path": "Builds/Paladin/HolyFireProdigy3x.html",
+      "synced_at": "2026-10-27",
+      "zh_blob": "e1379553995c86489fa3b83ee12b21955c8c2eae",
+      "zh_path": "Builds/Paladin/HolyFireProdigy3x.html"
+    },
+    "Builds/Paladin/palano1": {
+      "en_blob": "bdcd219ed379b2bde7b2ab41a0af01776c6c5837",
+      "en_commit": "3d8a803fb85c5c955091aefcb8b2deb71d4dd112",
+      "en_date": "2025-08-17",
+      "en_path": "Builds/Paladin/palano1.html",
+      "synced_at": "2026-10-27",
+      "zh_blob": "1b9089caf80672196710fff02905f87e1523e681",
+      "zh_path": "Builds/Paladin/palano1.html"
+    },
+    "Builds/Paladin/shoobybloodyhammers": {
+      "en_blob": "2ad06ee9a5d2902fdb7bfb554d9e797162ca64b6",
+      "en_commit": "7b93df4e1446eef9c402e01133111a4140fe7070",
+      "en_date": "2026-10-09",
+      "en_path": "Builds/Paladin/shoobybloodyhammers.html",
+      "synced_at": "2026-10-27",
+      "zh_blob": "63ff941c53e4523a39f0213bbf9103de3718ea9c",
+      "zh_path": "Builds/Paladin/shoobybloodyhammers.html"
+    },
+    "Builds/Sorceress": {
+      "en_blob": "9c59ceca9aa0288b19a80abd7bbcadd19cea11b2",
+      "en_commit": "c0e393b28da4e15de5a5b6638eefb19fcb2f3813",
+      "en_date": "2026-04-28",
+      "en_path": "Builds/Sorceress.html",
+      "synced_at": "2026-10-27",
+      "zh_blob": "a2ea26626137f7c085798c6d230f3d949d4d2b36",
+      "zh_path": "Builds/Sorceress.html"
+    },
+    "Builds/Sorceress/FrozenOrbSorceress": {
+      "en_blob": "c6f06e4c471d4a58fbccbdf30b4123cba611549b",
+      "en_commit": "73164a5d0eb79c0c7def427509b3ae6f96815e67",
+      "en_date": "2025-06-24",
+      "en_path": "Builds/Sorceress/FrozenOrbSorceress.html",
+      "synced_at": "2026-10-27",
+      "zh_blob": "c95c428c39811b6993db021acd8cba185e2999d3",
+      "zh_path": "Builds/Sorceress/FrozenOrbSorceress.html"
+    },
+    "Builds/Sorceress/GangsterSoso": {
+      "en_blob": "e56b1c126d2627583c39c99fb202006b33e45fb7",
+      "en_commit": "37c18e95ab98bad2c95e5603f0ba3a846b080a71",
+      "en_date": "2025-07-30",
+      "en_path": "Builds/Sorceress/GangsterSoso.html",
+      "synced_at": "2026-10-27",
+      "zh_blob": "94eaac38c0d4dc99f27af1bd402fd8d430622ca6",
+      "zh_path": "Builds/Sorceress/GangsterSoso.html"
+    },
+    "Builds/Sorceress/NovaSorceress": {
+      "en_blob": "de54a0f81223abd07dec24d5ec794b921f428c2d",
+      "en_commit": "73164a5d0eb79c0c7def427509b3ae6f96815e67",
+      "en_date": "2025-06-24",
+      "en_path": "Builds/Sorceress/NovaSorceress.html",
+      "synced_at": "2026-10-27",
+      "zh_blob": "aa2ba5d252fad1cd4e79cd171050f764c23b46e1",
+      "zh_path": "Builds/Sorceress/NovaSorceress.html"
+    },
+    "Builds/Sorceress/ProdigyHydraFireballSorc": {
+      "en_blob": "13fe6de0ac4ede210b0a7c8a469f6c695453ca8b",
+      "en_commit": "769070b347475a7c14c35771b0f711b98644edd3",
+      "en_date": "2026-04-22",
+      "en_path": "Builds/Sorceress/ProdigyHydraFireballSorc.html",
+      "synced_at": "2026-10-27",
+      "zh_blob": "e164f57c0480e20394cdc2cb0acbc8075229dcbd",
+      "zh_path": "Builds/Sorceress/ProdigyHydraFireballSorc.html"
+    },
+    "Builds/Sorceress/ShoobyVengSummSorc": {
+      "en_blob": "a70985771b583c4b2efd9a154641f588635e0eed",
+      "en_commit": "258e0e1b7dbb2efcf542e05a14e0c41cf2a1816b",
+      "en_date": "2026-08-31",
+      "en_path": "Builds/Sorceress/ShoobyVengSummSorc.html",
+      "synced_at": "2026-10-27",
+      "zh_blob": "c50b090e310d7d2355bb26f935aa46ccebe12d59",
+      "zh_path": "Builds/Sorceress/ShoobyVengSummSorc.html"
+    },
+    "Builds/Sorceress/Sorceress": {
+      "en_blob": "45fa740ced898b72b4262c9cfab201a2fe62df6f",
+      "en_commit": "7e77bcbd2460c78cd2f98555520d213216e513a4",
+      "en_date": "2026-03-08",
+      "en_path": "Builds/Sorceress/Sorceress.html",
+      "synced_at": "2026-10-27",
+      "zh_blob": "32b6b900ee0fb0dc2a7d1185bb56b440e6bdcf77",
+      "zh_path": "Builds/Sorceress/Sorceress.html"
+    },
+    "Builds/Sorceress/TodayGamezForbSorc": {
+      "en_blob": "74e29847a4f4f5fc36c9c376555d27ab3852085e",
+      "en_commit": "73164a5d0eb79c0c7def427509b3ae6f96815e67",
+      "en_date": "2025-06-24",
+      "en_path": "Builds/Sorceress/TodayGamezForbSorc.html",
+      "synced_at": "2026-10-27",
+      "zh_blob": "4b10e8c74ae7732f9446c5d8c9eebe17936b22b3",
+      "zh_path": "Builds/Sorceress/TodayGamezForbSorc.html"
+    },
+    "Builds/Sorceress/Whirlwind_Enchantress": {
+      "en_blob": "ec0f4fa0e70a2add91ab4b506d8f1a1870804993",
+      "en_commit": "73164a5d0eb79c0c7def427509b3ae6f96815e67",
+      "en_date": "2025-06-24",
+      "en_path": "Builds/Sorceress/Whirlwind_Enchantress.html",
+      "synced_at": "2026-10-27",
+      "zh_blob": "cf2cc6b23fe064b246e2cb67a7118257aa1f88dc",
+      "zh_path": "Builds/Sorceress/Whirlwind_Enchantress.html"
+    },
+    "Builds/Warlock": {
+      "en_blob": "63b436cc54492e76a57091ec679024d4e543747a",
+      "en_commit": "18d5e0b3a7c05c4762eb422f5097239ac5e22ef2",
+      "en_date": "2026-08-17",
+      "en_path": "Builds/Warlock.html",
+      "synced_at": "2026-10-27",
+      "zh_blob": "8277b47a3bb6829c713a366a3564c66ab2a67222",
+      "zh_path": "Builds/Warlock.html"
+    },
     "ClassChanges": {
       "en_blob": "429303b98042eaf86c14aba53c80f965eee4cf0a",
       "en_commit": "00b934796a405bd93f97029cb34ad54512cedbec",
       "en_date": "2026-04-02",
       "en_path": "ClassChanges.html",
-      "synced_at": "2026-10-26",
+      "synced_at": "2026-10-27",
       "zh_blob": "28c8b8c2104ca17c05b377319981476893cc6c36",
       "zh_path": "ClassChanges.html"
+    },
+    "CreateBuild": {
+      "en_blob": "29e2ffcbded651e738b45e63e015a9463518216e",
+      "en_commit": "bae3a2bb04d3740641035da530ada39de9561916",
+      "en_date": "2025-11-10",
+      "en_path": "CreateBuild.html",
+      "synced_at": "2026-10-27",
+      "zh_blob": "36207f8d541c457afd473a188f686b7f0e11a21b",
+      "zh_path": "CreateBuild.html"
+    },
+    "Druid": {
+      "en_blob": "0851b9d352b26955ad7eaedb1bca703be9af7261",
+      "en_commit": "44d82062ebeb6cdf1b55b0861db823fa9ecf8569",
+      "en_date": "2026-09-01",
+      "en_path": "Druid.html",
+      "synced_at": "2026-10-27",
+      "zh_blob": "0a238661b934084c453563a46380341045986f30",
+      "zh_path": "Druid.html"
     },
     "FAQ": {
       "en_blob": "9185a45f435de8ed2cea50723017bb1158019bda",
       "en_commit": "eda0d9e57d890e575b2a52bb8be65e42c64585bc",
       "en_date": "2026-10-15",
       "en_path": "FAQ.md",
-      "synced_at": "2026-10-26",
+      "synced_at": "2026-10-27",
       "zh_blob": "1520ed7713255b3e3d20f330ffc28ee8af809834",
       "zh_path": "FAQ.md"
     },
@@ -25,45 +520,306 @@
       "en_commit": "dfcad86573cc462290cdf08c3b7ba5529e33ee74",
       "en_date": "2026-09-15",
       "en_path": "Hirelings.html",
-      "synced_at": "2026-10-26",
+      "synced_at": "2026-10-27",
       "zh_blob": "5d1a7291811d36632f09cdfcd9de5cd2b36da3ad",
       "zh_path": "Hirelings.html"
+    },
+    "InstallingDiablo2Battlenet": {
+      "en_blob": "309d25d57a541534ba15563ae1690baf4f97db31",
+      "en_commit": "80ec1f96507df995183698fa0cace6525ebfe2ce",
+      "en_date": "2026-04-05",
+      "en_path": "InstallingDiablo2Battlenet.html",
+      "synced_at": "2026-10-27",
+      "zh_blob": "7c40908e338996c78700a012fe082383e6dce49e",
+      "zh_path": "InstallingDiablo2Battlenet.html"
+    },
+    "InstallingDiablo2Steam": {
+      "en_blob": "e870e1140b28aabfee1e6b9fae1ab556c635085d",
+      "en_commit": "47720b8c9084f47a01a27d984a773bfcf3a867df",
+      "en_date": "2026-04-05",
+      "en_path": "InstallingDiablo2Steam.html",
+      "synced_at": "2026-10-27",
+      "zh_blob": "b6f8a28809b464a6ff6ae433caade1dbc3cf9c70",
+      "zh_path": "InstallingDiablo2Steam.html"
     },
     "Installs": {
       "en_blob": "79b0eec1a842715f8aa48cff431be9946dd1d722",
       "en_commit": "35ea798d0a020d8810431609413a738deec710eb",
       "en_date": "2026-09-23",
       "en_path": "Installs.html",
-      "synced_at": "2026-10-26",
+      "synced_at": "2026-10-27",
       "zh_blob": "2162d3f6d4baf7dba761deb6f0cf4465a3445cac",
       "zh_path": "Installs.html"
+    },
+    "Items/Affixes": {
+      "en_blob": "3ae6b364a2b779f868867cc0f751331d0d2afb2c",
+      "en_commit": "73164a5d0eb79c0c7def427509b3ae6f96815e67",
+      "en_date": "2025-06-24",
+      "en_path": "Items/Affixes.html",
+      "synced_at": "2026-10-27",
+      "zh_blob": "37460199934342a4de2603958b5609c69700b2bb",
+      "zh_path": "Items/Affixes.html"
+    },
+    "Items/ArmorBases": {
+      "en_blob": "ee9f55285c90fb92a3bf4805204f3aef35372953",
+      "en_commit": "32f1aafefe8018d91a8693d117daa0e68f915ec8",
+      "en_date": "2025-11-10",
+      "en_path": "Items/ArmorBases.html",
+      "synced_at": "2026-10-27",
+      "zh_blob": "2fe0c78d7c92c7889f5a7c2a09a80c9a57c15a97",
+      "zh_path": "Items/ArmorBases.html"
+    },
+    "Items/Charms": {
+      "en_blob": "1784760906ebbfbab197504a1e7289568f3a283d",
+      "en_commit": "d9c9c4f87eaf967e77829036d3ff68e6bfdbf039",
+      "en_date": "2026-10-03",
+      "en_path": "Items/Charms.html",
+      "synced_at": "2026-10-27",
+      "zh_blob": "78f8a35c3ac9a6659a8713d8ea7857005c3a80b3",
+      "zh_path": "Items/Charms.html"
+    },
+    "Items/Gems": {
+      "en_blob": "8366c0373f1ce98a30cf74c8d5f4a3532fd6cf8e",
+      "en_commit": "5264be9b0c5d2367b0d738efdc111ba272990c25",
+      "en_date": "2026-09-04",
+      "en_path": "Items/Gems.html",
+      "synced_at": "2026-10-27",
+      "zh_blob": "d407c56a97961225f0a7990bbb8c4746d1b3b42a",
+      "zh_path": "Items/Gems.html"
+    },
+    "Items/Keys": {
+      "en_blob": "644eeb0e6ea7b50e84b173934d919ea2b28033e5",
+      "en_commit": "30c92ecca3244a407cbb4ebf1ffc9997108c6ca3",
+      "en_date": "2025-11-10",
+      "en_path": "Items/Keys.html",
+      "synced_at": "2026-10-27",
+      "zh_blob": "293c4c6a8b62dd4fea08ba7ced4a44abe4cc8284",
+      "zh_path": "Items/Keys.html"
+    },
+    "Items/LootTable": {
+      "en_blob": "f0dc07164595b888ca0594ab72ddf15fa89b91aa",
+      "en_commit": "d4472f4f7246a5a9e2de486bc34ad549886d05a2",
+      "en_date": "2026-10-08",
+      "en_path": "Items/LootTable.md",
+      "synced_at": "2026-10-27",
+      "zh_blob": "dc3c21ac294e0b8a766442894a9d2bcd1496cb0e",
+      "zh_path": "Items/LootTable.md"
+    },
+    "Items/Orbs": {
+      "en_blob": "ccb84c12275b5c1485f927ee9620a31b5cead4b6",
+      "en_commit": "95c4baefa1867215c4f162ba2a87e6fac03331fd",
+      "en_date": "2026-03-02",
+      "en_path": "Items/Orbs.html",
+      "synced_at": "2026-10-27",
+      "zh_blob": "ccd4e7968d1dd1c54d9b9f0968e816da6fc1006e",
+      "zh_path": "Items/Orbs.html"
+    },
+    "Items/Potions": {
+      "en_blob": "30a64f8dbdb90c5fefddfccfb5f9f1b6431ef134",
+      "en_commit": "47c561675350f66fd0697b0bd933b1c662f77d1c",
+      "en_date": "2026-04-03",
+      "en_path": "Items/Potions.html",
+      "synced_at": "2026-10-27",
+      "zh_blob": "7b18eb5028915caa165fb58e92b558c9b5e7d730",
+      "zh_path": "Items/Potions.html"
+    },
+    "Items/Runes": {
+      "en_blob": "41579469d8a07b77f36715a62a706b754460f2df",
+      "en_commit": "5932a6e1e6b777f223381aa8c6cca62a0ae4bfb3",
+      "en_date": "2026-04-24",
+      "en_path": "Items/Runes.html",
+      "synced_at": "2026-10-27",
+      "zh_blob": "1a49d4b980e1af6a946f317deaa8e091e3dd4948",
+      "zh_path": "Items/Runes.html"
+    },
+    "Items/WeaponBases": {
+      "en_blob": "cdd6dc95e1faa921457301701c6599ac82dd8c46",
+      "en_commit": "7c985db9b8d7805a6aa867cbb6cb434d667bd842",
+      "en_date": "2026-02-22",
+      "en_path": "Items/WeaponBases.html",
+      "synced_at": "2026-10-27",
+      "zh_blob": "c165dea9579e7df798cb31a86961db2cf2698aa7",
+      "zh_path": "Items/WeaponBases.html"
+    },
+    "Necromancer": {
+      "en_blob": "e3186d3aa5cbf6df54f6c07e97b6a2f92335726f",
+      "en_commit": "3f8b66708c4d94498b5daec8288bb1731efd04f1",
+      "en_date": "2026-10-07",
+      "en_path": "Necromancer.html",
+      "synced_at": "2026-10-27",
+      "zh_blob": "d049e2008a65c6251f9110d6eff9f4b8dfa2d8d6",
+      "zh_path": "Necromancer.html"
+    },
+    "Oskills-and-CTCs": {
+      "en_blob": "75fc9754a1652b73880ee6ea62497da1dd497d3d",
+      "en_commit": "d7b1fe9fe033568b45780a3817fcd94ac3c02ae7",
+      "en_date": "2026-09-24",
+      "en_path": "Oskills-and-CTCs.md",
+      "synced_at": "2026-10-27",
+      "zh_blob": "31ea771e92157188636a64a2a1b65de57870d4f8",
+      "zh_path": "Oskills-and-CTCs.md"
+    },
+    "Paladin": {
+      "en_blob": "178d6dba993ddb47daef9073f00db8201a231276",
+      "en_commit": "f85b9114e71d895a333d1438cf13b6085458c79a",
+      "en_date": "2026-09-20",
+      "en_path": "Paladin.html",
+      "synced_at": "2026-10-27",
+      "zh_blob": "fe04507093a33991ae12152d0d5beb70a7a6f836",
+      "zh_path": "Paladin.html"
+    },
+    "Patch_Notes": {
+      "en_blob": "c65747b2be15b5901f0368b34dfb7a1c45c142b4",
+      "en_commit": "8da92989f0abbaa37deef84a454d7c644b3908de",
+      "en_date": "2026-10-24",
+      "en_path": "Patch_Notes.html",
+      "synced_at": "2026-10-27",
+      "zh_blob": "a12f59db6471ebcab1518e35cd31c4430f3f1630",
+      "zh_path": "Patch_Notes.html"
+    },
+    "QualityUpgrading": {
+      "en_blob": "32a9491771e9f5a2244e0cddff093a7359069542",
+      "en_commit": "1c1927a0228a401f72ead7c2ab6d10929a2dd970",
+      "en_date": "2025-10-21",
+      "en_path": "QualityUpgrading.md",
+      "synced_at": "2026-10-27",
+      "zh_blob": "df50865e6cafa10820784b51e4a9b24e0f468bc7",
+      "zh_path": "QualityUpgrading.md"
+    },
+    "Sorceress": {
+      "en_blob": "aed2ab506be462eb13d379bd13b8c1b407b1c613",
+      "en_commit": "00b934796a405bd93f97029cb34ad54512cedbec",
+      "en_date": "2026-04-02",
+      "en_path": "Sorceress.html",
+      "synced_at": "2026-10-27",
+      "zh_blob": "e3cec42e0dc86674471ac8484e3ebe49dfedd2c4",
+      "zh_path": "Sorceress.html"
     },
     "Updating_The_Mod": {
       "en_blob": "a43c9e6df05bd37c8b23af49f9ec5d088cfce5bc",
       "en_commit": "8cd4c13c6bf8d9c206bf0926f5dd5611a0108b67",
       "en_date": "2025-11-10",
       "en_path": "Updating_The_Mod.html",
-      "synced_at": "2026-10-26",
+      "synced_at": "2026-10-27",
       "zh_blob": "6f2d449b681cb4a337933ddab9218c9ad7e80218",
       "zh_path": "Updating_The_Mod.html"
+    },
+    "Warlock": {
+      "en_blob": "0634ddb2be646bff264ea87c5ab73be3e1959638",
+      "en_commit": "00b934796a405bd93f97029cb34ad54512cedbec",
+      "en_date": "2026-04-02",
+      "en_path": "Warlock.html",
+      "synced_at": "2026-10-27",
+      "zh_blob": "f78d1dccd54cf0a48751eaa75f3bef9b3eb1d09d",
+      "zh_path": "Warlock.html"
     },
     "home": {
       "en_blob": "37a6965ec0311b515dbe2e0da76ce4c070fd940a",
       "en_commit": "59a552216d95740421db3372a071ad7f4d2c9d93",
       "en_date": "2026-10-21",
       "en_path": "home.html",
-      "synced_at": "2026-10-26",
+      "synced_at": "2026-10-27",
       "zh_blob": "cf47e389cfdbed431d0be1fde4d5d0ce95dcb9ab",
       "zh_path": "home.html"
+    },
+    "maps/crafting": {
+      "en_blob": "4933cd1ac721880ccc4b51f0c0bbfbd7a2a759c8",
+      "en_commit": "4c667548842d79f84bc0c56097223b7323778fcc",
+      "en_date": "2026-09-29",
+      "en_path": "maps/crafting.md",
+      "synced_at": "2026-10-27",
+      "zh_blob": "08de03b16947f34d86a2134f51e5a4796abf1c90",
+      "zh_path": "maps/crafting.md"
+    },
+    "maps/encounters": {
+      "en_blob": "704cca97cea979dae322bbad217865a9f228f1f1",
+      "en_commit": "4c667548842d79f84bc0c56097223b7323778fcc",
+      "en_date": "2026-09-29",
+      "en_path": "maps/encounters.md",
+      "synced_at": "2026-10-27",
+      "zh_blob": "2b3484b909c740a52b864b45fc9d100551713211",
+      "zh_path": "maps/encounters.md"
+    },
+    "maps/map-list": {
+      "en_blob": "693c558e0525afe02e5206000c56db73d5bb04b0",
+      "en_commit": "4c667548842d79f84bc0c56097223b7323778fcc",
+      "en_date": "2026-09-29",
+      "en_path": "maps/map-list.md",
+      "synced_at": "2026-10-27",
+      "zh_blob": "be99db393d519d737cc994df0f6b0091ab219f37",
+      "zh_path": "maps/map-list.md"
+    },
+    "maps/modifiers": {
+      "en_blob": "92e49eb41907665dfcf93205d9af4ed3114878d2",
+      "en_commit": "4c667548842d79f84bc0c56097223b7323778fcc",
+      "en_date": "2026-09-29",
+      "en_path": "maps/modifiers.md",
+      "synced_at": "2026-10-27",
+      "zh_blob": "1ae18743f3f76dd78c3ad3f26a582b65c72f9af9",
+      "zh_path": "maps/modifiers.md"
+    },
+    "maps/overview": {
+      "en_blob": "08c8544f3d1d3cee58b834321df6d28a5741a064",
+      "en_commit": "8a48d47c5bf9a21031749ec569386dbbbc54033c",
+      "en_date": "2026-09-30",
+      "en_path": "maps/overview.md",
+      "synced_at": "2026-10-27",
+      "zh_blob": "7132ef37b09221c311c838540812e04374ba6ae5",
+      "zh_path": "maps/overview.md"
     },
     "new_player_guide": {
       "en_blob": "59e7eb386df17d7ab82ba9bfdef55f5f3221c2a5",
       "en_commit": "5264be9b0c5d2367b0d738efdc111ba272990c25",
       "en_date": "2026-09-04",
       "en_path": "new_player_guide.md",
-      "synced_at": "2026-10-26",
+      "synced_at": "2026-10-27",
       "zh_blob": "b1dd4b1949350827eff2c25020c22f15efac15d7",
       "zh_path": "new_player_guide.md"
+    },
+    "recipes/Crafting": {
+      "en_blob": "56e46808dcb93609fdc3d4f3e1817913b447e510",
+      "en_commit": "23d163f1d318da10b1ae96d87a14db747e0c8458",
+      "en_date": "2026-04-03",
+      "en_path": "recipes/Crafting.html",
+      "synced_at": "2026-10-27",
+      "zh_blob": "d272e540f2eef4501234fc478f0d0b3545126832",
+      "zh_path": "recipes/Crafting.html"
+    },
+    "recipes/CubeRecipes": {
+      "en_blob": "bf67a315f0c5e5f9d6209d84b4b6076fb18c5d69",
+      "en_commit": "5264be9b0c5d2367b0d738efdc111ba272990c25",
+      "en_date": "2026-09-04",
+      "en_path": "recipes/CubeRecipes.html",
+      "synced_at": "2026-10-27",
+      "zh_blob": "a95243faf867878c576eab15c7ce42717b08aec1",
+      "zh_path": "recipes/CubeRecipes.html"
+    },
+    "recipes/ISCStatLimits": {
+      "en_blob": "2b5a65063a7197815391f337d9a2f6e34d0910e5",
+      "en_commit": "24b7eb280daabbcb8065a752afbc16182e19d309",
+      "en_date": "2026-04-18",
+      "en_path": "recipes/ISCStatLimits.md",
+      "synced_at": "2026-10-27",
+      "zh_blob": "0edc0d1d462ec3335555706052ba664867f5cfce",
+      "zh_path": "recipes/ISCStatLimits.md"
+    },
+    "recipes/ItemEnchants": {
+      "en_blob": "426f97c6e801d491ec7dabf4c6e6f96d00da9bbb",
+      "en_commit": "8921f80cb75d39713e4e91dc7ca8c2c2c67b0311",
+      "en_date": "2026-03-03",
+      "en_path": "recipes/ItemEnchants.html",
+      "synced_at": "2026-10-27",
+      "zh_blob": "6debc78e5f3ac22a224f450e4a9c8b8dcbdd4e7f",
+      "zh_path": "recipes/ItemEnchants.html"
+    },
+    "recipes/recipes": {
+      "en_blob": "94cf1b49763105da2f8cba626a33b4affc50ab0b",
+      "en_commit": "c87e376d2d6924adb38f5364405fc59d6f47477b",
+      "en_date": "2026-10-22",
+      "en_path": "recipes/recipes.md",
+      "synced_at": "2026-10-27",
+      "zh_blob": "a09053868e2abcc0f98f0a4f3f326c3ac1a8e1ff",
+      "zh_path": "recipes/recipes.md"
     }
   },
   "upstream_url": "https://github.com/D2R-Reimagined/wiki-content"
